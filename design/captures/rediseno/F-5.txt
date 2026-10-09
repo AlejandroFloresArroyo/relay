@@ -1,0 +1,88 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ Agentes" Hanken 15px/600 #7A4A00 @16,58 62×20
+  "SERVIDOR · ATLAS" Mono 9.5px/400 ls 0.57px #1A1A19 @209,54 149×28 | bg #DCD9D2 · r 8px
+    [span] @219,65 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  "1 npm test" Mono 9.5px/400 #ECEAE5 @10,92 102×32 | bg #1A1A19 · r 10px
+    [span] @21,105 6×6 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  "2 zsh" Mono 9.5px/400 #4A4843 @118,92 68×32 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @129,105 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  [div] @8,132 354×552 | bg #161615 · r 18px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [div] @8,132 354×552 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "SALIDA" Mono 9.5px/400 ls 0.76px #8D8A82 @20,144 44×15
+    [div] @72,149 216×5 | bg #2A1E10 · r 3px
+      [span] @72,149 48×5 | bgimg linear-gradient(90deg, #F29A1A/0, #F29A1A 50%, #F29A1A/0) · r 3px · shadow #F29A1A 0px 0px 8px 0px · anim cf-kitt 1.6s ease-in-out delay 0s
+    "EN CURSO" Mono 9.5px/400 #F29A1A @297,144 53×15
+    "ana@atlas /srv/app/web (main)" Mono 11px/400 #6FD08C @20,171 223×13
+    "$ npm test -- integration" Mono 11px/400 #ECEAE5 @20,191 193×13
+    "✓ tests/orders.test.ts (14)" Mono 11px/400 #6FD08C @20,212 215×13
+    "✓ tests/auth.test.ts (9)" Mono 11px/400 #6FD08C @20,232 191×13
+    "❯ tests/db/client.test.ts" Mono 11px/400 #F29A1A @20,252 199×13
+    "✓ conecta con el pool" Mono 11px/400 #6FD08C @20,271 184×13
+    "✓ reintenta al caer" Mono 11px/400 #6FD08C @20,291 168×13
+    "· cierra las conexiones…" Mono 11px/400 #C9C6BE @20,310 208×13
+    [span] @20,665 11×7 | bg #3A3936
+    [span] @34,665 11×2 | bg #3A3936
+    [span] @48,665 11×4 | bg #3A3936
+    [span] @62,665 11×2 | bg #3A3936
+    [span] @76,665 11×4 | bg #3A3936
+    [span] @89,665 11×2 | bg #3A3936
+    [span] @103,665 11×7 | bg #3A3936
+    [span] @117,665 11×2 | bg #3A3936
+    [span] @131,665 11×4 | bg #3A3936
+    [span] @145,665 11×2 | bg #3A3936
+    [span] @159,665 11×4 | bg #3A3936
+    [span] @173,665 11×2 | bg #3A3936
+    [span] @187,665 11×7 | bg #3A3936
+    [span] @200,665 11×2 | bg #3A3936
+    [span] @214,665 11×4 | bg #3A3936
+    [span] @228,665 11×2 | bg #3A3936
+    [span] @242,665 11×4 | bg #3A3936
+    [span] @256,665 11×2 | bg #3A3936
+    [span] @270,665 11×7 | bg #3A3936
+    [span] @284,665 11×2 | bg #3A3936
+    [span] @298,665 11×4 | bg #3A3936
+    [span] @311,665 11×2 | bg #3A3936
+    [span] @325,665 11×4 | bg #3A3936
+    [span] @339,665 11×2 | bg #3A3936
+  [div] @8,692 41×48 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @21,706 14×3 | bg #C9C6BF · r 1px
+    "Esc" Mono 11px/600 #1A1A19 @17,713 23×13
+  [div] @53,692 41×48 | bg #1A1A19 · r 10px · shadow #000000/0.2 0px 2px 3px 0px
+    [span] @66,706 14×3 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "Ctrl" Mono 11px/600 #1A1A19 @58,713 31×13
+  [div] @98,692 41×48 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @111,706 14×3 | bg #C9C6BF · r 1px
+    "Alt" Mono 11px/600 #1A1A19 @106,713 23×13
+  [div] @142,692 41×48 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @156,706 14×3 | bg #C9C6BF · r 1px
+    "Tab" Mono 11px/600 #1A1A19 @151,713 23×13
+  [div] @187,692 41×48 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @200,706 14×3 | bg #C9C6BF · r 1px
+    "←" Mono 11px/600 #1A1A19 @204,713 7×14
+  [div] @232,692 41×48 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @245,706 14×3 | bg #C9C6BF · r 1px
+    "↑" Mono 11px/600 #1A1A19 @248,713 8×13
+  [div] @277,692 41×48 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @290,706 14×3 | bg #C9C6BF · r 1px
+    "↓" Mono 11px/600 #1A1A19 @293,713 8×13
+  [div] @321,692 41×48 | bg #ECEAE5 · r 10px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @335,706 14×3 | bg #C9C6BF · r 1px
+    "→" Mono 11px/600 #1A1A19 @338,713 7×14
+  [div] @12,748 82×48 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    [span] @46,762 14×3 | bg #F29A1A · r 2px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "TERMINAL" Mono 9.5px/400 #ECEAE5 @26,770 53×12
+  [div] @100,748 82×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @134,762 14×3 | bg #C9C6BF · r 2px
+    "ARCHIVOS" Mono 9.5px/400 #4A4843 @114,770 53×12
+  [div] @188,748 82×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @222,762 14×3 | bg #C9C6BF · r 2px
+    "WEB" Mono 9.5px/400 #4A4843 @219,770 20×12
+  [div] @276,748 82×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @310,762 14×3 | bg #C9C6BF · r 2px
+    "NAVEGADOR" Mono 9.5px/400 #4A4843 @287,770 60×12
+
+--- PIE Y NOTAS ---
+Mientras el programa escribe, un barrido recorre la cabecera de la terminal. Cada tecla especial lleva arriba su luz de estado: Ctrl, pegada, se enciende en naranja. Una regla grabada marca el pie de la pantalla.

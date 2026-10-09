@@ -1,0 +1,52 @@
+"G-1" Mono 12px/600 #111111 @0,5 41×18 | bg #E8E6E1 · r 5px
+"Gestos y microinteracciones" Hanken 19px/700 #E8E6E1 @53,0 245×25
+"Carácter: instrumento físico. Lo peligroso pide confirmar, mantener o huella; deslizar nunca aprueba ni borra." Hanken 13px/400 #8D8A82 @310,6 634×17
+[div] @0,45 1660×562 | bg #ECEAE5 · r 24px
+  [div] @24,61 1612×42 | border 1px #000000/0
+    "Tocar tecla" Hanken 15px/700 #1A1A19 @24,72 76×20
+    "Baja 1 px; sombra pasa a inset 0 2px 3px rgba(0,0,0,.18)." Hanken 13px/400 #4A4843 @300,74 325×17
+    "80 ms" Mono 11px/400 #4A4843 @1256,76 39×13
+  [div] @24,103 1612×51 | border 1px #D6D3CC
+    "Deslizar fila" Hanken 15px/700 #1A1A19 @24,114 79×20
+    "Agente → abrir chat · ← silenciar avisos. Tarea → pausar/reanudar · ← ejecutar ahora (confirma). Aprobación → abre la hoja. Tarjeta → siguiente columna." Hanken 13px/400 #4A4843 @300,116 898×17
+    "umbral 90 px · muelle .32s cubic-bezier(.2,1.3,.4,1)" Mono 11px/400 #4A4843 @1256,118 254×26
+  [div] @24,154 1612×42 | border 1px #D6D3CC
+    "Arrastrar para recargar" Hanken 15px/700 #1A1A19 @24,165 162×20
+    "Desde 60 px: SUELTA PARA RECARGAR; al soltar, LED naranja parpadea mientras carga." Hanken 13px/400 #4A4843 @300,167 507×17
+    "resistencia ×0,5 · máx 96 px" Mono 11px/400 #4A4843 @1256,169 216×13
+  [div] @24,196 1612×42 | border 1px #D6D3CC
+    "Barra de pestañas" Hanken 15px/700 #1A1A19 @24,207 124×20
+    "Se desplaza; snap a teclas. Si Aprob. queda oculta con pendientes, el borde derecho muestra «N ›» y al tocarlo desplaza hasta Aprob." Hanken 13px/400 #4A4843 @300,209 774×17
+    "scroll suave" Mono 11px/400 #4A4843 @1256,211 92×13
+  [div] @24,238 1612×42 | border 1px #D6D3CC
+    "Hoja" Hanken 15px/700 #1A1A19 @24,249 31×20
+    "Arrastrar el asa; cierra si baja más de 110 px. El scrim se aclara al bajar." Hanken 13px/400 #4A4843 @300,251 418×17
+    ".3s cubic-bezier(.2,1,.3,1) · scrim .55" Mono 11px/400 #4A4843 @1256,253 300×13
+  [div] @24,279 1612×42 | border 1px #D6D3CC
+    "Aprobar" Hanken 15px/700 #1A1A19 @24,290 57×20
+    "Quitar el seguro → mantener «Aprobar» 1 s (tira de 6 LEDs) → huella. Al aprobar, comando y franja pasan a verde y toast." Hanken 13px/400 #4A4843 @300,292 705×17
+    "soltar antes vacía en 150 ms" Mono 11px/400 #4A4843 @1256,294 216×13
+  [div] @24,321 1612×42 | border 1px #D6D3CC
+    "Pausa general" Hanken 15px/700 #1A1A19 @24,332 95×20
+    "Arrastrar la tapa hacia arriba (abre >55 %) → mantener el botón rojo 1 s. Aparece franja PAUSA GENERAL con Reanudar." Hanken 13px/400 #4A4843 @300,334 696×17
+    "relleno 50 ms/5 %" Mono 11px/400 #4A4843 @1256,336 131×13
+  [div] @24,363 1612×42 | border 1px #D6D3CC
+    "Terminal" Hanken 15px/700 #1A1A19 @24,374 59×20
+    "Ctrl y Alt quedan pegadas (fondo naranja, glow, PEGADA) hasta la siguiente tecla." Hanken 13px/400 #4A4843 @300,376 468×17
+    "—" Mono 11px/400 #4A4843 @1256,378 8×13
+  [div] @24,405 1612×42 | border 1px #D6D3CC
+    "Selector de Servidor" Hanken 15px/700 #1A1A19 @24,416 140×20
+    "Abre hoja de Servidores; uno sin respuesta tiembla y avisa con toast." Hanken 13px/400 #4A4843 @300,418 399×17
+    "shake .4s" Mono 11px/400 #4A4843 @1256,420 69×13
+  [div] @24,447 1612×42 | border 1px #D6D3CC
+    "Tablet · riel" Hanken 15px/700 #1A1A19 @24,458 77×20
+    "☰ o deslizar sobre el riel lo expande de 72 a 240 y empuja el contenido." Hanken 13px/400 #4A4843 @300,460 414×17
+    "width .28s cubic-bezier(.2,1,.3,1)" Mono 11px/400 #4A4843 @1256,462 262×13
+  [div] @24,489 1612×61 | border 1px #D6D3CC
+    "Tablet · lista y paneles" Hanken 15px/700 #1A1A19 @24,500 152×20
+    "Arrastrar el borde cambia el ancho de la lista (280–560). Arrastrar archivo al chat lo adjunta. Tarjetas se arrastran entre columnas. Tocar un panel le da el teclado." Hanken 13px/400 #4A4843 @300,502 890×36
+    "destino resaltado con borde naranja 2 px + glow" Mono 11px/400 #4A4843 @1256,504 362×13
+  [div] @24,549 1612×42 | border 1px #D6D3CC
+    "Toast" Hanken 15px/700 #1A1A19 @24,560 37×20
+    "Aparece abajo, 44 px de alto, #1A1A19 con LED verde; se va a los 2 s." Hanken 13px/400 #4A4843 @300,562 406×17
+    ".22s cubic-bezier(.2,.9,.3,1.2)" Mono 11px/400 #4A4843 @1256,564 239×13

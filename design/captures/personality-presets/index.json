@@ -1,0 +1,210 @@
+[
+  {
+    "label": "catalog-ready",
+    "title": "Catálogo 9:41",
+    "file": "catalog-ready.png",
+    "html": "catalog-ready.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-empty",
+    "title": "Catálogo vacío 9:41",
+    "file": "catalog-empty.png",
+    "html": "catalog-empty.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-loading",
+    "title": "Cargando 9:41",
+    "file": "catalog-loading.png",
+    "html": "catalog-loading.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-offline",
+    "title": "Sin respuesta 9:41",
+    "file": "catalog-offline.png",
+    "html": "catalog-offline.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-error",
+    "title": "Error 9:41",
+    "file": "catalog-error.png",
+    "html": "catalog-error.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-revoked",
+    "title": "Revocado 9:41",
+    "file": "catalog-revoked.png",
+    "html": "catalog-revoked.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-key-unknown",
+    "title": "Llave rechazada 9:41",
+    "file": "catalog-key-unknown.png",
+    "html": "catalog-key-unknown.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-cleartext",
+    "title": "HTTP bloqueado 9:41",
+    "file": "catalog-cleartext.png",
+    "html": "catalog-cleartext.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-limit",
+    "title": "Límite 9:41",
+    "file": "catalog-limit.png",
+    "html": "catalog-limit.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-edit",
+    "title": "Editar 9:41",
+    "file": "catalog-edit.png",
+    "html": "catalog-edit.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-create",
+    "title": "Crear 9:41",
+    "file": "catalog-create.png",
+    "html": "catalog-create.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-delete",
+    "title": "Borrar 9:41",
+    "file": "catalog-delete.png",
+    "html": "catalog-delete.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-conflict",
+    "title": "Conflicto 9:41",
+    "file": "catalog-conflict.png",
+    "html": "catalog-conflict.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "catalog-uncertain",
+    "title": "Incierto 9:41",
+    "file": "catalog-uncertain.png",
+    "html": "catalog-uncertain.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "soul-pick",
+    "title": "Elegir SOUL 9:41",
+    "file": "soul-pick.png",
+    "html": "soul-pick.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "soul-preview",
+    "title": "Vista previa exacta 9:41",
+    "file": "soul-preview.png",
+    "html": "soul-preview.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "soul-read-only",
+    "title": "SOUL protegido 9:41",
+    "file": "soul-read-only.png",
+    "html": "soul-read-only.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "soul-changed",
+    "title": "SOUL cambió 9:41",
+    "file": "soul-changed.png",
+    "html": "soul-changed.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "soul-fingerprint-denied",
+    "title": "Huella no confirmada 9:41",
+    "file": "soul-fingerprint-denied.png",
+    "html": "soul-fingerprint-denied.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "overlay-picker",
+    "title": "Capa de Conversación 9:41",
+    "file": "overlay-picker.png",
+    "html": "overlay-picker.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "overlay-confirm",
+    "title": "Fijar versión 9:41",
+    "file": "overlay-confirm.png",
+    "html": "overlay-confirm.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "overlay-mid-turn",
+    "title": "Turno en curso 9:41",
+    "file": "overlay-mid-turn.png",
+    "html": "overlay-mid-turn.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "overlay-none",
+    "title": "Heredar Servidor 9:41",
+    "file": "overlay-none.png",
+    "html": "overlay-none.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "overlay-external",
+    "title": "Otro canal 9:41",
+    "file": "overlay-external.png",
+    "html": "overlay-external.html",
+    "width": 390,
+    "height": 869
+  },
+  {
+    "label": "tablet-catalog",
+    "title": "Tablet · catálogo Servidores",
+    "file": "tablet-catalog.png",
+    "html": "tablet-catalog.html",
+    "width": 1024,
+    "height": 793
+  },
+  {
+    "label": "tablet-preview",
+    "title": "Tablet · SOUL Servidores",
+    "file": "tablet-preview.png",
+    "html": "tablet-preview.html",
+    "width": 1024,
+    "height": 793
+  }
+]

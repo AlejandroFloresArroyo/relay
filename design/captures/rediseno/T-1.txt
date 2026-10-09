@@ -1,0 +1,254 @@
+[div] @0,0 1180×820 | bg #D8D5CE · r 30px
+  "9:41  dom 5 oct" Hanken 13px/600 #1A1A19 @26,6 87×17
+  "WIFI ▮▮▮  92%" Mono 10px/600 #1A1A19 @1073,8 81×13
+  [div] @16,32 200×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "relay" Hanken 16px/800 ls -0.32px #1A1A19 @62,46 35×21
+  [div] @16,86 200×68 | bg #161615 · r 14px
+    [div] @16,86 200×68 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    [span] @30,109 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "SERVIDOR" Mono 9.5px/400 #8D8A82 @48,96 134×12
+    "atlas" Hanken 15px/700 #ECEAE5 @48,110 134×20
+    "⇕" Hanken 16px/400 #F29A1A @192,103 10×21
+    [span] @32,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @29,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @34,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [span] @46,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @43,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @48,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @59,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @56,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @61,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @73,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @70,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @75,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @86,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @83,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @88,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @100,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @97,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @102,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @113,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @114,138 5×5 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+      [span] @115,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+    [span] @127,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @124,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @129,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @140,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @137,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @142,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @154,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @151,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @156,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @167,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @164,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @169,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @181,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @178,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @183,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @194,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @191,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @196,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+  [div] @16,160 200×48 | bg #1A1A19 · r 12px · shadow #000000/0.2 0px 2px 3px 0px
+    [span] @30,183 14×3 | bg #F29A1A · r 2px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "Agentes" Hanken 15px/600 #ECEAE5 @56,174 54×20
+    "1" Mono 10px/600 #7A4A00 @195,178 7×12 | op 0
+  [div] @16,214 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,237 14×3 | bg #C9C6BF · r 2px
+    "Herramientas" Hanken 15px/600 #1A1A19 @56,228 92×20
+    "1" Mono 10px/600 #7A4A00 @195,232 7×12 | op 0
+  [div] @16,268 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,291 14×3 | bg #C9C6BF · r 2px
+    "Tablero" Hanken 15px/600 #1A1A19 @56,282 51×20
+    "1" Mono 10px/600 #7A4A00 @195,286 7×12 | op 0
+  [div] @16,322 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,345 14×3 | bg #C9C6BF · r 2px
+    "Trabajo" Hanken 15px/600 #1A1A19 @56,336 51×20
+    "1" Mono 10px/600 #7A4A00 @195,340 7×12 | op 0
+  [div] @16,376 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,399 14×3 | bg #C9C6BF · r 2px
+    "Tareas" Hanken 15px/600 #1A1A19 @56,390 45×20
+    "1" Mono 10px/600 #7A4A00 @195,394 7×12 | op 0
+  [div] @16,430 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,453 14×3 | bg #C9C6BF · r 2px
+    "Aprobaciones" Hanken 15px/600 #1A1A19 @56,444 94×20
+    "1" Mono 10px/600 #7A4A00 @195,448 7×12
+  [div] @16,484 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,507 14×3 | bg #C9C6BF · r 2px
+    "Servidores" Hanken 15px/600 #1A1A19 @56,498 73×20
+    "1" Mono 10px/600 #7A4A00 @195,502 7×12 | op 0
+  [div] @16,538 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,561 14×3 | bg #C9C6BF · r 2px
+    "Ajustes" Hanken 15px/600 #1A1A19 @56,552 49×20
+    "1" Mono 10px/600 #7A4A00 @195,556 7×12 | op 0
+  [span] @24,797 9×7 | bg #B9B6AF
+  [span] @36,797 9×2 | bg #B9B6AF
+  [span] @47,797 9×4 | bg #B9B6AF
+  [span] @59,797 9×2 | bg #B9B6AF
+  [span] @71,797 9×7 | bg #B9B6AF
+  [span] @82,797 9×2 | bg #B9B6AF
+  [span] @94,797 9×4 | bg #B9B6AF
+  [span] @106,797 9×2 | bg #B9B6AF
+  [span] @118,797 9×7 | bg #B9B6AF
+  [span] @129,797 9×2 | bg #B9B6AF
+  [span] @141,797 9×4 | bg #B9B6AF
+  [span] @153,797 9×2 | bg #B9B6AF
+  [span] @164,797 9×7 | bg #B9B6AF
+  [span] @176,797 9×2 | bg #B9B6AF
+  [span] @188,797 9×4 | bg #B9B6AF
+  [span] @199,797 9×2 | bg #B9B6AF
+  [div] @228,32 294×772 | bg #CBC7BF · r 24px · shadow #000000/0.14 0px 2px 5px 0px inset
+    "Agentes" Hanken 28px/700 ls -0.7px #1A1A19 @240,44 270×36
+    [div] @240,92 270×52 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset, #F29A1A/0.22 0px 0px 0px 1px, #F29A1A/0.14 0px 0px 16px 0px
+      [div] @240,92 270×52 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "1 APROBACIÓN PENDIENTE" Mono 9.5px/600 ls 0.57px #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @254,104 242×12
+      [span] @256,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @253,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+        [span] @258,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @275,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @272,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+        [span] @277,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @295,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @292,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+        [span] @297,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @314,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @311,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+        [span] @316,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @333,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @330,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+        [span] @335,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @353,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @350,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+        [span] @355,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @372,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @373,126 5×5 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+        [span] @374,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+      [span] @391,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @388,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+        [span] @393,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @411,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @408,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+        [span] @413,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @430,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @427,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+        [span] @432,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @449,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @446,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+        [span] @451,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @469,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @466,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+        [span] @471,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @488,125 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+        [span] @485,122 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+        [span] @490,127 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [div] @240,156 270×144 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+      [div] @244,160 262×68 | bg #1A1A19 · r 16px
+        [span] @254,174 40×40 | bg #161615 · bgimg radial-gradient(#ECEAE5/0.4 0.9px, #000000/0 1.3px) · r 12px · shadow #3A3936 0px 0px 0px 1px
+        "dev" Hanken 15px/700 #ECEAE5 @306,178 170×20
+        [span] @308,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @305,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+          [span] @310,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+        [span] @321,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @318,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+          [span] @323,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+        [span] @335,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @332,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+          [span] @337,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+        [span] @348,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @345,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+          [span] @350,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+        [span] @361,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @358,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+          [span] @363,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+        [span] @375,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @372,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+          [span] @377,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+        [span] @388,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @389,204 5×5 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+          [span] @390,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+        [span] @401,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @398,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+          [span] @403,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+        [span] @415,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @412,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+          [span] @417,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+        [span] @428,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @425,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+          [span] @430,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+        [span] @441,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @438,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+          [span] @443,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+        [span] @455,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @452,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+          [span] @457,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+        [span] @468,204 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+          [span] @465,201 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+          [span] @470,206 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+        [span] @488,190 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+      [span] @254,242 40×40 | bg #161615 · bgimg radial-gradient(#ECEAE5/0.4 0.9px, #000000/0 1.3px) · r 12px
+      "research" Hanken 15px/700 #1A1A19 @306,240 170×20
+      [div] @306,264 30×20 | bg #161615 · r 5px
+        [div] @312,273 5×2 | anim cf-vox 0.7s ease-in-out delay 0s
+          [span] @312,273 5×0 | bg #F29A1A · r 1px
+          [span] @312,274 5×0 | bg #F29A1A · r 1px
+          [span] @312,274 5×0 | bg #F29A1A · r 1px
+        [div] @319,267 5×14 | anim cf-vox 0.55s ease-in-out delay 0.18s
+          [span] @319,269 5×3 | bg #F29A1A · r 1px
+          [span] @319,273 5×3 | bg #F29A1A · r 1px
+          [span] @319,277 5×3 | bg #F29A1A · r 1px
+        [div] @326,267 5×14 | anim cf-vox 0.8s ease-in-out delay 0.09s
+          [span] @326,269 5×3 | bg #F29A1A · r 1px
+          [span] @326,273 5×3 | bg #F29A1A · r 1px
+          [span] @326,277 5×3 | bg #F29A1A · r 1px
+      "escribiendo…" Hanken 13px/400 #4A4843 @344,266 77×17
+      [span] @488,258 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    [span] @244,323 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "HOMELAB" Mono 9.5px/600 ls 0.57px #1A1A19 @259,320 51×12
+    "SIN RESPUESTA" Mono 9.5px/600 ls 0.57px #9A2E20 @412,320 94×12
+  [span] @534,40 40×40 | bg #161615 · bgimg radial-gradient(#ECEAE5/0.4 0.9px, #000000/0 1.3px) · r 12px
+  "dev" Hanken 20px/800 #1A1A19 @586,40 501×26
+  "ATLAS · QWEN3-CODER-480B · TESTS DE INTEGRACIÓN" Mono 9.5px/400 #5E5B55 @586,68 501×12
+  [span] @1102,49 7×7 | bg #B9B6AF · r 50%
+  "ON" Mono 9.5px/400 #5E5B55 @1099,59 13×12
+  [span] @1125,49 7×7 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  "BSY" Mono 9.5px/400 #1A1A19 @1118,59 20×12
+  [span] @1151,49 7×7 | bg #B9B6AF · r 50%
+  "ERR" Mono 9.5px/400 #5E5B55 @1144,59 20×12
+  "Los tests de integración fallan desde ayer." Hanken 15px/400 #ECEAE5 @612,557 290×64 | bg #1A1A19 · r 20px
+  [div] @534,633 368×79 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [div] @534,633 368×79 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "TERMINAL · /srv/app/web" Mono 9.5px/400 #8D8A82 @550,645 153×15
+    "EXIT 1" Mono 9.5px/400 #FF6A55 @846,645 40×15
+    "$ npm test -- integration" Mono 11px/400 #8D8A82 @550,663 336×17
+    "FAIL src/db/client.test.ts" Mono 11px/400 #FF6A55 @550,683 336×17
+  "Limpio el build y vuelvo a correr la suite." Hanken 15px/400 #1A1A19 @534,724 368×20
+  "+" Hanken 22px/400 #1A1A19 @534,756 48×48 | bg #ECEAE5 · r 50% · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  "Mensaje a dev…" Hanken 15px/400 #5E5B55 @590,756 256×48 | bg #DCD9D2 · r 24px · shadow #000000/0.12 0px 2px 3px 0px inset
+  [span] @854,756 48×48 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @914,100 250×704 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @921,107 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @1151,107 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @921,791 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @1151,791 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    "ACTIVIDAD DEL TURNO" Mono 9.5px/600 ls 0.76px #5E5B55 @926,112 226×16
+    [div] @926,136 226×110 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @926,136 226×110 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "CARGA" Mono 9.5px/400 #8D8A82 @936,144 33×12
+      "17.0 S" Mono 13px/600 #F29A1A @1087,144 55×16
+    [div] @926,254 226×6 | bg #2A0E0A · r 3px
+      [span] @926,254 54×6 | bgimg linear-gradient(90deg, #E5533D/0, #E5533D 50%, #E5533D/0) · shadow #E5533D 0px 0px 10px 0px · anim cf-kitt 1s ease-in-out delay 0s
+    [div] @926,268 226×468 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @926,268 226×468 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "LEER · vitest.config.ts" Mono 11px/400 #C9C6BE @938,278 177×13
+      "0.1" Mono 11px/400 #C9C6BE @1117,278 23×13
+      "EJEC · npm test" Mono 11px/400 #C9C6BE @938,297 116×13
+      "14.3" Mono 11px/400 #C9C6BE @1109,297 31×13
+      "WEB · vi.mock hoisting" Mono 11px/400 #C9C6BE @938,316 169×13
+      "2.1" Mono 11px/400 #C9C6BE @1117,316 23×13
+      "EDIT · client.test.ts" Mono 11px/400 #C9C6BE @938,335 162×13
+      "0.5" Mono 11px/400 #C9C6BE @1117,335 23×13
+      "EJEC · rm -rf ./build" Mono 11px/400 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @938,354 162×13
+      "ESPERA" Mono 11px/400 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @1094,354 46×13
+    "Revisar la Aprobación" Hanken 15px/700 #1A1A19 @926,744 226×48 | bg #F29A1A · r 14px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+
+--- PIE Y NOTAS ---
+Riel abierto con nombres y el selector de Servidor, que lleva su propio barrido mientras atlas trabaja. Con el ancho de la tablet, ACTIVIDAD sale del hilo y se queda fija a la derecha como panel de mando: medidor, barrido, pasos y la tecla que lleva a la Aprobación.

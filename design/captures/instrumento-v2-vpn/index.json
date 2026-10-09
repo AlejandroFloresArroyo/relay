@@ -1,0 +1,5 @@
+[
+  {"state":"available","html":"vpn-available.html","png":"vpn-available.png","demo":"offline_vpn_available"},
+  {"state":"absent","html":"vpn-absent.html","png":"vpn-absent.png","demo":"offline_vpn_absent"},
+  {"state":"unknown","html":"vpn-unknown.html","png":"vpn-unknown.png","demo":"offline_vpn_unknown"}
+]

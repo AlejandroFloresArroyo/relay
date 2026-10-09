@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="relay_widget_description">Sigue un solo Servidor, el que tienes elegido en Relay, y muestra hasta tres de sus Agentes; los de otros Servidores no salen. Se renueva con cada aviso o cada 15 minutos. Tocarlo abre Relay, nunca decide nada.</string>
+</resources>

@@ -1,0 +1,108 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "Servidores" Hanken 28px/700 ls -0.7px #1A1A19 @16,54 130×36
+  "TAILNET" Mono 9.5px/400 ls 0.57px #ECEAE5 @208,52 94×40 | bg #161615 · r 999px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [span] @222,69 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  "+" Hanken 22px/400 #1A1A19 @310,48 48×48 | bg #ECEAE5 · r 50% · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  "2 SERVIDORES · 1 EN LÍNEA" Mono 9.5px/400 ls 0.57px #5E5B55 @16,100 342×12
+  [div] @12,124 346×133 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @24,152 9×9 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "atlas" Hanken 20px/800 ls -0.3px #1A1A19 @45,136 43×26
+    "PREDETERMINADO" Mono 9.5px/400 #ECEAE5 @96,138 105×22 | bg #1A1A19 · r 6px
+    "atlas.tailnet-7f2c.ts.net:8650" Mono 11px/400 #4A4843 @45,164 285×13
+    "›" Hanken 18px/400 #5E5B55 @342,145 4×23
+    [div] @24,187 322×40 | bg #161615 · r 12px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @24,187 322×40 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "EN LÍNEA · 42 MS" Mono 9.5px/400 ls 0.57px #6FD08C tshadow #6FD08C/0.7 0px 0px 7px @36,201 116×12
+      "HERMES 0.9.2 · 2 AGENTES" Mono 9.5px/400 ls 0.57px #C9C6BE @161,201 173×12
+    [span] @26,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @23,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @28,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [span] @52,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @49,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @54,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @78,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @75,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @80,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @104,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @101,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @106,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @130,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @127,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @132,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @156,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @153,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @158,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @182,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @183,239 5×5 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+      [span] @184,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+    [span] @208,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @205,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @210,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @234,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @231,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @236,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @260,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @257,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @262,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @286,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @283,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @288,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @312,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @309,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @314,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @338,238 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @335,235 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @340,240 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+  [div] @12,269 346×173 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @24,297 9×9 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "homelab" Hanken 20px/800 ls -0.3px #1A1A19 @45,281 285×26
+    "nas.tailnet-7f2c.ts.net:8650" Mono 11px/400 #4A4843 @45,309 285×13
+    "›" Hanken 18px/400 #5E5B55 @342,290 4×23
+    [div] @24,332 322×40 | bg #161615 · r 12px · shadow #000000/0.5 0px 2px 6px 0px inset, #E5533D/0.3 0px 0px 0px 1px, #E5533D/0.14 0px 0px 16px 0px
+      [div] @24,332 322×40 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "SIN RESPUESTA" Mono 9.5px/400 ls 0.57px #FF6A55 tshadow #FF6A55/0.7 0px 0px 7px @36,346 94×12
+      "HERMES — · 1 AGENTE" Mono 9.5px/400 ls 0.57px #C9C6BE @197,346 137×12
+    "Revisa Tailscale y que el Puente esté corriendo." Hanken 13px/400 #4A4843 @24,389 244×34
+    "Reintentar" Hanken 15px/600 #7A4A00 @276,382 70×48
+  "ENCONTRADOS POR ATLAS" Mono 9.5px/600 ls 0.76px #5E5B55 @16,472 156×12
+  "Buscar otra vez" Hanken 15px/600 #7A4A00 @248,468 106×20
+  [div] @12,514 346×72 | r 20px · shadow #8D8A82 0px 0px 0px 1.5px inset
+    [span] @24,546 9×9 | r 50% · shadow #F29A1A 0px 0px 0px 2px inset
+    "nas-garage" Hanken 15px/700 #1A1A19 @45,533 187×20
+    "PUENTE SIN EMPAREJAR" Mono 9.5px/400 ls 0.57px #5E5B55 @45,555 187×12
+    "Emparejar" Hanken 15px/700 #ECEAE5 @244,526 102×48 | bg #1A1A19 · r 16px
+  [div] @-192,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #4A4843 @-182,773 47×12
+    [span] @-141,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-120,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @-110,773 47×12
+    [span] @-69,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-48,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @-38,773 47×12
+    [span] @3,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @24,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @34,773 47×12
+    [span] @75,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @96,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @109,773 40×12
+    [span] @147,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @168,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @181,773 40×12
+    [span] @219,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @240,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #ECEAE5 @240,773 67×12
+    [span] @291,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @312,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @322,773 47×12
+    [span] @363,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @0,732 40×92 | bgimg linear-gradient(270deg, #D8D5CE/0, #D8D5CE 70%)
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Es ahora lo que abre la pestaña SERVIDORES (antes, el Tablero de atlas).
+CAMBIO: Se quita la línea «TAILSCALE · POR LA RED PRIVADA» de cada tarjeta: lo dice la pastilla TAILNET.
+CAMBIO: Bloque grande SIN RESPUESTA → franja roja + frase y Reintentar dentro de la tarjeta. El grande vive en la ficha de homelab.
+CAMBIO: «1 AGENTES» → «1 AGENTE». «EMPAREJAR ›» → «Emparejar». «Volver a buscar» → «Buscar otra vez», como acción de la sección. Se quita el ⋯ de cada tarjeta: sus acciones están en la ficha.

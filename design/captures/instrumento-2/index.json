@@ -1,0 +1,1194 @@
+[
+  {
+    "label": "23·1",
+    "title": "23·1 AGREGAR SERVIDOR",
+    "file": "23-1.png",
+    "html": "23-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "23·2",
+    "title": "23·2 ESCANEANDO",
+    "file": "23-2.png",
+    "html": "23-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "23·3",
+    "title": "23·3 EMPAREJADO",
+    "file": "23-3.png",
+    "html": "23-3.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "23·4",
+    "title": "23·4 ESCRIBIR A MANO",
+    "file": "23-4.png",
+    "html": "23-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "23·5a",
+    "title": "23·5a NO SE PUDO · CÓDIGO",
+    "file": "23-5a.png",
+    "html": "23-5a.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "23·5b",
+    "title": "23·5b NO SE PUDO · SIN RESPUESTA",
+    "file": "23-5b.png",
+    "html": "23-5b.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "23·5c",
+    "title": "23·5c NO SE PUDO · REVOCADO",
+    "file": "23-5c.png",
+    "html": "23-5c.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "23·6",
+    "title": "23·6 ENCONTRADOS EN TU TAILNET",
+    "file": "23-6.png",
+    "html": "23-6.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "22a·1",
+    "title": "22a·1 02 AGENTES · OSCURO",
+    "file": "22a-1.png",
+    "html": "22a-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "22a·2",
+    "title": "22a·2 03 CHAT · OSCURO",
+    "file": "22a-2.png",
+    "html": "22a-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "22a·3",
+    "title": "22a·3 05 SERVIDOR · OSCURO",
+    "file": "22a-3.png",
+    "html": "22a-3.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "22b·1",
+    "title": "22b·1 BLOQUEADO",
+    "file": "22b-1.png",
+    "html": "22b-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "22b·2",
+    "title": "22b·2 AVISO DE BLOQUEO AUTOMÁTICO",
+    "file": "22b-2.png",
+    "html": "22b-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "22b·3",
+    "title": "22b·3 SELECTOR · BLOQUEO AUTOMÁTICO",
+    "file": "22b-3.png",
+    "html": "22b-3.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "22c·1",
+    "title": "22c·1 AGENTES Y CHAT",
+    "file": "22c-1.png",
+    "html": "22c-1.html",
+    "width": 1208,
+    "height": 924
+  },
+  {
+    "label": "22c·2",
+    "title": "22c·2 SERVIDORES",
+    "file": "22c-2.png",
+    "html": "22c-2.html",
+    "width": 1208,
+    "height": 905
+  },
+  {
+    "label": "22e·1",
+    "title": "22e·1 ARRANQUE · CLARO",
+    "file": "22e-1.png",
+    "html": "22e-1.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "22e·2",
+    "title": "22e·2 ARRANQUE · OSCURO · DESPUÉS DE V1",
+    "file": "22e-2.png",
+    "html": "22e-2.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "21·1",
+    "title": "21·1 NOTIFICACIONES · PLEGADAS",
+    "file": "21-1.png",
+    "html": "21-1.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "21·2",
+    "title": "21·2 APROBACIÓN · EXPANDIDA",
+    "file": "21-2.png",
+    "html": "21-2.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "21·3",
+    "title": "21·3 APROBAR · ABRE RELAY Y PIDE HUELLA",
+    "file": "21-3.png",
+    "html": "21-3.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "21·4",
+    "title": "21·4 PANTALLA DE BLOQUEO",
+    "file": "21-4.png",
+    "html": "21-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "21·5",
+    "title": "21·5 COMPARTIR · ENLACE",
+    "file": "21-5.png",
+    "html": "21-5.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "21·6",
+    "title": "21·6 COMPARTIR · IMAGEN",
+    "file": "21-6.png",
+    "html": "21-6.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "21·7",
+    "title": "21·7 COMPARTIR · ARCHIVO NO ADMITIDO",
+    "file": "21-7.png",
+    "html": "21-7.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "21·8",
+    "title": "21·8 WIDGETS",
+    "file": "21-8.png",
+    "html": "21-8.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "20·1",
+    "title": "20·1 DÓNDE VIVE · TAPA CERRADA",
+    "file": "20-1.png",
+    "html": "20-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "20·2",
+    "title": "20·2 TAPA LEVANTADA · ARMADO",
+    "file": "20-2.png",
+    "html": "20-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "20·3",
+    "title": "20·3 MANTENER PULSADO · CONFIRMACIÓN",
+    "file": "20-3.png",
+    "html": "20-3.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "20·4",
+    "title": "20·4 EN PAUSA · TODA LA APP",
+    "file": "20-4.png",
+    "html": "20-4.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "20·5",
+    "title": "20·5 EN PAUSA · CHAT",
+    "file": "20-5.png",
+    "html": "20-5.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "20·6",
+    "title": "20·6 REANUDAR CON HUELLA",
+    "file": "20-6.png",
+    "html": "20-6.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "20·7",
+    "title": "20·7 GATEWAY · DETENER",
+    "file": "20-7.png",
+    "html": "20-7.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "20·8",
+    "title": "20·8 GATEWAY · REINICIAR",
+    "file": "20-8.png",
+    "html": "20-8.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "19·1",
+    "title": "19·1 EN CURSO · UNA COLUMNA POR PANTALLA",
+    "file": "19-1.png",
+    "html": "19-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "19·2",
+    "title": "19·2 DETALLE DE TARJETA",
+    "file": "19-2.png",
+    "html": "19-2.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "19·3",
+    "title": "19·3 MOVER · ARRASTRAR",
+    "file": "19-3.png",
+    "html": "19-3.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "19·4",
+    "title": "19·4 BLOQUEADA",
+    "file": "19-4.png",
+    "html": "19-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "19·5",
+    "title": "19·5 CREAR Y ASIGNAR",
+    "file": "19-5.png",
+    "html": "19-5.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "19·6",
+    "title": "19·6 COLUMNA CON MUCHAS TARJETAS",
+    "file": "19-6.png",
+    "html": "19-6.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "19·7",
+    "title": "19·7 TABLERO VACÍO",
+    "file": "19-7.png",
+    "html": "19-7.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "19·8",
+    "title": "19·8 CARGANDO",
+    "file": "19-8.png",
+    "html": "19-8.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "19·9",
+    "title": "19·9 SIN RESPUESTA",
+    "file": "19-9.png",
+    "html": "19-9.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "19·10",
+    "title": "19·10 ERROR",
+    "file": "19-10.png",
+    "html": "19-10.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "18·1",
+    "title": "18·1 LISTA",
+    "file": "18-1.png",
+    "html": "18-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "18·2",
+    "title": "18·2 LISTA DE VEINTE",
+    "file": "18-2.png",
+    "html": "18-2.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "18·3",
+    "title": "18·3 DETALLE",
+    "file": "18-3.png",
+    "html": "18-3.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "18·4",
+    "title": "18·4 DETALLE · ÚLTIMA FALLÓ",
+    "file": "18-4.png",
+    "html": "18-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "18·5",
+    "title": "18·5 BORRAR · CONFIRMACIÓN",
+    "file": "18-5.png",
+    "html": "18-5.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "18·6",
+    "title": "18·6 CREAR · ATAJO LABORABLES",
+    "file": "18-6.png",
+    "html": "18-6.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "18·7",
+    "title": "18·7 EDITAR · EXPRESIÓN MANUAL",
+    "file": "18-7.png",
+    "html": "18-7.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "18·8",
+    "title": "18·8 SIN TAREAS",
+    "file": "18-8.png",
+    "html": "18-8.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "18·9",
+    "title": "18·9 CARGANDO",
+    "file": "18-9.png",
+    "html": "18-9.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "18·10",
+    "title": "18·10 ERROR",
+    "file": "18-10.png",
+    "html": "18-10.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "18·11",
+    "title": "18·11 SIN RESPUESTA",
+    "file": "18-11.png",
+    "html": "18-11.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "18·12",
+    "title": "18·12 DETALLE · EN PAUSA",
+    "file": "18-12.png",
+    "html": "18-12.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "17·1",
+    "title": "17·1 RESUMEN",
+    "file": "17-1.png",
+    "html": "17-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "17·2",
+    "title": "17·2 REPARTO Y LÍMITES",
+    "file": "17-2.png",
+    "html": "17-2.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "17·3",
+    "title": "17·3 PROVEEDOR SIN COSTO · SOLO TOKENS",
+    "file": "17-3.png",
+    "html": "17-3.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "17·4",
+    "title": "17·4 SIN DATOS TODAVÍA",
+    "file": "17-4.png",
+    "html": "17-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "17·5",
+    "title": "17·5 CARGANDO",
+    "file": "17-5.png",
+    "html": "17-5.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "17·6",
+    "title": "17·6 ERROR · UN SERVIDOR",
+    "file": "17-6.png",
+    "html": "17-6.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "17·7",
+    "title": "17·7 SIN RESPUESTA",
+    "file": "17-7.png",
+    "html": "17-7.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "16a·1",
+    "title": "16a·1 ACTIVIDAD DENTRO DE AGENTES",
+    "file": "16a-1.png",
+    "html": "16a-1.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "16a·2",
+    "title": "16a·2 TOCAR UNA ENTRADA",
+    "file": "16a-2.png",
+    "html": "16a-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "16a·3",
+    "title": "16a·3 FILTROS · SOLO FALLOS",
+    "file": "16a-3.png",
+    "html": "16a-3.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "16a·4",
+    "title": "16a·4 DÍA SIN ACTIVIDAD",
+    "file": "16a-4.png",
+    "html": "16a-4.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "16a·5",
+    "title": "16a·5 CARGANDO MÁS",
+    "file": "16a-5.png",
+    "html": "16a-5.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "16a·6",
+    "title": "16a·6 SIN RESPUESTA",
+    "file": "16a-6.png",
+    "html": "16a-6.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "16a·7",
+    "title": "16a·7 CARGANDO",
+    "file": "16a-7.png",
+    "html": "16a-7.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "16a·8",
+    "title": "16a·8 SIN RESULTADOS · ERROR",
+    "file": "16a-8.png",
+    "html": "16a-8.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "15·1",
+    "title": "15·1 VARIOS SERVIDORES",
+    "file": "15-1.png",
+    "html": "15-1.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "15·2",
+    "title": "15·2 ACCIONES",
+    "file": "15-2.png",
+    "html": "15-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "15·3",
+    "title": "15·3 QUITAR · CONFIRMACIÓN",
+    "file": "15-3.png",
+    "html": "15-3.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "15·4",
+    "title": "15·4 UN SOLO SERVIDOR",
+    "file": "15-4.png",
+    "html": "15-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "15·5",
+    "title": "15·5 NINGUNO ALCANZABLE",
+    "file": "15-5.png",
+    "html": "15-5.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "15·6",
+    "title": "15·6 CARGANDO",
+    "file": "15-6.png",
+    "html": "15-6.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "15·7",
+    "title": "15·7 NINGUNO AGREGADO",
+    "file": "15-7.png",
+    "html": "15-7.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "15·8",
+    "title": "15·8 SIN RESPUESTA",
+    "file": "15-8.png",
+    "html": "15-8.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "14·1",
+    "title": "14·1 PENDIENTES E HISTORIAL",
+    "file": "14-1.png",
+    "html": "14-1.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "14·2",
+    "title": "14·2 FILTRO · DEV + GUARDIÁN",
+    "file": "14-2.png",
+    "html": "14-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "14·3",
+    "title": "14·3 SIN PENDIENTES",
+    "file": "14-3.png",
+    "html": "14-3.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "14·4",
+    "title": "14·4 SOLO HISTORIAL",
+    "file": "14-4.png",
+    "html": "14-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "14·5",
+    "title": "14·5 SERVIDOR SIN RESPUESTA",
+    "file": "14-5.png",
+    "html": "14-5.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "14·6",
+    "title": "14·6 CARGANDO",
+    "file": "14-6.png",
+    "html": "14-6.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "14·7",
+    "title": "14·7 SIN RESPUESTA",
+    "file": "14-7.png",
+    "html": "14-7.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "14·8",
+    "title": "14·8 ERROR",
+    "file": "14-8.png",
+    "html": "14-8.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "13·1",
+    "title": "13·1 FICHA · IDENTIDAD, MODELO Y MEMORIA",
+    "file": "13-1.png",
+    "html": "13-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "13·2",
+    "title": "13·2 FICHA · HERRAMIENTAS Y SKILLS",
+    "file": "13-2.png",
+    "html": "13-2.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "13·3",
+    "title": "13·3 FICHA · USO Y CONVERSACIONES",
+    "file": "13-3.png",
+    "html": "13-3.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "13·5",
+    "title": "13·5 EDITAR NOTA DE MEMORIA",
+    "file": "13-5.png",
+    "html": "13-5.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "13·6",
+    "title": "13·6 SERVIDOR SIN RESPUESTA · SOLO LECTURA",
+    "file": "13-6.png",
+    "html": "13-6.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "13·7",
+    "title": "13·7 CARGANDO",
+    "file": "13-7.png",
+    "html": "13-7.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "13·8",
+    "title": "13·8 ERROR",
+    "file": "13-8.png",
+    "html": "13-8.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "13·9",
+    "title": "13·9 SIN RESPUESTA",
+    "file": "13-9.png",
+    "html": "13-9.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "13·10",
+    "title": "13·10 AGENTE NUEVO · VACÍO",
+    "file": "13-10.png",
+    "html": "13-10.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "13·11",
+    "title": "13·11 FICHA · COMPORTAMIENTO",
+    "file": "13-11.png",
+    "html": "13-11.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "13·12",
+    "title": "13·12 PERSONALIDAD",
+    "file": "13-12.png",
+    "html": "13-12.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "13·13",
+    "title": "13·13 APROBACIONES",
+    "file": "13-13.png",
+    "html": "13-13.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "13·14",
+    "title": "13·14 DESACTIVAR APROBACIONES",
+    "file": "13-14.png",
+    "html": "13-14.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "13·15",
+    "title": "13·15 APROBACIONES · SIN REGLAS",
+    "file": "13-15.png",
+    "html": "13-15.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "13·16",
+    "title": "13·16 BAJAR A SMART · CONFIRMACIÓN",
+    "file": "13-16.png",
+    "html": "13-16.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "13·17",
+    "title": "13·17 QUITAR REGLA",
+    "file": "13-17.png",
+    "html": "13-17.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "13·18",
+    "title": "13·18 ENCENDER HERRAMIENTA",
+    "file": "13-18.png",
+    "html": "13-18.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "13·19",
+    "title": "13·19 AÑADIR REGLA",
+    "file": "13-19.png",
+    "html": "13-19.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "13·20",
+    "title": "13·20 ¿BORRAR NOTA?",
+    "file": "13-20.png",
+    "html": "13-20.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "13·21",
+    "title": "13·21 MEMORIA · TODAS LAS NOTAS",
+    "file": "13-21.png",
+    "html": "13-21.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "13·22",
+    "title": "13·22 EDITAR SOUL.md",
+    "file": "13-22.png",
+    "html": "13-22.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "12·1",
+    "title": "12·1 TABLERO · NORMAL",
+    "file": "12-1.png",
+    "html": "12-1.html",
+    "width": 390,
+    "height": 959
+  },
+  {
+    "label": "12·2",
+    "title": "12·2 MODO EDICIÓN",
+    "file": "12-2.png",
+    "html": "12-2.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "12·3",
+    "title": "12·3 VIEJA · ERROR · REFRESCANDO",
+    "file": "12-3.png",
+    "html": "12-3.html",
+    "width": 390,
+    "height": 979
+  },
+  {
+    "label": "12·4",
+    "title": "12·4 TABLERO VACÍO",
+    "file": "12-4.png",
+    "html": "12-4.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "12·5",
+    "title": "12·5 CARGANDO",
+    "file": "12-5.png",
+    "html": "12-5.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "12·6",
+    "title": "12·6 ERROR AL CARGAR",
+    "file": "12-6.png",
+    "html": "12-6.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "12·7",
+    "title": "12·7 SIN RESPUESTA",
+    "file": "12-7.png",
+    "html": "12-7.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·1",
+    "title": "09·1 TRABAJANDO · DETENER",
+    "file": "09-1.png",
+    "html": "09-1.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·2",
+    "title": "09·2 TRABAJANDO · REDIRIGIR",
+    "file": "09-2.png",
+    "html": "09-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·3",
+    "title": "09·3 ADJUNTAR · ORIGEN",
+    "file": "09-3.png",
+    "html": "09-3.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·4",
+    "title": "09·4 ADJUNTAR · MINIATURA",
+    "file": "09-4.png",
+    "html": "09-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·5",
+    "title": "09·5 DICTADO",
+    "file": "09-5.png",
+    "html": "09-5.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·6",
+    "title": "09·6 MODELO DE ESTA CONVERSACIÓN",
+    "file": "09-6.png",
+    "html": "09-6.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·7",
+    "title": "09·7 DICTADO · TERMINANDO",
+    "file": "09-7.png",
+    "html": "09-7.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "09·8",
+    "title": "09·8 DICTADO · FALTA EL MODELO DE VOZ",
+    "file": "09-8.png",
+    "html": "09-8.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "09·9",
+    "title": "09·9 DICTADO · SIN PERMISO",
+    "file": "09-9.png",
+    "html": "09-9.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "10·1",
+    "title": "10·1 TURNO COMPLETO",
+    "file": "10-1.png",
+    "html": "10-1.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "10·2",
+    "title": "10·2 TURNO LARGO · PLEGADO",
+    "file": "10-2.png",
+    "html": "10-2.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "10·3",
+    "title": "10·3 MARKDOWN",
+    "file": "10-3.png",
+    "html": "10-3.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "10·4",
+    "title": "10·4 ARCHIVOS PRODUCIDOS",
+    "file": "10-4.png",
+    "html": "10-4.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "10·5",
+    "title": "10·5 ARCHIVOS · ESTADOS",
+    "file": "10-5.png",
+    "html": "10-5.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "11·1",
+    "title": "11·1 CONEXIÓN PERDIDA A MITAD",
+    "file": "11-1.png",
+    "html": "11-1.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "11·2",
+    "title": "11·2 CHAT NO DISPONIBLE",
+    "file": "11-2.png",
+    "html": "11-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "11·3",
+    "title": "11·3 CARGANDO",
+    "file": "11-3.png",
+    "html": "11-3.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "11·4",
+    "title": "11·4 CONVERSACIÓN VACÍA",
+    "file": "11-4.png",
+    "html": "11-4.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "11·5",
+    "title": "11·5 ERROR AL CARGAR",
+    "file": "11-5.png",
+    "html": "11-5.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "07a·1",
+    "title": "07a·1 NORMAL",
+    "file": "07a-1.png",
+    "html": "07a-1.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "07a·2",
+    "title": "07a·2 ACCIONES",
+    "file": "07a-2.png",
+    "html": "07a-2.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "07a·3",
+    "title": "07a·3 RENOMBRAR",
+    "file": "07a-3.png",
+    "html": "07a-3.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "07a·4",
+    "title": "07a·4 BORRAR · CONFIRMACIÓN",
+    "file": "07a-4.png",
+    "html": "07a-4.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "07b·1",
+    "title": "07b·1 CHAT · PANEL CERRADO",
+    "file": "07b-1.png",
+    "html": "07b-1.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "07b·2",
+    "title": "07b·2 PANEL ABIERTO",
+    "file": "07b-2.png",
+    "html": "07b-2.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "07b·3",
+    "title": "07b·3 ACCIONES",
+    "file": "07b-3.png",
+    "html": "07b-3.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "07b·4",
+    "title": "07b·4 BORRAR · CONFIRMACIÓN",
+    "file": "07b-4.png",
+    "html": "07b-4.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "07b·5",
+    "title": "07b·5 CONVERSACIÓN DE OTRO CANAL · SOLO LECTURA",
+    "file": "07b-5.png",
+    "html": "07b-5.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "07b·6",
+    "title": "07b·6 DE FONDO · ENCENDIDO",
+    "file": "07b-6.png",
+    "html": "07b-6.html",
+    "width": 390,
+    "height": 940
+  },
+  {
+    "label": "08b·1",
+    "title": "08b·1 AGENTE SIN CONVERSACIONES",
+    "file": "08b-1.png",
+    "html": "08b-1.html",
+    "width": 390,
+    "height": 920
+  },
+  {
+    "label": "08b·2",
+    "title": "08b·2 BÚSQUEDA SIN RESULTADOS",
+    "file": "08b-2.png",
+    "html": "08b-2.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "08b·3",
+    "title": "08b·3 CARGANDO",
+    "file": "08b-3.png",
+    "html": "08b-3.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "08b·4",
+    "title": "08b·4 ERROR",
+    "file": "08b-4.png",
+    "html": "08b-4.html",
+    "width": 390,
+    "height": 901
+  },
+  {
+    "label": "08b·5",
+    "title": "08b·5 SIN RESPUESTA",
+    "file": "08b-5.png",
+    "html": "08b-5.html",
+    "width": 390,
+    "height": 901
+  }
+]

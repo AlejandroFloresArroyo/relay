@@ -1,0 +1,72 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "Tablero" Hanken 28px/700 ls -0.7px #1A1A19 @16,54 91×36
+  "ATLAS" Mono 9.5px/400 ls 0.57px #ECEAE5 @221,52 89×40 | bg #161615 · r 12px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [span] @233,69 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "⇕" Mono 9.5px/400 ls 0.57px #F29A1A @292,66 6×13
+  "⋯" Hanken 18px/400 #1A1A19 @318,52 40×40 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  "7 TARJETAS · 3 NUEVAS" Mono 9.5px/400 ls 0.57px #5E5B55 @16,100 342×12
+  [div] @12,124 346×211 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px, #F29A1A 0px 0px 0px 1.5px
+    "DEV" Mono 9.5px/400 #ECEAE5 @24,141 32×22 | bg #1A1A19 · r 6px
+    "Estado de los backups" Hanken 16px/700 #1A1A19 @64,142 229×21
+    "NUEVA" Mono 9.5px/600 #1A1A19 @301,141 45×22 | bg #F29A1A · r 6px
+    [div] @24,172 322×41 | border 1px #000000/0
+      [span] @24,190 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "postgres · diario" Hanken 15px/400 #1A1A19 @41,183 110×20
+      "HOY 03:00" Mono 11px/400 #4A4843 @277,187 69×13
+    [div] @24,217 322×41 | border 1px #D6D3CC
+      [span] @24,235 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "volúmenes docker" Hanken 15px/400 #1A1A19 @41,228 123×20
+      "HOY 03:20" Mono 11px/400 #4A4843 @277,232 69×13
+    [div] @24,262 322×41 | border 1px #D6D3CC
+      [span] @24,280 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+      "fotos → nas" Hanken 15px/400 #1A1A19 @41,273 80×20
+      "AYER 03:40" Mono 11px/400 #4A4843 @269,277 77×13
+    "5 OCT 22:20" Mono 9.5px/400 #5E5B55 @24,307 322×16
+  [div] @12,343 169×203 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px, #F29A1A 0px 0px 0px 1.5px
+    "DEV" Mono 9.5px/400 #ECEAE5 @24,355 32×22 | bg #1A1A19 · r 6px
+    "Disco /srv" Hanken 15px/700 #1A1A19 @62,356 69×20
+    [div] @24,385 145×83 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @24,385 145×83 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "USO · ▲ 3 PTS · 7 D" Mono 9.5px/400 ls 0.38px #8D8A82 @36,395 121×25
+      "82 %" Mono 32px/600 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @36,420 121×38
+    "5 OCT 22:20 · NUEVA" Mono 9.5px/400 #5E5B55 @24,476 145×12
+  [div] @189,343 169×203 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px, #F29A1A 0px 0px 0px 1.5px
+    "DEV" Mono 9.5px/400 #ECEAE5 @201,355 32×22 | bg #1A1A19 · r 6px
+    "Limpiar caché" Hanken 15px/700 #1A1A19 @239,356 95×20
+    "Limpia la caché de build de nodo-app y dime cuánto espacio recuperaste." Hanken 13px/400 #1A1A19 @201,385 145×73
+    "Enviar a dev" Hanken 15px/700 #1A1A19 @201,466 145×48 | bg #F29A1A · r 16px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "CONVERSACIÓN NUEVA" Mono 9.5px/400 #5E5B55 @201,522 145×12
+  [div] @12,554 169×56 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "DEV" Mono 9.5px/400 #ECEAE5 @24,571 32×22 | bg #1A1A19 · r 6px
+    "Memoria" Hanken 15px/700 #1A1A19 @62,572 60×20
+  [div] @189,554 169×56 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "DEV" Mono 9.5px/400 #ECEAE5 @201,571 32×22 | bg #1A1A19 · r 6px
+    "Nota" Hanken 15px/700 #1A1A19 @239,572 33×20
+  [div] @12,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #4A4843 @22,773 47×12
+  [div] @84,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @94,773 47×12
+  [div] @156,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #ECEAE5 @166,773 47×12
+  [div] @228,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @238,773 47×12
+  [div] @300,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @313,773 40×12
+  [div] @372,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @385,773 40×12
+  [div] @444,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #4A4843 @444,773 67×12
+  [div] @516,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @526,773 47×12
+  [div] @298,732 72×92 | bgimg linear-gradient(90deg, #D8D5CE/0, #D8D5CE 55%)
+    "1 ›" Mono 10px/600 #1A1A19 @319,754 39×28 | bg #F29A1A · r 14px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Tablero es ahora una pestaña. La cabecera-bloque «‹ ● atlas · TABLERO · 7 TARJETAS» pasa al encabezado A con el selector de Servidor.
+CAMBIO: «ADMIN.» y «EDITAR» se juntan en ⋯; abren una hoja.
+CAMBIO: Horas en 24 h: «5 oct, 10:20 p.m.» → «5 OCT 22:20». «ENVIAR A DEV» → «Enviar a dev».
+CAMBIO: La marca NUEVA se ve en el filo naranja y en un único chip, en vez de repetirse.

@@ -1,0 +1,98 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ dev" Hanken 15px/600 #7A4A00 @16,58 33×20
+  "Herramientas y skills" Hanken 28px/700 ls -0.7px #1A1A19 @16,92 342×32
+  "PARA EL CHAT DE RELAY" Mono 9.5px/600 ls 0.76px #5E5B55 @16,140 156×12
+  "3 DE 4" Mono 9.5px/600 ls 0.76px #5E5B55 @310,140 44×12
+  [div] @12,160 346×228 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @24,160 322×57 | border 1px #000000/0
+      [span] @24,173 32×32 | bg #1A1A19 · r 10px
+        "TERM" Mono 9.5px/600 #F29A1A @27,183 27×12
+      "Terminal" Hanken 15px/600 #1A1A19 @68,166 59×20
+      [span] @68,190 107×22 | bg #DCD9D2 · r 8px
+        [span] @76,198 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+        "CONFIGURADA" Mono 9.5px/600 ls 0.57px #1E6638 @88,195 79×12
+      [span] @300,176 46×26 | bg #1A1A19 · r 13px · shadow #000000/0.25 0px 1px 3px 0px inset
+        [span] @323,179 20×20 | bg #F7F6F2 · r 50% · shadow #000000/0.35 0px 1px 3px 0px
+    [div] @24,217 322×57 | border 1px #D6D3CC
+      [span] @24,230 32×32 | bg #1A1A19 · r 10px
+        "FILE" Mono 9.5px/600 #F29A1A @27,240 27×12
+      "Archivos" Hanken 15px/600 #1A1A19 @68,223 59×20
+      [span] @68,247 107×22 | bg #DCD9D2 · r 8px
+        [span] @76,255 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+        "CONFIGURADA" Mono 9.5px/600 ls 0.57px #1E6638 @88,252 79×12
+      [span] @300,233 46×26 | bg #1A1A19 · r 13px · shadow #000000/0.25 0px 1px 3px 0px inset
+        [span] @323,236 20×20 | bg #F7F6F2 · r 50% · shadow #000000/0.35 0px 1px 3px 0px
+    [div] @24,274 322×57 | border 1px #D6D3CC
+      [span] @24,287 32×32 | bg #1A1A19 · r 10px
+        "WEB" Mono 9.5px/600 #F29A1A @30,297 20×12
+      "Web" Hanken 15px/600 #1A1A19 @68,280 31×20
+      [span] @68,304 107×22 | bg #DCD9D2 · r 8px
+        [span] @76,312 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+        "CONFIGURADA" Mono 9.5px/600 ls 0.57px #1E6638 @88,309 79×12
+      [span] @300,290 46×26 | bg #1A1A19 · r 13px · shadow #000000/0.25 0px 1px 3px 0px inset
+        [span] @323,293 20×20 | bg #F7F6F2 · r 50% · shadow #000000/0.35 0px 1px 3px 0px
+    [div] @24,331 322×57 | border 1px #D6D3CC
+      [span] @24,344 32×32 | bg #1A1A19 · r 10px
+        "BROW" Mono 9.5px/600 #8D8A82 @27,354 27×12
+      "Navegador" Hanken 15px/600 #1A1A19 @68,337 74×20
+      [span] @68,361 129×22 | bg #DCD9D2 · r 8px
+        [span] @76,369 6×6 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+        "SIN CONFIGURAR" Mono 9.5px/600 ls 0.57px #7A4A00 @88,366 101×12
+      [span] @300,347 46×26 | bg #C9C6BF · r 13px · shadow #000000/0.25 0px 1px 3px 0px inset
+        [span] @303,350 20×20 | bg #F7F6F2 · r 50% · shadow #000000/0.35 0px 1px 3px 0px
+  "Para el chat de Relay. Se aplica desde el siguiente Turno, también en una Conversación que ya existe. Encender pide huella; apagar no." Hanken 13px/400 #4A4843 @12,396 346×57
+  "SKILLS" Mono 9.5px/600 ls 0.76px #5E5B55 @16,469 44×12
+  "SOLO LECTURA" Mono 9.5px/600 ls 0.76px #5E5B55 @265,469 89×12
+  [div] @12,489 346×260 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @24,489 322×62 | border 1px #000000/0
+      "revisar-pr" Mono 13px/600 #1A1A19 @24,502 91×16
+      [span] @123,500 79×20 | bg #DCD9D2 · r 6px
+        "DESARROLLO" Mono 9.5px/400 #4A4843 @129,504 67×12
+      "INSTALADA" Mono 9.5px/600 ls 0.57px #1E6638 @281,504 65×12
+      "Revisa un PR y deja comentarios en línea" Hanken 13px/400 #4A4843 @24,524 236×17
+    [div] @24,551 322×62 | border 1px #D6D3CC
+      "resumen-diario" Mono 13px/600 #1A1A19 @24,564 127×16
+      [span] @159,562 65×20 | bg #DCD9D2 · r 6px
+        "INFORMES" Mono 9.5px/400 #4A4843 @165,566 53×12
+      "INSTALADA" Mono 9.5px/600 ls 0.57px #1E6638 @281,566 65×12
+      "Resume la actividad del repo de las últimas 24 h" Hanken 13px/400 #4A4843 @24,586 279×17
+    [div] @24,613 322×62 | border 1px #D6D3CC
+      "migraciones-db" Mono 13px/600 #1A1A19 @24,626 127×16
+      [span] @159,624 98×20 | bg #DCD9D2 · r 6px
+        "BASE DE DATOS" Mono 9.5px/400 #4A4843 @165,628 86×12
+      "INSTALADA" Mono 9.5px/600 ls 0.57px #1E6638 @281,628 65×12
+      "Genera y valida migraciones de Knex" Hanken 13px/400 #4A4843 @24,648 215×17
+    [div] @24,675 322×74 | border 1px #D6D3CC · op 0.55
+      "buscar-papers" Mono 13px/600 #1A1A19 @24,686 64×32
+      [span] @146,692 98×20 | bg #DCD9D2 · r 6px
+        "INVESTIGACIÓN" Mono 9.5px/400 #4A4843 @152,696 86×12
+      "DESHABILITADA" Mono 9.5px/600 ls 0.57px #5E5B55 @252,696 94×12
+      "Busca y resume artículos científicos" Hanken 13px/400 #4A4843 @24,722 207×17
+  [div] @12,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #ECEAE5 @22,773 47×12
+  [div] @84,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @94,773 47×12
+  [div] @156,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @166,773 47×12
+  [div] @228,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @238,773 47×12
+  [div] @300,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @313,773 40×12
+  [div] @372,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @385,773 40×12
+  [div] @444,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #4A4843 @444,773 67×12
+  [div] @516,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @526,773 47×12
+  [div] @298,732 72×92 | bgimg linear-gradient(90deg, #D8D5CE/0, #D8D5CE 55%)
+    "1 ›" Mono 10px/600 #1A1A19 @319,754 39×28 | bg #F29A1A · r 14px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Herramientas (D-13) y Skills (D-14) se juntan en una pantalla: las skills son solo lectura y caben debajo.
+CAMBIO: Los títulos dejan de ir en mayúsculas mono: «Terminal», no «TERMINAL».
+CAMBIO: El estado de cada herramienta pasa a chip: CONFIGURADA en verde, SIN CONFIGURAR en naranja.
+CAMBIO: Se quitan los chips de demostración NORMAL, VACÍO, PARCIAL…

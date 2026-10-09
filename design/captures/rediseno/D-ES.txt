@@ -1,0 +1,150 @@
+"D-ES" Mono 12px/600 #111111 @0,5 50×18 | bg #E8E6E1 · r 5px
+"Lámina de estados" Hanken 19px/700 #E8E6E1 @62,0 160×25
+"Cada estado de demostración de las capturas, con su bloque de estado y su texto definitivo." Hanken 13px/400 #8D8A82 @234,6 537×17
+[div] @0,49 1660×897 | bg #ECEAE5 · r 28px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+  "PANTALLA" Mono 9.5px/600 ls 0.76px #5E5B55 @24,73 180×12
+  "ESTADO EN LA DEMO" Mono 9.5px/600 ls 0.76px #5E5B55 @220,73 260×12
+  "BLOQUE" Mono 9.5px/600 ls 0.76px #5E5B55 @496,73 160×12
+  "TÍTULO" Mono 9.5px/600 ls 0.76px #5E5B55 @672,73 380×12
+  "FRASE · ACCIÓN" Mono 9.5px/600 ls 0.76px #5E5B55 @1068,73 568×12
+  [div] @24,93 1612×42 | border 1px #D6D3CC
+    "Agentes" Hanken 15px/700 #1A1A19 @24,104 55×20
+    "Sin respuesta (homelab)" Hanken 13px/400 #4A4843 @220,106 138×17
+    [span] @496,112 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "SIN RESPUESTA" Mono 9.5px/600 ls 0.57px #9A2E20 @509,110 94×12
+    "SIN RESPUESTA · REVISA TAILNET" Mono 11px/600 ls 0.44px #1A1A19 @672,108 244×13
+    "Fila compacta en el grupo de homelab · Reintentar" Hanken 13px/400 #4A4843 @1068,106 294×17
+  [div] @24,135 1612×42 | border 1px #D6D3CC
+    "Aprobaciones" Hanken 15px/700 #1A1A19 @24,146 94×20
+    "Sin pendientes" Hanken 13px/400 #4A4843 @220,148 85×17
+    [span] @496,154 7×7 | bg #B9B6AF · r 50%
+    "VACÍO" Mono 9.5px/600 ls 0.57px #5E5B55 @509,151 36×12
+    "SIN APROBACIONES PENDIENTES" Mono 11px/600 ls 0.44px #1A1A19 @672,150 220×13
+    "Aquí aparecen cuando un Agente pida permiso." Hanken 13px/400 #4A4843 @1068,148 274×17
+  [div] @24,177 1612×42 | border 1px #D6D3CC
+    "Tablero" Hanken 15px/700 #1A1A19 @24,188 51×20
+    "Vacío · Cargando · Error" Hanken 13px/400 #4A4843 @220,190 142×17
+    [span] @496,196 7×7 | bg #B9B6AF · r 50%
+    "VACÍO" Mono 9.5px/600 ls 0.57px #5E5B55 @509,193 36×12
+    "SIN TARJETAS · CARGANDO TABLERO… · ERROR" Mono 11px/600 ls 0.44px #1A1A19 @672,192 326×13
+    "No se pudo cargar el Tablero. Reintenta. · Reintentar" Hanken 13px/400 #4A4843 @1068,190 303×17
+  [div] @24,219 1612×42 | border 1px #D6D3CC
+    "Tablero" Hanken 15px/700 #1A1A19 @24,230 51×20
+    "Web sin módulo · retirada" Hanken 13px/400 #4A4843 @220,232 151×17
+    [span] @496,238 7×7 | bg #B9B6AF · r 50%
+    "NO DISPONIBLE" Mono 9.5px/600 ls 0.57px #5E5B55 @509,235 94×12
+    "NO DISPONIBLE · ACTUALIZA EL PUENTE" Mono 11px/600 ls 0.44px #1A1A19 @672,234 285×13
+    "El Puente de atlas no ofrece esta Tarjeta." Hanken 13px/400 #4A4843 @1068,232 237×17
+  [div] @24,260 1612×42 | border 1px #D6D3CC
+    "Agregar Servidor" Hanken 15px/700 #1A1A19 @24,271 117×20
+    "Caducado / usado" Hanken 13px/400 #4A4843 @220,273 107×17
+    [span] @496,279 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "ERROR" Mono 9.5px/600 ls 0.57px #9A2E20 @509,277 36×12
+    "CÓDIGO CADUCADO" Mono 11px/600 ls 0.44px #1A1A19 @672,275 122×13
+    "Ese código ya se usó o caducó. Ejecuta relayd pair otra vez. · Escanear código" Hanken 13px/400 #4A4843 @1068,273 454×17
+  [div] @24,302 1612×42 | border 1px #D6D3CC
+    "Servidores" Hanken 15px/700 #1A1A19 @24,313 73×20
+    "0 Servidores" Hanken 13px/400 #4A4843 @220,315 73×17
+    [span] @496,321 7×7 | bg #B9B6AF · r 50%
+    "VACÍO" Mono 9.5px/600 ls 0.57px #5E5B55 @509,319 36×12
+    "SIN SERVIDORES" Mono 11px/600 ls 0.44px #1A1A19 @672,317 114×13
+    "Empareja el primero con relayd pair. · Agregar Servidor" Hanken 13px/400 #4A4843 @1068,315 321×17
+  [div] @24,344 1612×42 | border 1px #D6D3CC
+    "Servidores" Hanken 15px/700 #1A1A19 @24,355 73×20
+    "Incompatible" Hanken 13px/400 #4A4843 @220,357 76×17
+    [span] @496,363 7×7 | bg #B9B6AF · r 50%
+    "NO DISPONIBLE" Mono 9.5px/600 ls 0.57px #5E5B55 @509,361 94×12
+    "NO DISPONIBLE · ACTUALIZA EL PUENTE" Mono 11px/600 ls 0.44px #1A1A19 @672,359 285×13
+    "El Puente de homelab es de una versión que Relay no admite." Hanken 13px/400 #4A4843 @1068,357 355×17
+  [div] @24,386 1612×42 | border 1px #D6D3CC
+    "Servidores" Hanken 15px/700 #1A1A19 @24,397 73×20
+    "Llavero" Hanken 13px/400 #4A4843 @220,399 43×17
+    [span] @496,405 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "SIN ACCESO" Mono 9.5px/600 ls 0.57px #9A2E20 @509,402 72×12
+    "SIN ACCESO" Mono 11px/600 ls 0.44px #1A1A19 @672,401 81×13
+    "Este dispositivo perdió el acceso a atlas. · Emparejar de nuevo" Hanken 13px/400 #4A4843 @1068,399 363×17
+  [div] @24,428 1612×42 | border 1px #D6D3CC
+    "Memoria · Personalidad" Hanken 15px/700 #1A1A19 @24,439 161×20
+    "No se pudo cargar (no alcanza)" Hanken 13px/400 #4A4843 @220,441 179×17
+    [span] @496,447 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "SIN RESPUESTA" Mono 9.5px/600 ls 0.57px #9A2E20 @509,444 94×12
+    "SIN RESPUESTA · REVISA TAILNET" Mono 11px/600 ls 0.44px #1A1A19 @672,443 244×13
+    "atlas no contesta; no se pudo leer SOUL.md. · Reintentar" Hanken 13px/400 #4A4843 @1068,441 328×17
+  [div] @24,470 1612×42 | border 1px #D6D3CC
+    "Memoria · Personalidad" Hanken 15px/700 #1A1A19 @24,481 161×20
+    "Archivos ausentes · Vacío" Hanken 13px/400 #4A4843 @220,483 148×17
+    [span] @496,489 7×7 | bg #B9B6AF · r 50%
+    "VACÍO" Mono 9.5px/600 ls 0.57px #5E5B55 @509,486 36×12
+    "SIN MEMORIA · SIN SOUL.md" Mono 11px/600 ls 0.44px #1A1A19 @672,485 204×13
+    "dev todavía no tiene memoria guardada en atlas." Hanken 13px/400 #4A4843 @1068,483 283×17
+  [div] @24,511 1612×42 | border 1px #D6D3CC
+    "Herramientas · Skills" Hanken 15px/700 #1A1A19 @24,522 142×20
+    "Skills sin actualizar" Hanken 13px/400 #4A4843 @220,524 110×17
+    [span] @496,530 7×7 | bg #B9B6AF · r 50%
+    "NO DISPONIBLE" Mono 9.5px/600 ls 0.57px #5E5B55 @509,528 94×12
+    "NO DISPONIBLE · ACTUALIZA EL PUENTE" Mono 11px/600 ls 0.44px #1A1A19 @672,526 285×13
+    "El Puente de atlas no informa las skills." Hanken 13px/400 #4A4843 @1068,524 225×17
+  [div] @24,553 1612×42 | border 1px #D6D3CC
+    "Tareas" Hanken 15px/700 #1A1A19 @24,564 45×20
+    "Cargando · Error · Error al guardar" Hanken 13px/400 #4A4843 @220,566 203×17
+    [span] @496,572 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "ERROR" Mono 9.5px/600 ls 0.57px #9A2E20 @509,570 36×12
+    "CARGANDO TAREAS… · ERROR" Mono 11px/600 ls 0.44px #1A1A19 @672,568 195×13
+    "No se pudo guardar la tarea. Reintenta. · Reintentar" Hanken 13px/400 #4A4843 @1068,566 298×17
+  [div] @24,595 1612×42 | border 1px #D6D3CC
+    "Trabajo" Hanken 15px/700 #1A1A19 @24,606 51×20
+    "Puente antiguo" Hanken 13px/400 #4A4843 @220,608 86×17
+    [span] @496,614 7×7 | bg #B9B6AF · r 50%
+    "NO DISPONIBLE" Mono 9.5px/600 ls 0.57px #5E5B55 @509,612 94×12
+    "NO DISPONIBLE · ACTUALIZA EL PUENTE" Mono 11px/600 ls 0.44px #1A1A19 @672,610 285×13
+    "El Puente de atlas no ofrece Trabajo." Hanken 13px/400 #4A4843 @1068,608 213×17
+  [div] @24,637 1612×42 | border 1px #D6D3CC
+    "Trabajo" Hanken 15px/700 #1A1A19 @24,648 51×20
+    "Sin conexión" Hanken 13px/400 #4A4843 @220,650 73×17
+    [span] @496,656 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "SIN RESPUESTA" Mono 9.5px/600 ls 0.57px #9A2E20 @509,653 94×12
+    "SIN RESPUESTA · REVISA TAILNET" Mono 11px/600 ls 0.44px #1A1A19 @672,652 244×13
+    "atlas no contesta. · Reintentar" Hanken 13px/400 #4A4843 @1068,650 174×17
+  [div] @24,679 1612×42 | border 1px #D6D3CC
+    "Presets" Hanken 15px/700 #1A1A19 @24,690 50×20
+    "Revocado" Hanken 13px/400 #4A4843 @220,692 57×17
+    [span] @496,698 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "SIN ACCESO" Mono 9.5px/600 ls 0.57px #9A2E20 @509,695 72×12
+    "SIN ACCESO" Mono 11px/600 ls 0.44px #1A1A19 @672,694 81×13
+    "Este dispositivo perdió el acceso a atlas. · Emparejar de nuevo" Hanken 13px/400 #4A4843 @1068,692 363×17
+  [div] @24,721 1612×42 | border 1px #D6D3CC
+    "Actualización APK" Hanken 15px/700 #1A1A19 @24,732 124×20
+    "Módulo ausente" Hanken 13px/400 #4A4843 @220,734 93×17
+    [span] @496,740 7×7 | bg #B9B6AF · r 50%
+    "NO DISPONIBLE" Mono 9.5px/600 ls 0.57px #5E5B55 @509,737 94×12
+    "MÓDULO APK NO DISPONIBLE" Mono 11px/600 ls 0.44px #1A1A19 @672,736 195×13
+    "Necesitas Android 12 o posterior." Hanken 13px/400 #4A4843 @1068,734 193×17
+  [div] @24,763 1612×42 | border 1px #D6D3CC
+    "Actualización APK" Hanken 15px/700 #1A1A19 @24,774 124×20
+    "Puente ocupado · Actualiza Puente" Hanken 13px/400 #4A4843 @220,776 202×17
+    [span] @496,782 7×7 | bg #B9B6AF · r 50%
+    "NO DISPONIBLE" Mono 9.5px/600 ls 0.57px #5E5B55 @509,779 94×12
+    "NO DISPONIBLE · ACTUALIZA EL PUENTE" Mono 11px/600 ls 0.44px #1A1A19 @672,778 285×13
+    "Este Puente no tiene un APK publicado." Hanken 13px/400 #4A4843 @1068,776 227×17
+  [div] @24,804 1612×42 | border 1px #D6D3CC
+    "Herramientas" Hanken 15px/700 #1A1A19 @24,815 93×20
+    "Bloqueo o pérdida de conexión" Hanken 13px/400 #4A4843 @220,817 181×17
+    [span] @496,823 7×7 | bg #B9B6AF · r 50%
+    "SIN CONTROL" Mono 9.5px/600 ls 0.57px #5E5B55 @509,821 79×12
+    "SIN CONTROL" Mono 11px/600 ls 0.44px #1A1A19 @672,819 90×13
+    "Ahora no hay control sobre atlas. Tus terminales siguen ahí. · Volver a entrar con huella" Hanken 13px/400 #4A4843 @1068,817 507×17
+  [div] @24,846 1612×42 | border 1px #D6D3CC
+    "Compartir" Hanken 15px/700 #1A1A19 @24,857 71×20
+    "No admitido · Sin contenido" Hanken 13px/400 #4A4843 @220,859 160×17
+    [span] @496,865 7×7 | bg #B9B6AF · r 50%
+    "VACÍO" Mono 9.5px/600 ls 0.57px #5E5B55 @509,863 36×12
+    "NADA QUE COMPARTIR" Mono 11px/600 ls 0.44px #1A1A19 @672,861 147×13
+    "Relay solo admite texto, enlaces e imágenes." Hanken 13px/400 #4A4843 @1068,859 258×17
+  [div] @24,888 1612×42 | border 1px #D6D3CC
+    "Widget" Hanken 15px/700 #1A1A19 @24,899 48×20
+    "Sin datos recientes · Sin lectura" Hanken 13px/400 #4A4843 @220,901 183×17
+    [span] @496,907 7×7 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "CARGANDO…" Mono 9.5px/600 ls 0.57px #7A4A00 @509,905 65×12
+    "SIN LECTURA RECIENTE" Mono 11px/600 ls 0.44px #1A1A19 @672,903 163×13
+    "Abre Relay para actualizar." Hanken 13px/400 #4A4843 @1068,901 155×17
+"Regla de alcance: el bloque grande va solo donde el Servidor es el sujeto, es decir, su ficha y la hoja TAILNET. En Agentes, Aprobaciones, Compartir y el resto, el mismo estado se muestra como fila compacta. «Abrir Tailscale» solo aparece en la hoja TAILNET y en la ficha." Hanken 13px/400 #8D8A82 @0,970 1000×39

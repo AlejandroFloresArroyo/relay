@@ -1,0 +1,4 @@
+# Compatibilidad declarada por el Puente
+Fecha: 2026-10-02
+
+El protocolo comienza en 1 y declara en GET /health, sin llave, protocolVersion y minAppProtocolVersion; la app contiene PROTOCOL_VERSION y MIN_BRIDGE_PROTOCOL_VERSION del contrato compartido. Un Puente sin declaración equivale a 0: si su versión no alcanza el mínimo de la app se muestra «Actualiza el Puente»; en caso contrario, si el mínimo del Puente supera la versión de la app, se muestra «Actualiza Relay»; los rangos compatibles no muestran aviso aunque sus números difieran. El aviso es por Servidor y no bloquea operaciones cuyos contratos siguen coincidiendo; no se usa la versión del APK o del programa como versión de protocolo ni se interpreta un fallo de red como versión antigua. El módulo compartido admite únicamente tipos y constantes puras, sin dependencia de ninguna plataforma.

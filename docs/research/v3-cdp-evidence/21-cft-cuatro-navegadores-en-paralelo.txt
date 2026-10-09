@@ -1,0 +1,122 @@
+$ RELAY_LAB_BROWSER=cft npm test
+
+
+✔ refuses raw CDP and unknown action types (2.644906ms)
+✔ navigate only accepts http(s) URLs within the length limit (1.040201ms)
+✔ text is bounded and keys come from an allowlist (0.323119ms)
+✔ coordinates must be finite and inside the bound (0.308722ms)
+✔ frame parameters are clamped to the frame limits (0.275249ms)
+✔ tap becomes a left mouse press and release at the point (0.511625ms)
+✔ back moves exactly one history entry and does nothing at the start (2.038974ms)
+✔ frame is a downscaled JPEG and fails rather than exceed the byte limit (0.97568ms)
+✖ [cft] the default profile refuses remote debugging (747.360601ms)
+ℹ stderr: DevTools listening on ws://127.0.0.1:34903/devtools/browser/75857b84-3557-4d48-bdb8-45505070fe03
+ℹ profile dirs created under the synthetic HOME: google-chrome-for-testing
+✔ [cft] a dedicated profile reports its exact version (852.525044ms)
+ℹ product=Chrome/154.0.8037.92 protocol=1.3 jsVersion=15.4.80.19
+✔ [cft] frame, tap, text and keys reach the page (2121.471096ms)
+ℹ frame 765x437 jpeg 6174 bytes
+✔ [cft] tabs can be listed, opened, activated and closed (1583.369938ms)
+✔ [cft] navigate, back, forward and reload (1886.670449ms)
+✔ [cft] reconnecting over the port finds the same tabs alive (1284.877227ms)
+✖ [cft] closing the CDP pipe keeps the browser and its tabs alive (3582.422043ms)
+ℹ exitCode after pipe close: 0 signal: null
+✔ [cft] the dedicated profile keeps its data across restarts (3184.353769ms)
+✔ [cft] JavaScript dialogs are reported and answered (1653.533664ms)
+✔ [cft] file choosers are intercepted and filled with Server files (1552.07716ms)
+✔ [cft] downloads stay on the Server in a known folder (1473.286199ms)
+ℹ downloaded relay-lab.txt 20 bytes
+✔ [cft] a native <select> is operated with keys, not by its popup (2267.141988ms)
+ℹ frame with popup requested is different to closed frame
+✖ [cft] screencast frames need an ack each (flow control) (4722.064129ms)
+ℹ frames without ack in 1.5 s: 3
+ℹ frames with ack in 1.5 s: 76, mean 3814 bytes
+✔ [cft] the extension loads and its native host connects to the Puente (1457.181595ms)
+ℹ extension opcncffglnlpmffjmnjekehnidddcfbk host argv origin chrome-extension://opcncffglnlpmffjmnjekehnidddcfbk/ ua Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+✔ [cft] only tabs the user shared are visible or controllable (2679.321797ms)
+✔ [cft] the adapter refuses raw CDP and oversized requests before Chrome sees them (2042.373976ms)
+✔ [cft] tap, text, keys and navigation work through the extension (2533.559766ms)
+✔ [cft] chrome.debugger method catalogue (2418.587414ms)
+ℹ Page.captureScreenshot: ok
+ℹ Page.startScreencast: ok
+ℹ Page.stopScreencast: ok
+ℹ Page.getNavigationHistory: ok
+ℹ Page.handleJavaScriptDialog: {"code":-32602,"message":"No dialog is showing"}
+ℹ Page.setInterceptFileChooserDialog: ok
+ℹ Page.setDownloadBehavior: {"code":-32000,"message":"Cannot not access browser-level commands"}
+ℹ Input.dispatchMouseEvent: ok
+ℹ Input.dispatchTouchEvent: ok
+ℹ Input.dispatchKeyEvent: ok
+ℹ Input.insertText: ok
+ℹ DOM.getDocument: ok
+ℹ DOM.setFileInputFiles: {"code":-32000,"message":"Could not find node with given id"}
+ℹ Runtime.evaluate: ok
+ℹ Emulation.setDeviceMetricsOverride: ok
+ℹ Emulation.clearDeviceMetricsOverride: ok
+ℹ Fetch.enable: ok
+ℹ Fetch.disable: ok
+ℹ Network.getCookies: ok
+ℹ Storage.getCookies: ok
+ℹ Target.getTargets: {"code":-32000,"message":"Not allowed"}
+ℹ Target.createTarget: ok
+ℹ Browser.getVersion: {"code":-32601,"message":"'Browser.getVersion' wasn't found"}
+ℹ Browser.setDownloadBehavior: {"code":-32601,"message":"'Browser.setDownloadBehavior' wasn't found"}
+ℹ SystemInfo.getInfo: {"code":-32601,"message":"'SystemInfo.getInfo' wasn't found"}
+ℹ Page.reload: ok
+✔ [cft] dialogs, file chooser and downloads through the extension (3596.953229ms)
+ℹ DOM.setFileInputFiles from the extension: ok
+ℹ download complete: /tmp/relay-lab-0yYKy5/home/Downloads/relay-lab.txt
+✔ [cft] control is shared with the person at the computer (1739.91108ms)
+✔ [cft] losing the adapter detaches but keeps the browser and Relay's new tabs (2855.348436ms)
+✔ [cft] DevTools already open on the tab: control goes on or the detach is reported (3905.768418ms)
+ℹ DevTools windows open before attaching: 2
+ℹ act: ok; detached event: null
+✔ [cft] DevTools opened on an attached tab: control goes on or the detach is reported (3974.86939ms)
+ℹ act after DevTools opened: ok; detached event: null
+✔ [cft] detaching is reported (internal page, tab closed) (2263.460889ms)
+ℹ internal page: {"event":"detached","tabId":1600258118,"reason":"target_closed"}
+ℹ attach to chrome://version: Cannot access a chrome:// URL
+ℹ tests 32
+ℹ suites 0
+ℹ pass 29
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 57553.335848
+
+✖ failing tests:
+
+test at test/dedicated.test.ts:42:1
+✖ [cft] the default profile refuses remote debugging (747.360601ms)
+  AssertionError [ERR_ASSERTION]: CDP must not listen on the default profile
+  + actual - expected
+  
+  + 'ws://127.0.0.1:34903/devtools/browser/75857b84-3557-4d48-bdb8-45505070fe03'
+  - null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'ws://127.0.0.1:34903/devtools/browser/75857b84-3557-4d48-bdb8-45505070fe03',
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dedicated.test.ts:132:1
+✖ [cft] closing the CDP pipe keeps the browser and its tabs alive (3582.422043ms)
+  AssertionError [ERR_ASSERTION]: browser must survive the Puente losing its pipe
+  
+  0 !== null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dedicated.test.ts:226:1
+✖ [cft] screencast frames need an ack each (flow control) (4722.064129ms)
+  Error: CDP connection closed

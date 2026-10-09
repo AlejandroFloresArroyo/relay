@@ -1,0 +1,14 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.relaynotifications'
+version = '1.0.0'
+android {
+  namespace 'expo.modules.relaynotifications'
+  defaultConfig { versionCode 1; versionName '1.0.0' }
+}
+
+// Compile against the React Native artifact already provided by this Expo app. No runtime dependency.
+dependencies { compileOnly 'com.facebook.react:react-android' }

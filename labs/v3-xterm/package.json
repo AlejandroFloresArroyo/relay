@@ -1,0 +1,30 @@
+{
+  "name": "relay-v3-xterm-lab",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "test": "node --test src/*.test.ts",
+    "test:android": "node --test --test-concurrency=1 --test-timeout=120000 test/android.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build:android": "expo prebuild -p android --no-install && cd android && ./gradlew :app:assembleRelease -PreactNativeArchitectures=x86_64"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "57.0.16",
+    "@xterm/addon-fit": "0.11.0",
+    "@xterm/xterm": "6.0.0",
+    "expo": "57.0.26",
+    "expo-clipboard": "57.0.2",
+    "expo-file-system": "57.0.7",
+    "expo-status-bar": "57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-web": "0.21.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "@types/react": "19.2.18",
+    "typescript": "6.0.3"
+  }
+}

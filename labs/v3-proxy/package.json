@@ -1,0 +1,18 @@
+{
+  "name": "relay-lab-v3-proxy",
+  "version": "0.0.0",
+  "private": true,
+  "description": "V3 lab: HTTPS web proxy and isolation with fake applications (issue #79). Not part of the product.",
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "test": "node --test --test-timeout=120000 test/",
+    "matrix": "node src/matrix.ts",
+    "lab": "node src/lab.ts"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0"
+  }
+}

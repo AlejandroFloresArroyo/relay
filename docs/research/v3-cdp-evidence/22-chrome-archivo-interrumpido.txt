@@ -1,0 +1,61 @@
+$ (cd labs/v3-cdp && RELAY_LAB_BROWSER=chrome npm test)
+✔ refuses raw CDP and unknown action types (1.462045ms)
+✔ navigate only accepts http(s) URLs within the length limit (1.034933ms)
+✔ text is bounded and keys come from an allowlist (0.351309ms)
+✔ coordinates must be finite and inside the bound (0.35162ms)
+✔ frame parameters are clamped to the frame limits (0.258906ms)
+✔ tap becomes a left mouse press and release at the point (1.995336ms)
+✔ back moves exactly one history entry and does nothing at the start (0.500289ms)
+✔ frame is a downscaled JPEG and fails rather than exceed the byte limit (1.079286ms)
+✔ frame retries a viewport that is briefly 0x0 after attaching (6.185973ms)
+✔ frame gives up on a viewport that stays 0x0, with a retryable error and no capture (1.152304ms)
+✔ [chrome] the default profile refuses remote debugging (351.880662ms)
+ℹ stderr: DevTools remote debugging requires a non-default data directory. Specify this using --user-data-dir.
+ℹ profile dirs created under the synthetic HOME: google-chrome
+✔ [chrome] a dedicated profile reports its exact version (244.650731ms)
+ℹ product=Chrome/154.0.8037.57 protocol=1.3 jsVersion=15.4.80.11
+✔ [chrome] frame, tap, text and keys reach the page (585.708093ms)
+ℹ frame 765x493 jpeg 6390 bytes
+✔ [chrome] tabs can be listed, opened, activated and closed (268.041363ms)
+✔ [chrome] navigate, back, forward and reload (411.801756ms)
+✔ [chrome] reconnecting over the port finds the same tabs alive (371.66834ms)
+✖ [chrome] closing the CDP pipe keeps the browser and its tabs alive (3245.523583ms)
+ℹ exitCode after pipe close: 0 signal: null
+✔ [chrome] the dedicated profile keeps its data across restarts (648.375721ms)
+✔ [chrome] JavaScript dialogs are reported and answered (451.634305ms)
+✔ [chrome] file choosers are intercepted and filled with Server files (338.987595ms)
+✔ [chrome] downloads stay on the Server in a known folder (285.907714ms)
+ℹ downloaded relay-lab.txt 20 bytes
+✔ [chrome] a native <select> is operated with keys, not by its popup (670.925554ms)
+ℹ frame with popup requested is different to closed frame
+✔ [chrome] screencast frames need an ack each (flow control) (3295.887056ms)
+ℹ frames without ack in 1.5 s: 3
+ℹ frames with ack in 1.5 s: 90, mean 4004 bytes
+Interrupted while running:
+⚠ test/extension.test.ts (test/extension.test.ts:1:1)
+✖ test/extension.test.ts (1450.119311ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 22
+ℹ fail 1
+ℹ cancelled 1
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12952.076147
+✖ failing tests:
+test at test/dedicated.test.ts:132:1
+✖ [chrome] closing the CDP pipe keeps the browser and its tabs alive (3245.523583ms)
+  AssertionError [ERR_ASSERTION]: browser must survive the Puente losing its pipe
+  
+  0 !== null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+test at test/extension.test.ts:1:1
+✖ test/extension.test.ts (1450.119311ms)
+  'Promise resolution is still pending but the event loop has already resolved'

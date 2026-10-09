@@ -1,0 +1,71 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ atlas" Hanken 15px/600 #7A4A00 @16,58 41×20
+  "≈ ESTIMADO" Mono 9.5px/600 ls 0.57px #7A4A00 @271,56 87×24 | bg #DCD9D2 · r 8px
+  "Uso y costo" Hanken 28px/700 ls -0.7px #1A1A19 @16,92 342×32
+  "12–14 OCT · CÁLCULO GUARDADO 14 OCT 12:00 (HORA DE ATLAS)" Mono 9.5px/400 ls 0.38px #5E5B55 @16,124 342×28
+  [div] @12,168 346×48 | bg #DCD9D2 · r 14px · shadow #000000/0.12 0px 2px 3px 0px inset
+    "Hoy" Hanken 15px/600 #4A4843 @16,172 113×40
+    "Semana" Hanken 15px/600 #ECEAE5 @129,172 113×40 | bg #1A1A19 · r 10px
+    "Mes" Hanken 15px/600 #4A4843 @241,172 113×40
+  [div] @12,228 346×159 | bg #161615 · r 20px · shadow #000000/0.5 0px 2px 6px 0px inset, #F29A1A/0.22 0px 0px 0px 1px, #F29A1A/0.14 0px 0px 16px 0px
+    [div] @12,228 346×159 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "HOY" Mono 9.5px/400 ls 0.76px #8D8A82 @28,244 22×12
+    "≈$0.12" Mono 20px/600 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @28,260 82×24
+    "17 k TOK" Mono 9.5px/400 #C9C6BE @28,290 53×12
+    "SEMANA" Mono 9.5px/400 ls 0.76px #8D8A82 @135,244 44×12
+    "≈$1.08" Mono 20px/600 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @135,260 82×24
+    "123 k TOK" Mono 9.5px/400 #C9C6BE @135,290 60×12
+    "MES" Mono 9.5px/400 ls 0.76px #8D8A82 @243,244 22×12
+    "≈$7.92" Mono 20px/600 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @243,260 82×24
+    "862 k TOK" Mono 9.5px/400 #C9C6BE @243,290 60×12
+    "Estimaciones parciales registradas por Hermes, en USD. Tu factura puede no coincidir. «—» significa no disponible." Hanken 13px/400 #C9C6BE @28,314 314×57
+  [div] @12,399 346×120 | bg #161615 · r 20px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [div] @12,399 346×120 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "COSTO POR DÍA · SEMANA" Mono 9.5px/400 ls 0.76px #8D8A82 @28,411 314×12
+    [span] @28,476 101×11 | bg #4CC774 · r 4px · op 0.7
+    [span] @135,456 101×31 | bg #4CC774 · r 4px · op 0.7
+    [span] @241,431 101×56 | bg #F29A1A · r 4px · op 0.8
+    "12 OCT" Mono 9.5px/400 #8D8A82 @28,495 40×12
+    "14 OCT" Mono 9.5px/400 #8D8A82 @302,495 40×12
+  [div] @12,531 346×64 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "ENTRADA" Mono 9.5px/400 ls 0.57px #5E5B55 @28,543 99×12
+    "98.4 k" Mono 20px/600 #1A1A19 @28,559 99×24
+    "SALIDA" Mono 9.5px/400 ls 0.57px #5E5B55 @135,543 99×12
+    "24.6 k" Mono 20px/600 #1A1A19 @135,559 99×24
+    "CACHÉ LEÍDA" Mono 9.5px/400 ls 0.57px #5E5B55 @243,543 99×12
+    "43.2 k" Mono 20px/600 #1A1A19 @243,559 99×24
+  [div] @-192,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #4A4843 @-182,773 47×12
+    [span] @-141,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-120,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @-110,773 47×12
+    [span] @-69,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-48,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @-38,773 47×12
+    [span] @3,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @24,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @34,773 47×12
+    [span] @75,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @96,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @109,773 40×12
+    [span] @147,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @168,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @181,773 40×12
+    [span] @219,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @240,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #ECEAE5 @240,773 67×12
+    [span] @291,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @312,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @322,773 47×12
+    [span] @363,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @0,732 40×92 | bgimg linear-gradient(270deg, #D8D5CE/0, #D8D5CE 70%)
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: «‹ Servidor» → «‹ atlas».
+CAMBIO: «14/10/2026, 12:00:00 p.m. · America/Mexico_City» → «14 OCT 12:00 (HORA DE ATLAS)»: 24 h y aclarado que es la hora del Servidor.
+CAMBIO: Las cifras pasan de 28 a Mono 20 (lectura de instrumento).
+CAMBIO: Barras en el verde y el naranja del sistema, sin los tonos apagados nuevos.

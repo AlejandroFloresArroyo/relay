@@ -1,0 +1,48 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ atlas" Hanken 15px/600 #7A4A00 @16,58 41×20
+  "+" Hanken 22px/400 #1A1A19 @310,44 48×48 | bg #ECEAE5 · r 50% · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  "Presets de personalidad" Hanken 28px/700 ls -0.7px #1A1A19 @16,92 342×32
+  "2 / 64 PRESETS · VERSIONES INMUTABLES" Mono 9.5px/400 ls 0.38px #5E5B55 @16,124 342×16
+  "El catálogo es de este Servidor. Un preset SOUL reemplaza la personalidad del Agente; una capa de Relay se fija por Conversación y vale para sus siguientes Turnos." Hanken 13px/400 #4A4843 @12,156 346×59
+  [div] @12,227 346×113 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "Revisor de código" Hanken 15px/600 #1A1A19 @24,238 306×20
+    "SOUL DEL AGENTE · 49 BYTES" Mono 9.5px/400 ls 0.38px #5E5B55 @24,260 306×12
+    "›" Hanken 18px/400 #5E5B55 @342,243 4×23
+    [div] @24,283 322×1 | bg #D6D3CC
+    "Tutor paciente" Hanken 15px/600 #1A1A19 @24,295 306×20
+    "CAPA DE CONVERSACIÓN · 39 BYTES" Mono 9.5px/400 ls 0.38px #5E5B55 @24,317 306×12
+    "›" Hanken 18px/400 #5E5B55 @342,300 4×23
+  [div] @-192,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #4A4843 @-182,773 47×12
+    [span] @-141,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-120,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @-110,773 47×12
+    [span] @-69,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-48,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @-38,773 47×12
+    [span] @3,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @24,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @34,773 47×12
+    [span] @75,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @96,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @109,773 40×12
+    [span] @147,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @168,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @181,773 40×12
+    [span] @219,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @240,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #ECEAE5 @240,773 67×12
+    [span] @291,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @312,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @322,773 47×12
+    [span] @363,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @0,732 40×92 | bgimg linear-gradient(270deg, #D8D5CE/0, #D8D5CE 70%)
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: El encabezado-bloque con «‹» dentro → encabezado B «‹ atlas».
+CAMBIO: «Crear preset» pasa a la tecla «+»; «Actualizar» se cambia por arrastrar para recargar.
+CAMBIO: Los presets pasan de tarjetas sueltas a filas en un bloque. «bytes» en mayúsculas mono.

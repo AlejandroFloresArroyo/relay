@@ -1,0 +1,19 @@
+{
+  "name": "relay-lab-v3-cdp",
+  "private": true,
+  "description": "Isolated lab for issue #78: Chrome DevTools Protocol (dedicated browser) and extension + native messaging (usual browser).",
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "config": {
+    "chrome": "154.0.8037.92"
+  },
+  "scripts": {
+    "browsers": "browsers install chrome@$npm_package_config_chrome --path .browsers",
+    "test": "node --test --test-concurrency=1 --test-timeout=60000 --test-force-exit"
+  },
+  "devDependencies": {
+    "@puppeteer/browsers": "3.2.3"
+  }
+}

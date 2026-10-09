@@ -1,0 +1,35 @@
+
+// @generated relay-release-signing (mobile/plugins/withReleaseSigning.js)
+def relaySigningFile = new File(System.getenv("RELAY_SIGNING_PROPERTIES") ?: System.getProperty("user.home") + "/.config/relay/signing.properties")
+def relaySigning = new Properties()
+if (relaySigningFile.exists()) {
+    relaySigningFile.withInputStream { relaySigning.load(it) }
+}
+
+android {
+    signingConfigs {
+        relayRelease {
+            if (relaySigningFile.exists()) {
+                def relayStore = new File(relaySigning.getProperty("storeFile"))
+                // A relative storeFile is resolved next to the properties file.
+                storeFile relayStore.isAbsolute() ? relayStore : new File(relaySigningFile.parentFile, relayStore.path)
+                storePassword relaySigning.getProperty("storePassword")
+                keyAlias relaySigning.getProperty("keyAlias")
+                keyPassword relaySigning.getProperty("keyPassword")
+            }
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.relayRelease
+        }
+    }
+}
+
+// Without the key there is no release build: the template's debug keystore is public.
+gradle.taskGraph.whenReady { graph ->
+    def signsRelease = graph.allTasks.any { it.project == project && it.name in ["packageRelease", "signReleaseBundle"] }
+    if (signsRelease && !relaySigningFile.exists()) {
+        throw new GradleException("Relay: no signing properties at " + relaySigningFile + ". Set RELAY_SIGNING_PROPERTIES or see mobile/README.md.")
+    }
+}

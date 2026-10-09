@@ -1,0 +1,188 @@
+[div] @0,0 1180×820 | bg #D8D5CE · r 30px
+  "9:41  dom 5 oct" Hanken 13px/600 #1A1A19 @26,6 87×17
+  "WIFI ▮▮▮  92%" Mono 10px/600 #1A1A19 @1073,8 81×13
+  [div] @16,32 200×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "relay" Hanken 16px/800 ls -0.32px #1A1A19 @62,46 35×21
+  [div] @16,86 200×68 | bg #161615 · r 14px
+    [div] @16,86 200×68 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    [span] @30,109 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "SERVIDOR" Mono 9.5px/400 #8D8A82 @48,96 134×12
+    "atlas" Hanken 15px/700 #ECEAE5 @48,110 134×20
+    "⇕" Hanken 16px/400 #F29A1A @192,103 10×21
+    [span] @32,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @29,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @34,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [span] @46,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @43,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @48,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @59,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @56,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @61,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @73,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @70,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @75,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @86,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @83,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @88,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @100,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @97,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @102,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @113,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @114,138 5×5 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+      [span] @115,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+    [span] @127,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @124,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @129,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @140,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @137,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @142,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @154,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @151,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @156,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @167,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @164,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @169,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @181,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @178,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @183,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @194,137 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @191,134 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @196,139 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+  [div] @16,160 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,183 14×3 | bg #C9C6BF · r 2px
+    "Agentes" Hanken 15px/600 #1A1A19 @56,174 54×20
+    "1" Mono 10px/600 #7A4A00 @195,178 7×12 | op 0
+  [div] @16,214 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,237 14×3 | bg #C9C6BF · r 2px
+    "Herramientas" Hanken 15px/600 #1A1A19 @56,228 92×20
+    "1" Mono 10px/600 #7A4A00 @195,232 7×12 | op 0
+  [div] @16,268 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,291 14×3 | bg #C9C6BF · r 2px
+    "Tablero" Hanken 15px/600 #1A1A19 @56,282 51×20
+    "1" Mono 10px/600 #7A4A00 @195,286 7×12 | op 0
+  [div] @16,322 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,345 14×3 | bg #C9C6BF · r 2px
+    "Trabajo" Hanken 15px/600 #1A1A19 @56,336 51×20
+    "1" Mono 10px/600 #7A4A00 @195,340 7×12 | op 0
+  [div] @16,376 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,399 14×3 | bg #C9C6BF · r 2px
+    "Tareas" Hanken 15px/600 #1A1A19 @56,390 45×20
+    "1" Mono 10px/600 #7A4A00 @195,394 7×12 | op 0
+  [div] @16,430 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,453 14×3 | bg #C9C6BF · r 2px
+    "Aprobaciones" Hanken 15px/600 #1A1A19 @56,444 94×20
+    "1" Mono 10px/600 #7A4A00 @195,448 7×12
+  [div] @16,484 200×48 | bg #1A1A19 · r 12px · shadow #000000/0.2 0px 2px 3px 0px
+    [span] @30,507 14×3 | bg #F29A1A · r 2px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "Servidores" Hanken 15px/600 #ECEAE5 @56,498 73×20
+    "1" Mono 10px/600 #7A4A00 @195,502 7×12 | op 0
+  [div] @16,538 200×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @30,561 14×3 | bg #C9C6BF · r 2px
+    "Ajustes" Hanken 15px/600 #1A1A19 @56,552 49×20
+    "1" Mono 10px/600 #7A4A00 @195,556 7×12 | op 0
+  [span] @24,797 9×7 | bg #B9B6AF
+  [span] @36,797 9×2 | bg #B9B6AF
+  [span] @47,797 9×4 | bg #B9B6AF
+  [span] @59,797 9×2 | bg #B9B6AF
+  [span] @71,797 9×7 | bg #B9B6AF
+  [span] @82,797 9×2 | bg #B9B6AF
+  [span] @94,797 9×4 | bg #B9B6AF
+  [span] @106,797 9×2 | bg #B9B6AF
+  [span] @118,797 9×7 | bg #B9B6AF
+  [span] @129,797 9×2 | bg #B9B6AF
+  [span] @141,797 9×4 | bg #B9B6AF
+  [span] @153,797 9×2 | bg #B9B6AF
+  [span] @164,797 9×7 | bg #B9B6AF
+  [span] @176,797 9×2 | bg #B9B6AF
+  [span] @188,797 9×4 | bg #B9B6AF
+  [span] @199,797 9×2 | bg #B9B6AF
+  "atlas" Hanken 28px/700 ls -0.7px #1A1A19 @232,32 58×36
+  "ATLAS.TAILNET-7F2C.TS.NET:8650 · HERMES 0.9.2" Mono 9.5px/400 #5E5B55 @302,50 299×12
+  [div] @228,80 936×202 | bg #ECEAE5 · r 24px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @235,87 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @1151,87 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @235,269 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @1151,269 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [div] @240,92 237×178 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset, #4CC774/0.25 0px 0px 0px 1px, #4CC774/0.14 0px 0px 16px 0px
+      [div] @240,92 237×178 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "GATEWAY" Mono 9.5px/400 ls 0.76px #8D8A82 @256,106 205×12
+      "ACTIVO" Mono 24px/600 #6FD08C tshadow #6FD08C/0.7 0px 0px 7px @256,160 205×29
+        [span] @256,169 11×11 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      [span] @256,230 18×26 | bg #2A2927 · r 3px
+        "6" Mono 13px/600 #ECEAE5 @260,235 9×16
+      [span] @276,230 18×26 | r 3px
+        "D" Mono 13px/600 #8D8A82 @280,235 9×16
+      [span] @296,230 18×26 | bg #2A2927 · r 3px
+        "0" Mono 13px/600 #ECEAE5 @300,235 9×16
+      [span] @316,230 18×26 | bg #2A2927 · r 3px
+        "4" Mono 13px/600 #ECEAE5 @320,235 9×16
+      [span] @336,230 18×26 | r 3px
+        ":" Mono 13px/600 #8D8A82 @340,235 9×16
+      [span] @356,230 18×26 | bg #2A2927 · r 3px
+        "1" Mono 13px/600 #ECEAE5 @360,235 9×16
+      [span] @376,230 18×26 | bg #2A2927 · r 3px
+        "2" Mono 13px/600 #ECEAE5 @380,235 9×16
+    [div] @487,92 215×178 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+      "CPU" Mono 9.5px/400 #8D8A82 @499,102 20×12
+      "61 %" Mono 13px/600 #C9C6BE @653,102 36×16
+    [div] @712,92 215×178 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+      "MEM" Mono 9.5px/400 #8D8A82 @724,102 20×12
+      "31 %" Mono 13px/600 #C9C6BE @878,102 36×16
+    [div] @937,92 215×178 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+      "DISCO" Mono 9.5px/400 #8D8A82 @949,102 33×12
+      "82 %" Mono 13px/600 #F29A1A @1104,102 36×16
+  [div] @228,294 462×120 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @240,306 96×96 | bgimg repeating-linear-gradient(-45deg, #F29A1A/0.4 0px, #F29A1A/0.4 7px, #ECEAE5 7px, #ECEAE5 14px) · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.18 0px 2px 3px 0px, #DCD9D2 0px 0px 0px 4px
+      "↑ LEVANTAR" Mono 9.5px/600 #1A1A19 @250,380 77×14 | bg #ECEAE5 · r 4px
+    "PAUSA GENERAL" Mono 9.5px/400 ls 0.76px #5E5B55 @352,315 326×12
+    "Pausar atlas" Hanken 16px/700 #1A1A19 @352,331 326×21
+    "Levanta la tapa para armar el botón. Hermes retiene trabajo nuevo y tareas mientras dura la pausa." Hanken 13px/400 #4A4843 @352,356 326×36
+  "Iniciar" Hanken 15px/700 #1A1A19 @228,426 149×48 | bg #ECEAE5 · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px · op 0.45
+  "Detener" Hanken 15px/700 #9A2E20 @385,426 149×48 | bg #ECEAE5 · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px
+  "Reiniciar" Hanken 15px/700 #1A1A19 @541,426 149×48 | bg #ECEAE5 · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px
+  [span] @236,486 16×7 | bg #B9B6AF
+  [span] @255,486 16×2 | bg #B9B6AF
+  [span] @273,486 16×4 | bg #B9B6AF
+  [span] @292,486 16×2 | bg #B9B6AF
+  [span] @311,486 16×4 | bg #B9B6AF
+  [span] @330,486 16×2 | bg #B9B6AF
+  [span] @348,486 16×7 | bg #B9B6AF
+  [span] @367,486 16×2 | bg #B9B6AF
+  [span] @386,486 16×4 | bg #B9B6AF
+  [span] @404,486 16×2 | bg #B9B6AF
+  [span] @423,486 16×4 | bg #B9B6AF
+  [span] @442,486 16×2 | bg #B9B6AF
+  [span] @461,486 16×7 | bg #B9B6AF
+  [span] @479,486 16×2 | bg #B9B6AF
+  [span] @498,486 16×4 | bg #B9B6AF
+  [span] @517,486 16×2 | bg #B9B6AF
+  [span] @535,486 16×4 | bg #B9B6AF
+  [span] @554,486 16×2 | bg #B9B6AF
+  [span] @573,486 16×7 | bg #B9B6AF
+  [span] @591,486 16×2 | bg #B9B6AF
+  [span] @610,486 16×4 | bg #B9B6AF
+  [span] @629,486 16×2 | bg #B9B6AF
+  [span] @648,486 16×4 | bg #B9B6AF
+  [span] @666,486 16×2 | bg #B9B6AF
+  [div] @702,294 462×183 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @714,294 438×61 | border 1px #000000/0
+      [span] @714,313 39×24 | bg #1A1A19 · r 6px
+        "TERM" Mono 9.5px/600 #F29A1A @720,319 27×12
+      "Herramientas" Hanken 15px/600 #1A1A19 @765,315 92×20
+      "PIDE HUELLA" Mono 9.5px/600 #5E5B55 @1062,319 73×12
+      "›" Hanken 18px/400 #5E5B55 @1148,314 4×23
+    [div] @714,355 438×61 | border 1px #D6D3CC
+      [span] @714,374 39×24 | bg #1A1A19 · r 6px
+        "CRON" Mono 9.5px/600 #F29A1A @720,380 27×12
+      "Tareas programadas" Hanken 15px/600 #1A1A19 @765,376 139×20
+      "1 FALLÓ" Mono 9.5px/600 #9A2E20 @1089,380 47×12
+      "›" Hanken 18px/400 #5E5B55 @1148,375 4×23
+    [div] @714,416 438×61 | border 1px #D6D3CC
+      [span] @714,435 32×24 | bg #1A1A19 · r 6px
+        "USO" Mono 9.5px/600 #F29A1A @720,441 20×12
+      "Uso y costo" Hanken 15px/600 #1A1A19 @758,437 79×20
+      "≈ $1.08 SEM." Mono 9.5px/600 #5E5B55 @1057,441 79×12
+      "›" Hanken 18px/400 #5E5B55 @1148,436 4×23
+
+--- PIE Y NOTAS ---
+El gateway y los tres medidores, en una sola fila de instrumentos atornillada. Debajo, la Pausa general con su tapa y sus mandos a la izquierda, y los destinos con plaquita a la derecha.

@@ -1,0 +1,31 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "Agentes" Hanken 28px/700 ls -0.7px #1A1A19 @16,54 98×36
+  "TAILNET" Mono 9.5px/400 ls 0.57px #ECEAE5 @260,52 94×40 | bg #161615 · r 999px · shadow #000000/0.5 0px 2px 6px 0px inset, #D8D5CE 0px 0px 0px 2px, #F29A1A 0px 0px 0px 4px
+    [span] @274,69 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  [div] @0,0 370×824 | bg #141413/0.55
+  [div] @8,438 354×378 | bg #ECEAE5 · r 24px · shadow #000000/0.3 0px -8px 30px 0px
+    [span] @167,446 36×4 | bg #B9B6AF · r 2px
+    "Red privada" Hanken 20px/800 ls -0.3px #1A1A19 @24,466 322×26
+    "TAILSCALE · TAILNET-7F2C" Mono 9.5px/400 ls 0.57px #5E5B55 @24,496 322×12
+    [div] @24,520 322×61 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @24,520 322×61 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      [span] @40,546 9×9 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "CONECTADA" Mono 13px/600 ls 1.04px #6FD08C tshadow #6FD08C/0.7 0px 0px 7px @61,532 179×16
+      "Este teléfono está en la tailnet." Hanken 13px/400 #C9C6BE @61,552 179×17
+    [div] @24,593 322×97 | bg #E2DFD9 · r 20px
+      [span] @36,613 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "atlas" Hanken 15px/600 #1A1A19 @56,607 228×20
+      "42 MS" Mono 11px/400 #4A4843 @296,611 39×13
+      [div] @36,641 298×1 | bg #D6D3CC
+      [span] @36,662 8×8 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+      "homelab" Hanken 15px/600 #1A1A19 @56,656 172×20
+      "SIN RESPUESTA" Mono 9.5px/600 ls 0.57px #9A2E20 @240,660 94×12
+    "Si un Servidor no contesta, revisa Tailscale en este teléfono y que el Puente esté corriendo en el Servidor." Hanken 13px/400 #4A4843 @24,702 322×38
+    "Reintentar" Hanken 15px/700 #1A1A19 @24,752 157×48 | bg #ECEAE5 · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px
+    "Abrir Tailscale" Hanken 15px/700 #1A1A19 @189,752 157×48 | bg #F29A1A · r 16px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+
+--- PIE Y NOTAS ---
+Esta hoja junta en un solo sitio el estado de la red y las acciones Abrir Tailscale y Reintentar. Así el bloque grande de SIN RESPUESTA ya no se repite en cuatro pantallas.

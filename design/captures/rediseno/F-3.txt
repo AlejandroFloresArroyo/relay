@@ -1,0 +1,47 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "DEV · ATLAS · ahora" Mono 9.5px/400 ls 0.76px #5E5B55 @12,52 346×12
+  "dev quiere ejecutar" Hanken 21px/700 ls -0.315px #1A1A19 @12,76 346×27
+  [div] @12,115 346×72 | bg #161615 · r 18px · shadow #000000/0.5 0px 2px 6px 0px inset, #F29A1A/0.22 0px 0px 0px 1px, #F29A1A/0.14 0px 0px 16px 0px
+    [div] @12,115 346×72 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "$ rm -rf ./build" Mono 18px/600 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @28,131 314×22
+    [div] @28,165 314×6 | bg #2A0E0A · r 3px
+      [span] @28,165 75×6 | bgimg linear-gradient(90deg, #E5533D/0, #E5533D 50%, #E5533D/0) · r 3px · shadow #E5533D 0px 0px 10px 0px · anim cf-kitt 1s ease-in-out delay 0s
+  [div] @12,199 346×82 | bg #DCD9D2 · r 16px · shadow #000000/0.12 0px 2px 3px 0px inset
+    "RIESGO 3/5" Mono 9.5px/600 ls 0.57px #7A4A00 @26,211 72×12
+    [span] @228,214 20×7 | bg #F29A1A · r 2px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    [span] @252,214 20×7 | bg #F29A1A · r 2px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    [span] @276,214 20×7 | bg #F29A1A · r 2px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    [span] @300,214 20×7 | bg #C9C6BF · r 2px
+    [span] @324,214 20×7 | bg #C9C6BF · r 2px
+    "Borrado recursivo e irreversible, limitado a la carpeta del proyecto." Hanken 13px/400 #4A4843 @26,231 318×38
+  "VENCE EN" Mono 9.5px/400 ls 0.76px #5E5B55 @16,303 59×12
+  "04:30" Mono 20px/600 #7A4A00 @284,293 70×24
+  [div] @16,329 338×5 | bg #DCD9D2 · r 3px · shadow #000000/0.12 0px 2px 3px 0px inset
+    [div] @50,329 304×5 | bg #F29A1A · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @12,604 346×192 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @19,611 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @345,611 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @19,783 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @345,783 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [div] @28,624 44×72 | bg #DCD9D2 · r 12px · shadow #000000/0.12 0px 2px 3px 0px inset
+      [span] @36,632 28×28 | bg #1A1A19 · r 8px · shadow #000000/0.25 0px 2px 3px 0px
+      [span] @46,638 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "SEGURO QUITADO" Mono 9.5px/600 ls 0.76px #7A4A00 @84,644 258×12
+    "Ahora la tecla de aprobar responde." Hanken 13px/400 #4A4843 @84,658 258×18
+    [span] @28,708 127×64 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px
+      [span] @78,725 28×3 | bg #C9C6BF · r 2px
+      "Rechazar" Hanken 15px/700 #9A2E20 @60,736 63×20
+    [span] @163,708 179×64 | bg #F29A1A · r 14px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+      [span] @227,725 6×3 | bg #1A1A19 · r 1px
+      [span] @236,725 6×3 | bg #1A1A19 · r 1px
+      [span] @245,725 6×3 | bg #1A1A19 · r 1px · op 0.3
+      [span] @254,725 6×3 | bg #1A1A19 · r 1px · op 0.3
+      [span] @263,725 6×3 | bg #1A1A19 · r 1px · op 0.3
+      [span] @272,725 6×3 | bg #1A1A19 · r 1px · op 0.3
+      "Aprobar · mantén" Hanken 15px/700 #1A1A19 @193,736 120×20
+
+--- PIE Y NOTAS ---
+El barrido rojo se queda dentro del comando hasta que haya Decisión. El bloque de mando, con tornillos, junta el seguro y las dos teclas. La tira de LEDs de «Aprobar» corre mientras la mantienes; después viene la huella.

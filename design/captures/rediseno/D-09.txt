@@ -1,0 +1,37 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ Agentes" Hanken 15px/600 #7A4A00 @16,58 62×20
+  [span] @270,48 40×40 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  "⋯" Hanken 18px/400 #1A1A19 @318,48 40×40 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  [span] @16,100 40×40 | bg #161615 · bgimg radial-gradient(#ECEAE5/0.4 0.9px, #000000/0 1.3px) · r 12px
+  "research" Hanken 20px/800 ls -0.3px #1A1A19 @68,101 213×24
+  "ATLAS · CLAUDE-SONNET-4.5" Mono 9.5px/400 ls 0.38px #5E5B55 @68,127 213×12
+  [span] @296,109 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  "ON" Mono 9.5px/400 #1A1A19 @293,119 13×12
+  [span] @319,109 7×7 | bg #B9B6AF · r 50%
+  "BSY" Mono 9.5px/400 #5E5B55 @312,119 20×12
+  [span] @345,109 7×7 | bg #B9B6AF · r 50%
+  "ERR" Mono 9.5px/400 #5E5B55 @338,119 20×12
+  [div] @12,148 224×40 | bg #DCD9D2 · r 12px · shadow #000000/0.12 0px 2px 3px 0px inset
+    "Notas de investigación" Hanken 14px/600 #1A1A19 @24,159 183×18
+    "▾" Hanken 16px/400 #4A4843 @215,158 10×21
+  "Personalidad" Hanken 13px/600 #1A1A19 @244,148 114×40 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "▾" Hanken 13px/600 #4A4843 @338,160 8×17
+  "Limpia los documentos temporales del resumen." Hanken 15px/400 #ECEAE5 @49,204 309×66 | bg #1A1A19 · r 20px
+  [div] @12,282 346×105 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [div] @12,282 346×105 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "TERMINAL" Mono 9.5px/400 ls 0.57px #8D8A82 @28,299 58×12
+    "VENCIDA" Mono 9.5px/600 ls 0.57px #C9C6BE @263,294 79×22 | bg #0F0F0E · r 8px
+      [span] @271,302 6×6 | bg #3A3936 · r 50%
+    "$ rm -rf ./papers/tmp" Mono 11px/400 #8D8A82 @28,322 314×13
+    "La Aprobación venció sin Decisión. El comando no se ejecutó." Hanken 13px/400 #C9C6BE @28,341 314×34
+  "+" Hanken 22px/400 #1A1A19 @12,748 48×48 | bg #ECEAE5 · r 50% · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  "Mensaje a research…" Hanken 15px/400 #5E5B55 @68,748 234×48 | bg #DCD9D2 · r 24px · shadow #000000/0.12 0px 2px 3px 0px inset
+  [span] @310,748 48×48 | bg #F29A1A · r 50% · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: «EXPIRÓ SIN RESPUESTA» en rojo pasa a chip gris VENCIDA, con una frase que dice qué pasó. Que venza no es una avería.
+CAMBIO: Mismo encabezado que D-08.

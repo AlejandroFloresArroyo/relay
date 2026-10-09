@@ -1,0 +1,54 @@
+[div] @0,0 1180×820 | bg #D8D5CE · r 30px
+  "9:41  dom 5 oct" Hanken 13px/600 #1A1A19 @26,6 87×17
+  "WIFI ▮▮▮  92%" Mono 10px/600 #1A1A19 @1073,8 81×13
+  [div] @16,32 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  [div] @16,86 72×48 | bg #161615 · r 14px
+    [span] @40,107 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "AT" Mono 9.5px/400 #ECEAE5 @51,104 13×12
+  [div] @16,140 72×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @74,146 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @16,202 72×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    [span] @74,208 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @16,264 72×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @74,270 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @16,326 72×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @74,332 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @16,388 72×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @74,394 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @16,450 72×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @74,456 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @16,512 72×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @74,518 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @16,574 72×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @74,580 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  "‹ Agentes" Hanken 15px/600 #7A4A00 @100,46 62×20
+  "SERVIDOR · ATLAS" Mono 9.5px/400 ls 0.57px #1A1A19 @174,42 149×28 | bg #DCD9D2 · r 8px
+    [span] @184,53 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  [div] @875,32 229×48 | bg #DCD9D2 · r 14px · shadow #000000/0.12 0px 2px 3px 0px inset
+    "Un panel" Hanken 15px/600 #4A4843 @879,36 110×40
+    "Dos paneles" Hanken 15px/600 #ECEAE5 @990,36 110×40 | bg #1A1A19 · r 10px
+  [span] @1116,32 48×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  [div] @100,88 526×716 | bg #ECEAE5 · r 24px · shadow #F29A1A 0px 0px 0px 2px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "Terminal" Hanken 16px/700 #1A1A19 @108,100 67×21
+    "CONECTADA" Mono 9.5px/600 #1E6638 @183,99 88×22 | bg #DCD9D2 · r 8px
+      [span] @191,107 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "RECIBE EL TECLADO" Mono 9.5px/600 ls 0.57px #1A1A19 @475,96 143×28 | bg #F29A1A · r 8px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    [div] @108,132 510×664 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @108,132 510×664 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "ana@atlas ~/proyectos/relay-puente (main)" Mono 11px/400 #6FD08C @120,678 486×18
+      "$ npm test -- pty" Mono 11px/400 #ECEAE5 @120,696 486×18
+      "✓ src/pty/resize.test.ts (6)" Mono 11px/400 #6FD08C @120,714 486×18
+      "✓ src/pty/supervisor.test.ts (11)" Mono 11px/400 #6FD08C @120,731 486×18
+      "Tests  17 passed (17)" Mono 11px/400 #C9C6BE @120,749 486×18
+      "$" Mono 11px/400 #ECEAE5 @120,766 486×18
+        [span] @128,768 0×13 | bg #F29A1A
+  [div] @638,88 526×716 | bg #E2DFD9 · r 24px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "Web" Hanken 16px/700 #1A1A19 @646,100 37×21
+    "Pedidos · /pedidos" Mono 11px/400 #4A4843 @691,104 139×13
+    "TOCA PARA ESCRIBIR AQUÍ" Mono 9.5px/400 ls 0.57px #4A4843 @970,96 186×28 | bg #ECEAE5 · r 8px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 1px 2px 0px
+    "APLICACIÓN DE LOCALHOST" Mono 9.5px/400 ls 0.57px #5E5B55 @646,132 510×664 | bg #ECEAE5 · r 16px · shadow #D6D3CC 0px 0px 0px 1px inset · op 0.82
+
+--- PIE Y NOTAS ---
+CAMBIO: Un solo marco: riel + lista + detalle. Riel de 72 con iconos; ☰ lo expande a 240 y empuja el contenido (T-1, T-2).
+CAMBIO: En Herramientas, la lista se va y los dos paneles ocupan todo lo que deja el riel. El retorno nombra la pestaña de la que se vino.
+CAMBIO: La ficha del Servidor en tablet pone el estado en dos columnas y los Destinos en una cuadrícula de 3.

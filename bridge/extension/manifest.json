@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Relay",
+  "description": "Comparte con Relay solo las pestañas que eliges, para controlarlas desde tu teléfono.",
+  "version": "1.0.0",
+  "minimum_chrome_version": "154",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjAPcg6XL+kBn2VI41wpso0ps1ju7ofvNwaDUS6dcWuhqrTSaMStGvaEkNBQeofwWS4Mp2M5Bbv3B4zTRtvXWYA5ZXcVy9NEsNGrIKsf4vLhSJndIzdXSAkeJuCG0fHH78OMMw3ODS1znO57lw6Q6T7ntBTsBmyW8Ya08+ziuELqckKTN+bIyYP5Ty6P0xrdxGytu38/dP92AqDosXkuEVn3sEYpNUBEeLeKQ/p7VEL9BgV4eiRzmZHKslUsjuHa1jwhKEF7tyIkcitHmJtgM3N2kPPeMSofJn9/4WNmPVQFjtPIY6KIcdOKfm2hC18e1Rm5bxiq4qoY0MEdlVp0AmQIDAQAB",
+  "permissions": ["debugger", "nativeMessaging", "tabs", "storage", "alarms", "downloads"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "Compartir esta pestaña con Relay" }
+}

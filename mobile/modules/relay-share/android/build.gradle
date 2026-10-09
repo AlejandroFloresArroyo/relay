@@ -1,0 +1,10 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+group = 'relay.modules.share'
+version = '1.0.0'
+android {
+  namespace 'relay.modules.share'
+  defaultConfig { versionCode 1; versionName '1.0.0' }
+}

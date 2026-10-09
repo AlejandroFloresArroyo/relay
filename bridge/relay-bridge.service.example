@@ -1,0 +1,19 @@
+[Unit]
+Description=Relay bridge (relayd)
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/relay/bridge
+Environment=RELAY_HOST=100.64.0.10
+Environment=RELAY_PORT=8650
+EnvironmentFile=/opt/relay/bridge/.env
+ExecStart=:"/usr/bin/node" "/opt/relay/bridge/src/main.ts" serve
+UMask=0077
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

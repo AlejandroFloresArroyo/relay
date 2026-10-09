@@ -1,0 +1,118 @@
+$ (cd labs/v3-cdp && RELAY_LAB_BROWSER=cft npm test)
+✔ refuses raw CDP and unknown action types (1.147314ms)
+✔ navigate only accepts http(s) URLs within the length limit (0.723869ms)
+✔ text is bounded and keys come from an allowlist (0.249068ms)
+✔ coordinates must be finite and inside the bound (0.237677ms)
+✔ frame parameters are clamped to the frame limits (0.210085ms)
+✔ tap becomes a left mouse press and release at the point (0.404469ms)
+✔ back moves exactly one history entry and does nothing at the start (0.230723ms)
+✔ frame is a downscaled JPEG and fails rather than exceed the byte limit (0.733217ms)
+✔ frame retries a viewport that is briefly 0x0 after attaching (4.423917ms)
+✔ frame gives up on a viewport that stays 0x0, with a retryable error and no capture (0.797748ms)
+✖ [cft] the default profile refuses remote debugging (267.29427ms)
+ℹ stderr: DevTools listening on ws://127.0.0.1:34827/devtools/browser/9c72958e-afa6-4ee1-96b8-ab4d65e9a4c3
+ℹ profile dirs created under the synthetic HOME: google-chrome-for-testing
+✔ [cft] a dedicated profile reports its exact version (421.275473ms)
+ℹ product=Chrome/154.0.8037.92 protocol=1.3 jsVersion=15.4.80.19
+✔ [cft] frame, tap, text and keys reach the page (996.993523ms)
+ℹ frame 765x437 jpeg 6174 bytes
+✔ [cft] tabs can be listed, opened, activated and closed (674.387393ms)
+✔ [cft] navigate, back, forward and reload (496.298969ms)
+✔ [cft] reconnecting over the port finds the same tabs alive (371.589825ms)
+✖ [cft] closing the CDP pipe keeps the browser and its tabs alive (3205.026499ms)
+ℹ exitCode after pipe close: 0 signal: null
+✔ [cft] the dedicated profile keeps its data across restarts (876.637837ms)
+✔ [cft] JavaScript dialogs are reported and answered (418.523422ms)
+✔ [cft] file choosers are intercepted and filled with Server files (396.992026ms)
+✔ [cft] downloads stay on the Server in a known folder (412.731787ms)
+ℹ downloaded relay-lab.txt 20 bytes
+✔ [cft] a native <select> is operated with keys, not by its popup (807.398798ms)
+ℹ frame with popup requested is different to closed frame
+✔ [cft] screencast frames need an ack each (flow control) (3428.378469ms)
+ℹ frames without ack in 1.5 s: 3
+ℹ frames with ack in 1.5 s: 90, mean 3834 bytes
+✔ [cft] the extension loads and its native host connects to the Puente (370.995034ms)
+ℹ extension opcncffglnlpmffjmnjekehnidddcfbk host argv origin chrome-extension://opcncffglnlpmffjmnjekehnidddcfbk/ ua Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+✔ [cft] only tabs the user shared are visible or controllable (672.358194ms)
+✔ [cft] a shared tab in the background is captured without activating it (1015.481318ms)
+ℹ page viewport seen from the page: [1280,657,"hidden"]
+✔ [cft] the adapter refuses raw CDP and oversized requests before Chrome sees them (661.194382ms)
+✔ [cft] tap, text, keys and navigation work through the extension (580.283502ms)
+✔ [cft] chrome.debugger method catalogue (643.938133ms)
+ℹ Page.captureScreenshot: ok
+ℹ Page.startScreencast: ok
+ℹ Page.stopScreencast: ok
+ℹ Page.getNavigationHistory: ok
+ℹ Page.handleJavaScriptDialog: {"code":-32602,"message":"No dialog is showing"}
+ℹ Page.setInterceptFileChooserDialog: ok
+ℹ Page.setDownloadBehavior: {"code":-32000,"message":"Cannot not access browser-level commands"}
+ℹ Input.dispatchMouseEvent: ok
+ℹ Input.dispatchTouchEvent: ok
+ℹ Input.dispatchKeyEvent: ok
+ℹ Input.insertText: ok
+ℹ DOM.getDocument: ok
+ℹ DOM.setFileInputFiles: {"code":-32000,"message":"Could not find node with given id"}
+ℹ Runtime.evaluate: ok
+ℹ Emulation.setDeviceMetricsOverride: ok
+ℹ Emulation.clearDeviceMetricsOverride: ok
+ℹ Fetch.enable: ok
+ℹ Fetch.disable: ok
+ℹ Network.getCookies: ok
+ℹ Storage.getCookies: ok
+ℹ Target.getTargets: {"code":-32000,"message":"Not allowed"}
+ℹ Target.createTarget: ok
+ℹ Browser.getVersion: {"code":-32601,"message":"'Browser.getVersion' wasn't found"}
+ℹ Browser.setDownloadBehavior: {"code":-32601,"message":"'Browser.setDownloadBehavior' wasn't found"}
+ℹ SystemInfo.getInfo: {"code":-32601,"message":"'SystemInfo.getInfo' wasn't found"}
+ℹ Page.reload: ok
+✔ [cft] dialogs, file chooser and downloads through the extension (669.101036ms)
+ℹ DOM.setFileInputFiles from the extension: ok
+ℹ download complete: /tmp/relay-lab-9iAWBI/home/Downloads/relay-lab.txt
+✔ [cft] control is shared with the person at the computer (497.727262ms)
+✔ [cft] losing the adapter detaches but keeps the browser and Relay's new tabs (1125.444538ms)
+✔ [cft] DevTools already open on the tab: control goes on or the detach is reported (1924.769875ms)
+ℹ DevTools windows open before attaching: 2
+ℹ act: ok; detached event: null
+✔ [cft] DevTools opened on an attached tab: control goes on or the detach is reported (2785.077561ms)
+ℹ act after DevTools opened: ok; detached event: null
+✔ [cft] detaching is reported (internal page, tab closed) (794.053798ms)
+ℹ internal page: {"event":"detached","tabId":791816852,"reason":"target_closed"}
+ℹ attach to chrome://version: Cannot access a chrome:// URL
+✔ [cft] the open native port keeps the extension worker alive past the 30 s idle limit (40444.635819ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 34
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 65282.879155
+✖ failing tests:
+test at test/dedicated.test.ts:42:1
+✖ [cft] the default profile refuses remote debugging (267.29427ms)
+  AssertionError [ERR_ASSERTION]: CDP must not listen on the default profile
+  + actual - expected
+  
+  + 'ws://127.0.0.1:34827/devtools/browser/9c72958e-afa6-4ee1-96b8-ab4d65e9a4c3'
+  - null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'ws://127.0.0.1:34827/devtools/browser/9c72958e-afa6-4ee1-96b8-ab4d65e9a4c3',
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+test at test/dedicated.test.ts:132:1
+✖ [cft] closing the CDP pipe keeps the browser and its tabs alive (3205.026499ms)
+  AssertionError [ERR_ASSERTION]: browser must survive the Puente losing its pipe
+  
+  0 !== null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

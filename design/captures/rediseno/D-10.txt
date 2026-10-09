@@ -1,0 +1,83 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ Agentes" Hanken 15px/600 #7A4A00 @16,58 62×20
+  [span] @16,92 48×48 | bg #161615 · bgimg radial-gradient(#ECEAE5/0.4 0.9px, #000000/0 1.3px) · r 14px
+  "dev" Hanken 28px/700 ls -0.7px #1A1A19 @76,98 205×36
+  [span] @296,105 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  "ON" Mono 9.5px/400 #1A1A19 @293,115 13×12
+  [span] @319,105 7×7 | bg #B9B6AF · r 50%
+  "BSY" Mono 9.5px/400 #5E5B55 @312,115 20×12
+  [span] @345,105 7×7 | bg #B9B6AF · r 50%
+  "ERR" Mono 9.5px/400 #5E5B55 @338,115 20×12
+  "ATLAS · ATLAS.TAILNET-7F2C.TS.NET:8650" Mono 9.5px/400 ls 0.38px #5E5B55 @16,140 342×16
+  "Abrir chat" Hanken 15px/700 #1A1A19 @12,172 169×48 | bg #F29A1A · r 16px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  "Conversaciones" Hanken 15px/700 #1A1A19 @189,172 169×48 | bg #ECEAE5 · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px
+  "MODELO" Mono 9.5px/600 ls 0.76px #5E5B55 @16,232 44×12
+  [div] @12,252 346×57 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @24,252 322×57 | border 1px #000000/0
+      [span] @24,265 32×32 | bg #1A1A19 · r 10px
+        "LLM" Mono 9.5px/600 #F29A1A @30,275 20×12
+      "qwen3-coder-480b" Mono 15px/600 #1A1A19 @68,259 168×18
+      "PROVEEDOR · OPENROUTER · SE CAMBIA EN EL SERVIDOR" Mono 9.5px/400 ls 0.38px #5E5B55 @68,279 260×24
+      "›" Hanken 18px/400 #5E5B55 @342,270 4×23 | op 0
+  "COMPORTAMIENTO" Mono 9.5px/600 ls 0.76px #5E5B55 @16,321 104×12
+  [div] @12,341 346×171 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @24,341 322×57 | border 1px #000000/0
+      [span] @24,354 32×32 | bg #1A1A19 · r 10px
+        "SOUL" Mono 9.5px/600 #F29A1A @27,364 27×12
+      "Personalidad" Hanken 15px/600 #1A1A19 @68,353 88×20
+      "SOUL.md" Mono 9.5px/400 ls 0.38px #5E5B55 @68,375 49×12
+      "›" Hanken 18px/400 #5E5B55 @342,359 4×23
+    [div] @24,398 322×57 | border 1px #D6D3CC
+      [span] @24,411 32×32 | bg #1A1A19 · r 10px
+        "APRB" Mono 9.5px/600 #F29A1A @27,421 27×12
+      "Modo de aprobación" Hanken 15px/600 #1A1A19 @68,410 140×20
+      "SMART" Mono 9.5px/400 ls 0.38px #5E5B55 @68,432 35×12
+      "›" Hanken 18px/400 #5E5B55 @342,416 4×23
+    [div] @24,455 322×57 | border 1px #D6D3CC
+      [span] @24,468 32×32 | bg #1A1A19 · r 10px
+        "DENY" Mono 9.5px/600 #F29A1A @27,478 27×12
+      "Reglas de bloqueo" Hanken 15px/600 #1A1A19 @68,467 124×20
+      "3 REGLAS · SIEMPRE SE BLOQUEAN" Mono 9.5px/400 ls 0.38px #5E5B55 @68,489 211×12
+      "›" Hanken 18px/400 #5E5B55 @342,473 4×23
+  "MEMORIA Y HERRAMIENTAS" Mono 9.5px/600 ls 0.76px #5E5B55 @16,524 163×12
+  [div] @12,544 346×114 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @24,544 322×57 | border 1px #000000/0
+      [span] @24,557 32×32 | bg #1A1A19 · r 10px
+        "MEM" Mono 9.5px/600 #F29A1A @30,567 20×12
+      "Memoria" Hanken 15px/600 #1A1A19 @68,556 60×20
+      "DE DEV EN ATLAS" Mono 9.5px/400 ls 0.38px #5E5B55 @68,578 105×12
+      "›" Hanken 18px/400 #5E5B55 @342,562 4×23
+    [div] @24,601 322×57 | border 1px #D6D3CC
+      [span] @24,614 32×32 | bg #1A1A19 · r 10px
+        "TOOL" Mono 9.5px/600 #F29A1A @27,624 27×12
+      "Herramientas y skills" Hanken 15px/600 #1A1A19 @68,613 142×20
+      "3 DE 4 · 4 SKILLS" Mono 9.5px/400 ls 0.38px #5E5B55 @68,635 120×12
+      "›" Hanken 18px/400 #5E5B55 @342,619 4×23
+  [div] @12,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #ECEAE5 @22,773 47×12
+  [div] @84,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @94,773 47×12
+  [div] @156,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @166,773 47×12
+  [div] @228,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @238,773 47×12
+  [div] @300,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @313,773 40×12
+  [div] @372,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @385,773 40×12
+  [div] @444,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #4A4843 @444,773 67×12
+  [div] @516,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @526,773 47×12
+  [div] @298,732 72×92 | bgimg linear-gradient(90deg, #D8D5CE/0, #D8D5CE 55%)
+    "1 ›" Mono 10px/600 #1A1A19 @319,754 39×28 | bg #F29A1A · r 14px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Se quita el bloque oscuro que repetía nombre, avatar y LEDs. La identidad sube al encabezado B y quedan solo los dos botones.
+CAMBIO: «Aprobaciones · SMART» → «Modo de aprobación · SMART», con la palabra del vocabulario.
+CAMBIO: Memoria deja de ser un bloque grande y vacío: es una fila más. Herramientas y skills se juntan en una sola fila con su recuento.
+CAMBIO: La nota «Se cambia en el Servidor…» queda en el secundario de la fila del modelo, sin chevron.

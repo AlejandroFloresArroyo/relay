@@ -1,0 +1,67 @@
+$ (mutación: sin comprobar pestaña compartida) extension/background.js
+-   if (!shared.has(msg.tabId)) throw new Error('tab not shared');
++   // guard removed
+$ node --test --test-name-pattern="only tabs the user shared" test/extension.test.ts
+✖ [cft] only tabs the user shared are visible or controllable (2142.382272ms)
+ℹ pass 0
+ℹ fail 1
+✖ failing tests:
+✖ [cft] only tabs the user shared are visible or controllable (2142.382272ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+$ (restaurado) node --test --test-name-pattern="only tabs the user shared" test/extension.test.ts
+✔ [cft] only tabs the user shared are visible or controllable (2355.491635ms)
+ℹ pass 1
+ℹ fail 0
+
+$ (mutación: sin límite de 1 MB en el adaptador) host/relay-lab-host.ts
+-   if (Buffer.byteLength(line) > MAX_TO_BROWSER) return
++   if (false) return
+$ node --test --test-name-pattern="oversized" test/extension.test.ts
+✖ [cft] the adapter refuses raw CDP and oversized requests before Chrome sees them (16579.665543ms)
+ℹ pass 0
+ℹ fail 1
+✖ failing tests:
+✖ [cft] the adapter refuses raw CDP and oversized requests before Chrome sees them (16579.665543ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /too large/. Input:
+  'Error: no reply to act in 15000 ms'
+    actual: Error: no reply to act in 15000 ms
+$ (restaurado) node --test --test-name-pattern="oversized" test/extension.test.ts
+✔ [cft] the adapter refuses raw CDP and oversized requests before Chrome sees them (1429.330811ms)
+ℹ pass 1
+ℹ fail 0
+
+$ (mutación: sin soltar el depurador al perder el adaptador) extension/background.js
+-       void releaseAll();
+    // ponytail
++       // ponytail
+$ node --test --test-name-pattern="losing the adapter" test/extension.test.ts
+✖ [cft] losing the adapter detaches but keeps the browser and Relay's new tabs (11839.080784ms)
+ℹ pass 0
+ℹ fail 1
+✖ failing tests:
+✖ [cft] losing the adapter detaches but keeps the browser and Relay's new tabs (11839.080784ms)
+  Error: until: timed out after 10000 ms
+$ (restaurado) node --test --test-name-pattern="losing the adapter" test/extension.test.ts
+✔ [cft] losing the adapter detaches but keeps the browser and Relay's new tabs (2523.190427ms)
+ℹ pass 1
+ℹ fail 0
+
+$ (mutación del adaptador sin límite) node /tmp/big.ts  — petición act/text de ~1 048 000 y ~1 049 000 bytes
+request of ~1048000 bytes -> invalid action: text
+request of ~1049000 bytes -> no reply to act in 4000 ms
+host restarted: the extension reconnected (Chrome dropped the host)
+
+--- fuente de /tmp/big.ts (desechable; se ejecutó con el adaptador mutado y se restauró después) ---
+import { launchUsual } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/usual.ts';
+const u = await launchUsual();
+try {
+  const conn = await u.puente.connection;
+  const next = u.puente.nextConnection();
+  for (const size of [1_048_000, 1_049_000]) {
+    const text = 'x'.repeat(size - 80);
+    const r = await conn.request({ op: 'act', tabId: 1, action: { type: 'text', text } }, 4000).then((v) => 'reply ' + JSON.stringify(v), (e) => e.message);
+    console.log(`request of ~${size} bytes ->`, r.slice(0, 120));
+  }
+  const again = await Promise.race([next.then(() => 'host restarted: the extension reconnected (Chrome dropped the host)'), new Promise((r) => setTimeout(r, 5000, 'no reconnection'))]);
+  console.log(again);
+} finally { await u.close(); }

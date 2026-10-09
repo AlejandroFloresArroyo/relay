@@ -1,0 +1,30 @@
+[div] @0,0 370×824 | bg #3A3936 · r 44px
+  [div] @16,72 163×172 | bg #ECEAE5 · r 24px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.3 0px 4px 12px 0px
+    [span] @32,94 7×7 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "dev" Hanken 15px/700 #1A1A19 @47,88 25×20
+    "ATLAS · TRABAJANDO" Mono 9.5px/400 #7A4A00 @47,110 67×24
+    [span] @32,152 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "research" Hanken 15px/700 #1A1A19 @47,146 60×20
+    "ATLAS · EN LÍNEA" Mono 9.5px/400 #1E6638 @47,168 106×12
+    [span] @32,198 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "ops" Hanken 15px/700 #1A1A19 @47,192 24×20
+    "ATLAS · ERROR" Mono 9.5px/400 #9A2E20 @47,214 86×12
+  [div] @191,72 163×172 | bg #161615 · r 24px · shadow #000000/0.5 0px 2px 6px 0px inset, #000000/0.3 0px 4px 12px 0px
+    [div] @191,72 163×172 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "APROBACIONES" Mono 9.5px/400 ls 0.76px #8D8A82 @207,88 131×12
+    "1" Mono 48px/600 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @207,108 131×48
+    "LECTURA 22:22" Mono 9.5px/400 #C9C6BE @207,164 131×12
+    "Revisar" Hanken 15px/700 #1A1A19 @207,184 131×44 | bg #F29A1A · r 14px
+  [div] @16,260 338×56 | bg #ECEAE5 · r 28px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.3 0px 4px 12px 0px
+    [span] @60,285 7×7 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "dev" Hanken 14px/600 #1A1A19 @73,279 23×18
+    [span] @151,285 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "research" Hanken 14px/600 #1A1A19 @164,279 56×18
+    [span] @275,285 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "ops" Hanken 14px/600 #1A1A19 @288,279 23×18
+  "Lee el Servidor elegido; se renueva con cada aviso o cada 15 minutos. Tocarlo abre Relay, nunca decide nada." Hanken 13px/400 #C9C6BE @16,332 338×39
+
+--- PIE Y NOTAS ---
+CAMBIO: «REVISAR» → «Revisar». «LECTURA 05/10, 22:22» → «LECTURA 22:22» (es de hoy).
+CAMBIO: Los widgets usan las mismas piezas: bloque claro para la lista y pantalla empotrada para el número.
+A VALIDAR: El widget pone a ops en ATLAS, pero en Agentes y Compartir ops está en homelab. ¿Cuál es el dato correcto?

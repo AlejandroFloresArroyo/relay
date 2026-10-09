@@ -1,0 +1,78 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ Agentes" Hanken 15px/600 #7A4A00 @16,54 62×20
+  [span] @318,44 40×40 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  [span] @16,90 40×40 | bg #161615 · bgimg radial-gradient(#ECEAE5/0.4 0.9px, #000000/0 1.3px) · r 12px
+  "dev" Hanken 20px/800 #1A1A19 @68,90 213×26
+  "ATLAS · QWEN3-CODER-480B" Mono 9.5px/400 #5E5B55 @68,118 213×12
+  [span] @296,99 7×7 | bg #B9B6AF · r 50%
+  "ON" Mono 9.5px/400 #5E5B55 @293,109 13×12
+  [span] @319,99 7×7 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  "BSY" Mono 9.5px/400 #1A1A19 @312,109 20×12
+  [span] @345,99 7×7 | bg #B9B6AF · r 50%
+  "ERR" Mono 9.5px/400 #5E5B55 @338,109 20×12
+  "Los tests de integración fallan desde ayer." Hanken 15px/400 #ECEAE5 @56,337 302×64 | bg #1A1A19 · r 20px
+  [div] @12,413 346×224 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @19,420 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @345,420 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @19,624 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @345,624 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [div] @22,423 112×80 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @22,423 112×80 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "CARGA" Mono 9.5px/400 #8D8A82 @30,485 33×12
+    [div] @142,423 206×80 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @142,423 206×80 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "ACTIVIDAD · 5" Mono 9.5px/400 ls 0.76px #8D8A82 @154,433 182×12
+      "17.0 S" Mono 20px/600 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @154,454 182×24
+      [div] @154,487 182×6 | bg #2A0E0A · r 3px
+        [span] @154,487 47×6 | bgimg linear-gradient(90deg, #E5533D/0, #E5533D 50%, #E5533D/0) · r 3px · shadow #E5533D 0px 0px 10px 0px · anim cf-kitt 1s ease-in-out delay 0s
+    [div] @22,511 326×101 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @22,511 326×101 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "LEER · vitest.config.ts" Mono 11px/400 #C9C6BE @34,521 177×13
+      "0.1" Mono 11px/400 #C9C6BE @313,521 23×13
+      "EJEC · npm test" Mono 11px/400 #C9C6BE @34,538 116×13
+      "14.3" Mono 11px/400 #C9C6BE @305,538 31×13
+      "WEB · vi.mock hoisting" Mono 11px/400 #C9C6BE @34,555 169×13
+      "2.1" Mono 11px/400 #C9C6BE @313,555 23×13
+      "EDIT · client.test.ts" Mono 11px/400 #C9C6BE @34,572 162×13
+      "0.5" Mono 11px/400 #C9C6BE @313,572 23×13
+      "EJEC · rm -rf ./build" Mono 11px/400 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @34,589 162×13
+      "ESPERA" Mono 11px/400 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @290,589 46×13
+    [span] @26,620 10×7 | bg #B9B6AF
+    [span] @39,620 10×2 | bg #B9B6AF
+    [span] @53,620 10×4 | bg #B9B6AF
+    [span] @66,620 10×2 | bg #B9B6AF
+    [span] @80,620 10×4 | bg #B9B6AF
+    [span] @93,620 10×2 | bg #B9B6AF
+    [span] @106,620 10×7 | bg #B9B6AF
+    [span] @120,620 10×2 | bg #B9B6AF
+    [span] @133,620 10×4 | bg #B9B6AF
+    [span] @146,620 10×2 | bg #B9B6AF
+    [span] @160,620 10×4 | bg #B9B6AF
+    [span] @173,620 10×2 | bg #B9B6AF
+    [span] @187,620 10×7 | bg #B9B6AF
+    [span] @200,620 10×2 | bg #B9B6AF
+    [span] @213,620 10×4 | bg #B9B6AF
+    [span] @227,620 10×2 | bg #B9B6AF
+    [span] @240,620 10×4 | bg #B9B6AF
+    [span] @253,620 10×2 | bg #B9B6AF
+    [span] @267,620 10×7 | bg #B9B6AF
+    [span] @280,620 10×2 | bg #B9B6AF
+    [span] @294,620 10×4 | bg #B9B6AF
+    [span] @307,620 10×2 | bg #B9B6AF
+    [span] @320,620 10×4 | bg #B9B6AF
+    [span] @334,620 10×2 | bg #B9B6AF
+  [div] @12,649 346×79 | bg #161615 · r 16px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [div] @12,649 346×79 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "TERMINAL · /srv/app/web" Mono 9.5px/400 ls 0.76px #8D8A82 @28,661 170×15
+    "EXIT 1" Mono 9.5px/400 ls 0.76px #FF6A55 @298,661 44×15
+    "$ npm test -- integration" Mono 11px/400 #8D8A82 @28,679 314×17
+    "FAIL src/db/client.test.ts" Mono 11px/400 #FF6A55 @28,699 314×17
+  "+" Hanken 22px/400 #1A1A19 @12,748 48×48 | bg #ECEAE5 · r 50% · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  "Mensaje a dev…" Hanken 15px/400 #5E5B55 @68,748 234×48 | bg #DCD9D2 · r 24px · shadow #000000/0.12 0px 2px 3px 0px inset
+  [span] @310,748 48×48 | bg #F29A1A · r 50% · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+
+--- PIE Y NOTAS ---
+ACTIVIDAD es un panel de mando: un medidor de carga con aguja, el tiempo, el barrido (rojo, porque espera una Decisión) y el registro de pasos. Una regla grabada lo cierra por abajo.

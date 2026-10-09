@@ -1,0 +1,165 @@
+$ (cd labs/v3-cdp && RELAY_LAB_BROWSER=chrome npm test)
+✔ refuses raw CDP and unknown action types (1.185195ms)
+✔ navigate only accepts http(s) URLs within the length limit (0.72444ms)
+✔ text is bounded and keys come from an allowlist (0.25569ms)
+✔ coordinates must be finite and inside the bound (0.227066ms)
+✔ frame parameters are clamped to the frame limits (0.238077ms)
+✔ tap becomes a left mouse press and release at the point (1.21424ms)
+✔ back moves exactly one history entry and does nothing at the start (0.253677ms)
+✔ frame is a downscaled JPEG and fails rather than exceed the byte limit (0.790414ms)
+✔ frame retries a viewport that is briefly 0x0 after attaching (4.200165ms)
+✔ frame gives up on a viewport that stays 0x0, with a retryable error and no capture (0.86318ms)
+✔ [chrome] the default profile refuses remote debugging (498.697597ms)
+ℹ stderr: DevTools remote debugging requires a non-default data directory. Specify this using --user-data-dir.
+ℹ profile dirs created under the synthetic HOME: google-chrome
+✔ [chrome] a dedicated profile reports its exact version (5272.58823ms)
+ℹ product=Chrome/154.0.8037.57 protocol=1.3 jsVersion=15.4.80.11
+✔ [chrome] frame, tap, text and keys reach the page (565.339806ms)
+ℹ frame 765x493 jpeg 6390 bytes
+✔ [chrome] tabs can be listed, opened, activated and closed (499.776189ms)
+✔ [chrome] navigate, back, forward and reload (561.864482ms)
+✔ [chrome] reconnecting over the port finds the same tabs alive (638.692743ms)
+✖ [chrome] closing the CDP pipe keeps the browser and its tabs alive (3217.81322ms)
+ℹ exitCode after pipe close: 0 signal: null
+✔ [chrome] the dedicated profile keeps its data across restarts (1206.794549ms)
+✔ [chrome] JavaScript dialogs are reported and answered (442.237697ms)
+✔ [chrome] file choosers are intercepted and filled with Server files (330.26946ms)
+✔ [chrome] downloads stay on the Server in a known folder (364.154308ms)
+ℹ downloaded relay-lab.txt 20 bytes
+✔ [chrome] a native <select> is operated with keys, not by its popup (740.832557ms)
+ℹ frame with popup requested is different to closed frame
+✔ [chrome] screencast frames need an ack each (flow control) (3405.947241ms)
+ℹ frames without ack in 1.5 s: 3
+ℹ frames with ack in 1.5 s: 90, mean 4045 bytes
+✖ [chrome] the extension loads and its native host connects to the Puente (15147.039014ms)
+✖ [chrome] only tabs the user shared are visible or controllable (15057.445926ms)
+✖ [chrome] a shared tab in the background is captured without activating it (15048.179051ms)
+✖ [chrome] the adapter refuses raw CDP and oversized requests before Chrome sees them (15224.007111ms)
+✖ [chrome] tap, text, keys and navigation work through the extension (15152.16654ms)
+✖ [chrome] chrome.debugger method catalogue (15056.405111ms)
+✖ [chrome] dialogs, file chooser and downloads through the extension (15044.525566ms)
+✖ [chrome] control is shared with the person at the computer (15041.567781ms)
+✖ [chrome] losing the adapter detaches but keeps the browser and Relay's new tabs (15043.523694ms)
+✖ [chrome] DevTools already open on the tab: control goes on or the detach is reported (15048.346231ms)
+✖ [chrome] DevTools opened on an attached tab: control goes on or the detach is reported (15042.736057ms)
+✖ [chrome] detaching is reported (internal page, tab closed) (15040.548281ms)
+✖ [chrome] the open native port keeps the extension worker alive past the 30 s idle limit (15040.809955ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 22
+ℹ fail 14
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 214173.252477
+✖ failing tests:
+test at test/dedicated.test.ts:132:1
+✖ [chrome] closing the CDP pipe keeps the browser and its tabs alive (3217.81322ms)
+  AssertionError [ERR_ASSERTION]: browser must survive the Puente losing its pipe
+  
+  0 !== null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+test at test/extension.test.ts:25:1
+✖ [chrome] the extension loads and its native host connects to the Puente (15147.039014ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1717900:1718007:1005/015857.473415:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1717900:1718137:1005/015909.938976:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:33:1
+✖ [chrome] only tabs the user shared are visible or controllable (15057.445926ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1724359:1724493:1005/015913.255215:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1724359:1724793:1005/015925.089152:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:50:1
+✖ [chrome] a shared tab in the background is captured without activating it (15048.179051ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1731181:1731273:1005/015927.744423:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  [1731181:1731273:1005/015927.848265:ERROR:google_apis/gcm/engine/mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+  [1731181:1731273:1005/015927.848834:ERROR:google_apis/gcm/engine/mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1731181:1731330:1005/015940.136749:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:63:1
+✖ [chrome] the adapter refuses raw CDP and oversized requests before Chrome sees them (15224.007111ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1737684:1737729:1005/015942.744871:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  [1737684:1737729:1005/015942.816702:ERROR:google_apis/gcm/engine/mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+  [1737684:1737729:1005/015942.816715:ERROR:google_apis/gcm/engine/mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1737684:1737775:1005/015955.183507:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:81:1
+✖ [chrome] tap, text, keys and navigation work through the extension (15152.16654ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1744148:1744366:1005/015958.878220:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  
+test at test/extension.test.ts:103:1
+✖ [chrome] chrome.debugger method catalogue (15056.405111ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1750684:1750728:1005/020013.848204:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1750684:1750850:1005/020025.573681:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:126:1
+✖ [chrome] dialogs, file chooser and downloads through the extension (15044.525566ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1757176:1757204:1005/020028.172030:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1757176:1757242:1005/020040.617116:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:160:1
+✖ [chrome] control is shared with the person at the computer (15041.567781ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1763882:1763910:1005/020043.223615:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1763882:1763946:1005/020055.662328:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:173:1
+✖ [chrome] losing the adapter detaches but keeps the browser and Relay's new tabs (15043.523694ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1770735:1770764:1005/020058.210356:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1770735:1770801:1005/020110.703090:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:208:1
+✖ [chrome] DevTools already open on the tab: control goes on or the detach is reported (15048.346231ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1777123:1777158:1005/020113.249748:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1777123:1777215:1005/020125.746188:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:219:1
+✖ [chrome] DevTools opened on an attached tab: control goes on or the detach is reported (15042.736057ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1783721:1783750:1005/020128.317541:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  [1783721:1783750:1005/020128.389973:ERROR:google_apis/gcm/engine/mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+  [1783721:1783750:1005/020128.389986:ERROR:google_apis/gcm/engine/mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1783721:1783820:1005/020140.796671:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:232:1
+✖ [chrome] detaching is reported (internal page, tab closed) (15040.548281ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1790307:1790343:1005/020143.353550:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  [1790307:1790343:1005/020143.422589:ERROR:google_apis/gcm/engine/mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+  [1790307:1790343:1005/020143.422606:ERROR:google_apis/gcm/engine/mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1790307:1790478:1005/020155.838667:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  
+test at test/extension.test.ts:254:1
+✖ [chrome] the open native port keeps the extension worker alive past the 30 s idle limit (15040.809955ms)
+  Error: extension or native host did not come up: no hello within 15 s
+  [1796908:1797000:1005/020158.381856:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+  Created TensorFlow Lite XNNPACK delegate for CPU.
+  [1796908:1797170:1005/020210.877851:ERROR:content/browser/devtools/devtools_pipe_handler.cc:188] Connection terminated while reading from pipe
+  

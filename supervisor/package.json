@@ -1,0 +1,26 @@
+{
+  "name": "relay-supervisor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Keeps the Relay environments of the Server alive apart from the Puente: PTYs, ownership records and one cgroup per environment",
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "setup": "npm_config_nodedir=\"$(node -p 'path.dirname(path.dirname(process.execPath))')\" npm ci --foreground-scripts",
+    "start": "node src/main.ts",
+    "test": "node --test --test-timeout=30000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "node-pty": "1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "~6.0.3"
+  },
+  "allowScripts": {
+    "node-pty@1.1.0": true
+  }
+}

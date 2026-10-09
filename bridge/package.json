@@ -1,0 +1,19 @@
+{
+  "name": "relayd",
+  "version": "0.2.0-preview.3",
+  "private": true,
+  "description": "HTTP bridge between the Relay mobile app and a local Hermes Agent install",
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "test": "node --test --test-timeout=20000",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "~6.0.3"
+  }
+}

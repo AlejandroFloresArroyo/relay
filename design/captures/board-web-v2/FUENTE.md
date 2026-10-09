@@ -1,0 +1,5 @@
+# Referencias de Tablero web 16b
+
+No existe una captura 16b del diseño original en la base fcb3033. La autoridad visual es design/source/relay-instrumento-2.dc.html:1913–1915 y design/claude-design-prompts.md:166–167. Estos HTML/PNG son referencias de diseño elaboradas desde esa fuente, no capturas Android ni evidencia de ejecución/aislamiento. El contenido blanco del estado propuesto conserva el fragmento original; los estados nuevos usan las primitives y textos de la implementación. Tipografías locales de las dependencias ya declaradas Hanken Grotesk/Martian Mono, sin descargas ni dependencias nuevas. Las versiones oscura/tablet ilustran adaptación al tema y ancho, sin afirmar revisión en teléfono.
+
+Prompt fuente: bloque web con marco punteado/rayado, tipografía propia y etiquetas CONTENIDO DEL AGENTE / HTML · AISLADO; título, Agente, actualización y acciones nativos. Render local Chromium sin red. La etiqueta AISLADO solo es visible en producto con proveedor verificado; aquí se muestra como propuesta visual pendiente de prueba nativa.

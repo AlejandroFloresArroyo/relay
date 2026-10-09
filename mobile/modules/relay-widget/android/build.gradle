@@ -1,0 +1,15 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+group = 'expo.modules.relaywidget'
+version = '1.0.0'
+android {
+  namespace 'expo.modules.relaywidget'
+  defaultConfig {
+    versionCode 1
+    versionName '1.0.0'
+  }
+}
+// The widget reads its Servidor through the Avisos pairing snapshot (PairedRead); the key stays there.
+dependencies { implementation project(':relay-notifications') }

@@ -1,0 +1,114 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "Aprobaciones" Hanken 28px/700 ls -0.7px #1A1A19 @16,54 167×36
+  "TAILNET" Mono 9.5px/400 ls 0.57px #ECEAE5 @264,52 94×40 | bg #161615 · r 999px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [span] @278,69 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  "1 PENDIENTE · 5 EN EL HISTORIAL" Mono 9.5px/400 ls 0.57px #5E5B55 @16,100 342×12
+  [div] @12,124 111×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "AGENTE" Mono 9.5px/400 ls 0.38px #5E5B55 @22,133 42×12
+    "Todos" Hanken 13px/600 #1A1A19 @22,147 35×17
+    "⇕" Hanken 12px/400 #4A4843 @106,140 7×16
+  [div] @129,124 111×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "DECIDE" Mono 9.5px/400 ls 0.38px #5E5B55 @139,133 42×12
+    "Todo" Hanken 13px/600 #1A1A19 @139,147 29×17
+    "⇕" Hanken 12px/400 #4A4843 @223,140 7×16
+  [div] @247,124 111×48 | bg #ECEAE5 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "CANAL" Mono 9.5px/400 ls 0.38px #5E5B55 @257,133 35×12
+    "Todos" Hanken 13px/600 #1A1A19 @257,147 35×17
+    "⇕" Hanken 12px/400 #4A4843 @341,140 7×16
+  [div] @12,184 346×48 | bg #ECEAE5 · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @24,205 7×7 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "HOMELAB · SIN RESPUESTA" Mono 9.5px/600 ls 0.57px #9A2E20 @41,202 225×12
+    "Reintentar" Hanken 15px/600 #7A4A00 @276,198 70×20
+  "PENDIENTES · 1" Mono 9.5px/600 ls 0.76px #5E5B55 @12,244 346×12
+  [div] @12,268 346×205 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px, #F29A1A 0px 0px 0px 1.5px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "DEV · ATLAS · CREADA ahora" Mono 9.5px/400 ls 0.57px #5E5B55 @24,282 278×12
+    "4:30" Mono 13px/600 #7A4A00 @310,280 36×16
+    [div] @24,306 322×4 | bg #DCD9D2 · r 2px
+      [div] @56,306 290×4 | bg #F29A1A · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    [div] @24,320 322×45 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @24,320 322×45 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "rm -rf ./build" Mono 16px/500 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @38,332 179×19
+        "$" Mono 16px/500 #8D8A82 @38,332 22×19
+    [span] @26,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @23,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @28,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [span] @52,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @49,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @54,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @78,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @75,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @80,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @104,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @101,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @106,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @130,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @127,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @132,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @156,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @153,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @158,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @182,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @183,377 5×5 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+      [span] @184,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+    [span] @208,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @205,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @210,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @234,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @231,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @236,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @260,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @257,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @262,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @286,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @283,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @288,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @312,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @309,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @314,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @338,376 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @335,373 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @340,378 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    "Borrado recursivo e irreversible, limitado a la carpeta del proyecto. No toca archivos fuera del repo." Hanken 13px/400 #4A4843 @24,393 322×38
+    "RIESGO 3/5" Mono 9.5px/600 ls 0.57px #7A4A00 @24,445 72×12
+    "Revisar ›" Hanken 15px/600 #7A4A00 @288,441 58×20
+  "HISTORIAL RECIENTE · 5 DE 5" Mono 9.5px/600 ls 0.76px #5E5B55 @12,485 346×16
+  [div] @12,513 346×72 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    "AUTO" Mono 9.5px/400 #4A4843 @24,529 40×40 | r 12px · shadow #8D8A82 0px 0px 0px 1.5px inset
+    "rm -rf ./dist" Mono 13px/400 #1A1A19 @76,523 270×16
+    "dev · atlas · Discord · 22:20" Hanken 13px/400 #4A4843 @76,542 270×17
+    "APROBADA · GUARDIÁN" Mono 9.5px/600 ls 0.57px #1E6638 @76,562 270×12
+  [div] @-192,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #4A4843 @-182,773 47×12
+    [span] @-141,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-120,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @-110,773 47×12
+    [span] @-69,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @-48,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @-38,773 47×12
+    [span] @3,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @24,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @34,773 47×12
+    [span] @75,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @96,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @109,773 40×12
+    [span] @147,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @168,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #ECEAE5 @181,773 40×12
+    [span] @219,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @240,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #4A4843 @240,773 67×12
+    [span] @291,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @312,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @322,773 47×12
+    [span] @363,747 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @0,732 40×92 | bgimg linear-gradient(270deg, #D8D5CE/0, #D8D5CE 70%)
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Las tres filas de filtros con chips desplazables (AGENTE, DECIDE, CANAL) se juntan en tres selectores en una sola fila; cada uno abre una hoja.
+CAMBIO: El bloque grande SIN RESPUESTA pasa a una fila compacta: aquí el sujeto son las Aprobaciones, no homelab.
+CAMBIO: «1 PENDIENTES · 5 REGISTROS» → «1 PENDIENTE · 5 EN EL HISTORIAL». La regla pasa de mono a texto; EXPIRA 4:30 pasa a cuenta regresiva.
+CAMBIO: Se quitan los chips de demostración «Pendientes + historial / Sin pendientes / Solo historial».

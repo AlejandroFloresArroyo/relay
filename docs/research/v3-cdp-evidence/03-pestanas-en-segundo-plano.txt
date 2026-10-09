@@ -1,0 +1,43 @@
+$ for b in chromium cft chrome; do RELAY_LAB_BROWSER=$b RELAY_LAB_EXT_LOAD=cdp node /tmp/bg.ts; done   (2026-10-05, ejecución en serie)
+== chromium
+A background, never attached: frame unavailable: page has no viewport yet
+A background, +3 s: frame unavailable: page has no viewport yet
+A from page: {"w":0,"h":0,"vis":"visible"}
+A after activating: ok 320x166
+B now background, never attached: no reply to act in 15000 ms
+== cft
+A background, never attached: ok 320x166
+A background, +3 s: ok 320x166
+A from page: {"w":1280,"h":657,"vis":"hidden"}
+A after activating: ok 320x166
+B now background, never attached: ok 320x166
+== chrome
+A background, never attached: ok 320x180
+A background, +3 s: ok 320x180
+A from page: {"w":1280,"h":713,"vis":"hidden"}
+A after activating: ok 320x166
+B now background, never attached: ok 320x166
+
+--- fuente de /tmp/bg.ts (desechable) ---
+import { launchUsual } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/usual.ts';
+import { serveFixtures } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/fixtures.ts';
+import { sleep } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/browser.ts';
+const site = await serveFixtures();
+const u = await launchUsual();
+try {
+  const conn = await u.puente.connection;
+  const frame = (tab: number) => conn.request({ op: 'act', tabId: tab, action: { type: 'frame', maxWidth: 320 } }).then((f) => `ok ${f.width}x${f.height}`, (e) => e.message);
+  const a = await u.localTab(`${site.url}/form?a`);
+  const b = await u.localTab(`${site.url}/form?b`);
+  await u.userShares(a);
+  console.log('A background, never attached:', await frame(a));
+  await sleep(3000);
+  console.log('A background, +3 s:', await frame(a));
+  const m = await u.evalInTab(a, 'JSON.stringify({w: innerWidth, h: innerHeight, vis: document.visibilityState})');
+  console.log('A from page:', m);
+  await u.inWorker(`chrome.tabs.update(${a}, { active: true })`);
+  await sleep(500);
+  console.log('A after activating:', await frame(a));
+  await u.userShares(b);
+  console.log('B now background, never attached:', await frame(b));
+} finally { await u.close(); site.close(); }

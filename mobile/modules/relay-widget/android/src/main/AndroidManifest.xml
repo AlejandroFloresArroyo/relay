@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <application>
+    <!-- Only the system may bind it; no new permission is requested. -->
+    <service android:name="expo.modules.relaywidget.WidgetRefreshJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" />
+  </application>
+</manifest>

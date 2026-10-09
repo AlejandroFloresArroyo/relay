@@ -1,0 +1,108 @@
+"K-1" Mono 12px/600 #111111 @0,5 41×18 | bg #E8E6E1 · r 5px
+"Tokens" Hanken 19px/700 #E8E6E1 @53,0 60×25
+"Claro y oscuro. Hanken Grotesk + Martian Mono. Mono nunca por debajo de 9,5 px." Hanken 13px/400 #8D8A82 @126,6 485×17
+[div] @0,45 403×354 | bg #ECEAE5 · r 20px
+  "CLARO" Mono 9.5px/600 ls 0.76px #5E5B55 @16,61 37×12
+  [span] @16,86 22×22 | bg #D8D5CE · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Fondo" Hanken 13px/400 #1A1A19 @48,89 37×17
+  "#D8D5CE" Mono 11px/400 #4A4843 @333,91 54×13
+  [span] @16,120 22×22 | bg #ECEAE5 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Bloque / tecla" Hanken 13px/400 #1A1A19 @48,123 81×17
+  "#ECEAE5" Mono 11px/400 #4A4843 @333,125 54×13
+  [span] @16,154 22×22 | bg #DCD9D2 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Campo" Hanken 13px/400 #1A1A19 @48,157 42×17
+  "#DCD9D2" Mono 11px/400 #4A4843 @333,159 54×13
+  [span] @16,188 22×22 | bg #CBC7BF · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Lista tablet" Hanken 13px/400 #1A1A19 @48,191 64×17
+  "#CBC7BF" Mono 11px/400 #4A4843 @333,193 54×13
+  [span] @16,222 22×22 | bg #1A1A19 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Tinta" Hanken 13px/400 #1A1A19 @48,225 29×17
+  "#1A1A19" Mono 11px/400 #4A4843 @333,227 54×13
+  [span] @16,256 22×22 | bg #4A4843 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Secundaria" Hanken 13px/400 #1A1A19 @48,259 65×17
+  "#4A4843" Mono 11px/400 #4A4843 @333,261 54×13
+  [span] @16,290 22×22 | bg #5E5B55 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Terciaria" Hanken 13px/400 #1A1A19 @48,293 50×17
+  "#5E5B55" Mono 11px/400 #4A4843 @333,295 54×13
+  [span] @16,324 22×22 | bg #D6D3CC · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Línea" Hanken 13px/400 #1A1A19 @48,327 31×17
+  "#D6D3CC" Mono 11px/400 #4A4843 @333,329 54×13
+  [span] @16,358 22×22 | bg #B9B6AF · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "LED apagado" Hanken 13px/400 #1A1A19 @48,361 77×17
+  "#B9B6AF" Mono 11px/400 #4A4843 @333,363 54×13
+[div] @419,45 403×354 | bg #ECEAE5 · r 20px
+  "OSCURO" Mono 9.5px/600 ls 0.76px #5E5B55 @435,61 44×12
+  [span] @435,86 22×22 | bg #141413 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Fondo" Hanken 13px/400 #1A1A19 @467,89 37×17
+  "#141413" Mono 11px/400 #4A4843 @752,91 54×13
+  [span] @435,120 22×22 | bg #1F1E1C · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Bloque" Hanken 13px/400 #1A1A19 @467,123 41×17
+  "#1F1E1C" Mono 11px/400 #4A4843 @752,125 54×13
+  [span] @435,154 22×22 | bg #2A2927 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Tecla" Hanken 13px/400 #1A1A19 @467,157 31×17
+  "#2A2927" Mono 11px/400 #4A4843 @752,159 54×13
+  [span] @435,188 22×22 | bg #0F0F0E · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Campo" Hanken 13px/400 #1A1A19 @467,191 42×17
+  "#0F0F0E" Mono 11px/400 #4A4843 @752,193 54×13
+  [span] @435,222 22×22 | bg #070707 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Pantalla" Hanken 13px/400 #1A1A19 @467,225 47×17
+  "#070707" Mono 11px/400 #4A4843 @752,227 54×13
+  [span] @435,256 22×22 | bg #E8E6E1 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Tinta" Hanken 13px/400 #1A1A19 @467,259 29×17
+  "#E8E6E1" Mono 11px/400 #4A4843 @752,261 54×13
+  [span] @435,290 22×22 | bg #C9C6BE · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Secundaria" Hanken 13px/400 #1A1A19 @467,293 65×17
+  "#C9C6BE" Mono 11px/400 #4A4843 @752,295 54×13
+  [span] @435,324 22×22 | bg #8D8A82 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Terciaria" Hanken 13px/400 #1A1A19 @467,327 50×17
+  "#8D8A82" Mono 11px/400 #4A4843 @752,329 54×13
+  [span] @435,358 22×22 | bg #2C2C2A · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Línea" Hanken 13px/400 #1A1A19 @467,361 31×17
+  "#2C2C2A" Mono 11px/400 #4A4843 @752,363 54×13
+[div] @838,45 403×354 | bg #ECEAE5 · r 20px
+  "SEÑAL" Mono 9.5px/600 ls 0.76px #5E5B55 @854,61 37×12
+  [span] @854,86 22×22 | bg #F29A1A · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Naranja" Hanken 13px/400 #1A1A19 @886,89 45×17
+  "#F29A1A" Mono 11px/400 #4A4843 @1171,91 54×13
+  [span] @854,120 22×22 | bg #7A4A00 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Naranja texto claro" Hanken 13px/400 #1A1A19 @886,123 111×17
+  "#7A4A00" Mono 11px/400 #4A4843 @1171,125 54×13
+  [span] @854,154 22×22 | bg #4CC774 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Verde LED" Hanken 13px/400 #1A1A19 @886,157 61×17
+  "#4CC774" Mono 11px/400 #4A4843 @1171,159 54×13
+  [span] @854,188 22×22 | bg #1E6638 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Verde texto / pantalla" Hanken 13px/400 #1A1A19 @886,191 127×17
+  "#1E6638 / #6FD08C" Mono 11px/400 #4A4843 @1094,193 131×13
+  [span] @854,222 22×22 | bg #E5533D · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Rojo LED" Hanken 13px/400 #1A1A19 @886,225 52×17
+  "#E5533D" Mono 11px/400 #4A4843 @1171,227 54×13
+  [span] @854,256 22×22 | bg #9A2E20 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Rojo texto / pantalla" Hanken 13px/400 #1A1A19 @886,259 118×17
+  "#9A2E20 / #FF6A55" Mono 11px/400 #4A4843 @1094,261 131×13
+  [span] @854,290 22×22 | bg #161615 · r 6px · shadow #000000/0.12 0px 0px 0px 1px inset
+  "Pantalla empotrada" Hanken 13px/400 #1A1A19 @886,293 114×17
+  "#161615" Mono 11px/400 #4A4843 @1171,295 54×13
+  "Glow LED" Hanken 13px/400 #1A1A19 @854,327 56×17
+  "0 0 8px c, 0 0 2px c" Mono 11px/400 #4A4843 @1071,329 154×13
+  "Scanlines" Hanken 13px/400 #1A1A19 @854,361 55×17
+  "1 px cada 3 px · .035" Mono 11px/400 #4A4843 @1063,363 162×13
+[div] @1257,45 403×354 | bg #ECEAE5 · r 20px
+  "TIPO · RADIOS · SOMBRAS" Mono 9.5px/600 ls 0.76px #5E5B55 @1273,61 170×12
+  "Título" Hanken 13px/400 #1A1A19 @1273,89 33×17
+  "Hanken 28/700 −.025em" Mono 11px/400 #4A4843 @1482,91 162×13
+  "Subtítulo" Hanken 13px/400 #1A1A19 @1273,123 52×17
+  "Hanken 20/800" Mono 11px/400 #4A4843 @1544,125 100×13
+  "Cuerpo" Hanken 13px/400 #1A1A19 @1273,157 44×17
+  "Hanken 15/600 · 13/400" Mono 11px/400 #4A4843 @1475,159 169×13
+  "Etiqueta" Hanken 13px/400 #1A1A19 @1273,191 48×17
+  "Mono 9,5/600 +.06–.08em" Mono 11px/400 #4A4843 @1467,193 177×13
+  "Dato / lectura" Hanken 13px/400 #1A1A19 @1273,225 81×17
+  "Mono 11 · 20/600" Mono 11px/400 #4A4843 @1521,227 123×13
+  "Radios" Hanken 13px/400 #1A1A19 @1273,259 39×17
+  "bloque 20 · tecla 16/14 · campo 12" Mono 11px/400 #4A4843 @1382,261 262×13
+  "Toque mínimo" Hanken 13px/400 #1A1A19 @1273,293 81×17
+  "48 px (terminal 44)" Mono 11px/400 #4A4843 @1498,295 146×13
+  "Bloque" Hanken 13px/400 #1A1A19 @1273,327 41×17
+  "inset 0 1px 0 #fff, 0 1px 2px .12" Mono 11px/400 #4A4843 @1390,329 254×13
+  "Tecla" Hanken 13px/400 #1A1A19 @1273,361 31×17
+  "inset 0 1px 0 #fff, 0 2px 3px .15" Mono 11px/400 #4A4843 @1390,363 254×13

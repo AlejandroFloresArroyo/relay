@@ -1,0 +1,40 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "Herramientas" Hanken 28px/700 ls -0.7px #1A1A19 @16,54 165×36
+  "ATLAS" Mono 9.5px/400 ls 0.57px #ECEAE5 @269,52 89×40 | bg #161615 · r 12px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [span] @281,69 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "⇕" Mono 9.5px/400 ls 0.57px #F29A1A @340,66 6×13
+  [div] @8,104 354×628 | bg #161615 · r 20px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [div] @8,104 354×628 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    [div] @145,257 80×80 | bg #1F1E1C · r 50% · shadow #000000/0.6 0px 2px 6px 0px inset, #F29A1A/0.35 0px 0px 0px 1px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+      [span] @163,275 45×45 | bgimg radial-gradient(circle, #F29A1A/0.4, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+    "PON TU HUELLA PARA ENTRAR" Mono 13px/600 ls 1.04px #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @58,353 254×16
+    "Verifica que eres tú con tu huella o con el código del teléfono. Vale para atlas hasta que Relay se bloquee." Hanken 15px/400 #C9C6BE @45,385 280×65
+    "Entrar con huella" Hanken 15px/700 #1A1A19 @45,467 280×48 | bg #F29A1A · r 16px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "Usar el código del teléfono" Hanken 15px/600 #F29A1A @94,531 181×48
+  [div] @12,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #4A4843 @22,773 47×12
+  [div] @84,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #ECEAE5 @94,773 47×12
+  [div] @156,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @166,773 47×12
+  [div] @228,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @238,773 47×12
+  [div] @300,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @313,773 40×12
+  [div] @372,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @385,773 40×12
+  [div] @444,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #4A4843 @444,773 67×12
+  [div] @516,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @526,773 47×12
+  [div] @298,732 72×92 | bgimg linear-gradient(90deg, #D8D5CE/0, #D8D5CE 55%)
+    "1 ›" Mono 10px/600 #1A1A19 @319,754 39×28 | bg #F29A1A · r 14px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Se quitan el título grande y la tarjeta «Entrar a las herramientas». La puerta ocupa la pantalla empotrada donde aparecerá la herramienta.
+CAMBIO: «‹ Servidor» → selector ATLAS ⇕: desde la pestaña HERRAM. no hay padre, se elige el Servidor.
+CAMBIO: Tras la huella, la barra de pestañas cambia por la de herramientas (G-1) y el retorno pasa a nombrar la pestaña de la que se vino.

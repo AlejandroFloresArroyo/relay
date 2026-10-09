@@ -1,0 +1,33 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+bridge/devices.json
+bridge/changes.jsonl
+bridge/.devices.json.*.tmp
+bridge/conversations.json
+bridge/.conversations.json.*.tmp
+# Habitual browser (#93): extension socket and native host wrapper, private to the Puente.
+bridge/browser/
+
+bridge/server-control.json
+bridge/.server-control.*.tmp
+bridge/jobs-version-*.json
+
+bridge/notifications.json
+bridge/.notifications.*.tmp
+bridge/notifications-version-*.json
+bridge/agent-modes.json
+bridge/.agent-modes-*.tmp
+bridge/decisions.json
+# Test fixtures a killed test run leaves behind (each test removes its own on exit).
+bridge/*-fixture-*/
+bridge/.*-fixture-*/
+bridge/.kanban-*/
+bridge/app-update-*/
+bridge/board-*/
+bridge/tools-http-*/
+bridge/history-ledger-fixture.log-*/
+/.synthetic-*/
+mobile/modules/*/android/build/

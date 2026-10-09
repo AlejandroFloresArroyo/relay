@@ -1,0 +1,80 @@
+import assert from 'node:assert/strict';
+import { test } from 'node:test';
+import type { ChatRunEvent } from '../../../protocol/protocol.ts';
+import { RelayError } from './client.ts';
+import { createDemoClient, resetDemo } from './demo.ts';
+import { DEMO_MARKDOWN } from './demoMarkdown.ts';
+import { setDemoTurnScenario } from './demoTurns.ts';
+import { applyRunEvent, type ChatItem } from './transcript.ts';
+import { mergeTurnSnapshot } from './turn.ts';
+
+const now = () => 1791028800000;
+const requestId = '00000000-0000-4000-8000-000000000001';
+
+test('demo steering uses real demo Conversation persistence, idempotent receipts and authoritative stop', async () => {
+  resetDemo(); setDemoTurnScenario('atlas', 'working');
+  const client = createDemoClient('atlas', now);
+  const conversation = await client.createConversation('dev', { requestId });
+  const run = await client.startRun('dev', { input: 'Revisa integración', sessionId: conversation.sessionId });
+  const events: ChatRunEvent[] = [];
+  const stream = client.runEvents(run.runId, (event) => events.push(event));
+  const steer = { requestId: '00000000-0000-4000-8000-000000000002', input: 'Solo integración' };
+  assert.equal((await client.steerRun(run.runId, steer)).accepted, true);
+  await client.steerRun(run.runId, steer);
+  assert.equal(events.filter((event) => event.type === 'run.steered').length, 1);
+  const snapshot = await client.runSnapshot(run.runId);
+  assert.equal(snapshot.items.filter((item) => item.kind === 'user' && item.clientMessageId === steer.requestId && item.redirected).length, 1);
+  const other = createDemoClient('atlas', now);
+  const persisted = await other.transcript('dev', conversation.sessionId);
+  assert.equal(persisted.items.some((item) => item.kind === 'user' && item.text === steer.input && item.redirected), true);
+  await client.stopRun(run.runId); await stream;
+  assert.equal(events.at(-1)?.type, 'run.cancelled');
+  assert.equal((await client.runSnapshot(run.runId)).phase, 'cancelled');
+  await assert.rejects(client.steerRun(run.runId, { ...steer, requestId: 'another-receipt' }), (failure) => failure instanceof RelayError && failure.code === 'run_not_accepting_steer');
+  assert.equal((await other.conversationDeletion('dev', conversation.id)).messageCount, persisted.items.length);
+  resetDemo();
+});
+
+test('demo loss and recovery preserve one Turn, partial items and cursor without re-sending input', async () => {
+  resetDemo(); setDemoTurnScenario('atlas', 'lost');
+  const client = createDemoClient('atlas', now);
+  const conversation = await client.createConversation('dev', { requestId });
+  const run = await client.startRun('dev', { input: 'Mensaje único', sessionId: conversation.sessionId });
+  const controller = new AbortController();
+  let live: ChatItem[] = [];
+  const stream = client.runEvents(run.runId, (event) => { live = applyRunEvent(live, event, now(), run.runId); }, controller.signal);
+  const lost = await client.runSnapshot(run.runId);
+  assert.equal(lost.connection, 'lost'); assert.equal(lost.complete, false);
+  assert.equal(lost.items.some((item) => item.kind === 'assistant' && item.text === 'Respuesta parcial'), true);
+  assert.deepEqual(mergeTurnSnapshot([], live, lost).filter((item) => item.kind === 'assistant').map((item) => item.text), ['Respuesta parcial']);
+  assert.equal((await client.reconnectRun(run.runId)).connection, 'lost');
+  controller.abort(); await stream;
+  setDemoTurnScenario('atlas', 'recovered');
+  const recovered = await client.reconnectRun(run.runId);
+  assert.equal(recovered.runId, lost.runId); assert.equal(recovered.connection, 'connected');
+  const events: ChatRunEvent[] = [];
+  await client.runEvents(run.runId, (event) => events.push(event), undefined, recovered.lastEventId);
+  assert.equal(events.at(-1)?.type, 'run.completed');
+  const persisted = await client.transcript('dev', conversation.sessionId);
+  assert.equal(persisted.items.filter((item) => item.kind === 'user' && item.text === 'Mensaje único').length, 1);
+  assert.equal(persisted.items.some((item) => item.kind === 'assistant' && item.text === 'Respuesta parcial y recuperada sin reenviar tu mensaje.'), true);
+  resetDemo();
+});
+
+test('demo empty, unavailable, load error and Markdown scenarios retain real Conversation identity', async () => {
+  resetDemo(); const client = createDemoClient('atlas', now);
+  setDemoTurnScenario('atlas', 'empty');
+  const empty = await client.transcript('dev');
+  assert.equal(empty.conversation?.writable, true); assert.deepEqual(empty.items, []);
+  assert.equal((await client.conversation('dev', empty.conversation!.id)).id, empty.conversation!.id);
+  setDemoTurnScenario('atlas', 'unavailable');
+  assert.equal((await client.agentChat('dev')).available, false);
+  assert.equal((await client.transcript('dev', empty.sessionId)).sessionId, empty.sessionId);
+  setDemoTurnScenario('atlas', 'error');
+  await assert.rejects(client.transcript('dev'), (failure) => failure instanceof RelayError && failure.code === 'upstream_failure');
+  setDemoTurnScenario('atlas', 'markdown');
+  const markdown = await client.transcript('dev', empty.sessionId);
+  assert.equal(markdown.conversation?.id, empty.conversation!.id);
+  assert.equal(markdown.items[0].kind === 'assistant' && markdown.items[0].text, DEMO_MARKDOWN);
+  resetDemo();
+});

@@ -1,0 +1,242 @@
+"S-15" Mono 12px/600 #111111 @0,5 50×18 | bg #E8E6E1 · r 5px
+"Maquinaria y luz · especificación para construir" Hanken 19px/700 #E8E6E1 @62,0 408×25
+"Si hay conflicto con otra lámina de este archivo, manda S-15." Hanken 13px/400 #8D8A82 @482,6 352×17
+[div] @0,45 403×246 | bg #ECEAE5 · r 20px
+  "1 · FOQUITOS ANALÓGICOS" Mono 9.5px/600 ls 0.76px #5E5B55 @16,61 371×12
+  [div] @16,85 371×56 | bg #161615 · r 14px
+    [span] @32,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @29,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @34,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [span] @60,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @57,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @62,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @88,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @85,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @90,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @115,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @112,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @117,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @143,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @140,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @145,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @171,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @168,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @173,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @199,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @199,101 5×5 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+      [span] @201,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+    [span] @226,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @223,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @228,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @254,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @251,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @256,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @282,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @279,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @284,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @310,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @307,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @312,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @337,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @334,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @339,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @365,100 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A4A10, #3A2206 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @362,97 12×12 | bgimg radial-gradient(circle, #F29A1A/0.75 0px, #F29A1A/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @367,102 2×2 | bg #FFF0D6 · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [span] @32,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @29,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @34,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+    [span] @60,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @57,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @62,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @88,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @85,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @90,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @115,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @112,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @117,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @143,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @140,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @145,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @171,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @168,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @173,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @199,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @199,121 5×5 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0
+      [span] @201,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0s · op 0.35
+    [span] @226,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @223,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+      [span] @228,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.14s
+    [span] @254,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @251,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+      [span] @256,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.28s
+    [span] @282,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @279,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+      [span] @284,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.42s
+    [span] @310,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @307,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+      [span] @312,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.56s
+    [span] @337,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @334,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+      [span] @339,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.7s
+    [span] @365,120 6×6 | bgimg radial-gradient(circle at 50% 45%, #7A2418, #3A0E08 75%) · r 50% · shadow #000000/0.45 0px 0px 0px 1px inset, #FFFFFF/0.12 0px 1px 1px 0px inset
+      [span] @362,117 12×12 | bgimg radial-gradient(circle, #FF6A55/0.75 0px, #FF6A55/0 70%) · r 50% · anim cf-glow 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+      [span] @367,122 2×2 | bg #FFE2DA · r 50% · anim cf-core 3.2s cubic-bezier(0.4, 0, 0.2, 1) delay 0.84s
+  "13 lentes de 6 px repartidas en la tira. Lente: degradado radial, rim hundido. Filamento 2×2 px centrado. Halo: 12 px, se abre de escala .4 a 1. Ciclo 3,2 s, cubic-bezier(.4,0,.2,1), sube al 45 %, baja a .55 al 70 %. Retraso 0,14 s × distancia al foco central: la luz nace en el centro. Naranja = trabajando · rojo = espera Decisión." Hanken 13px/400 #4A4843 @16,153 371×117
+[div] @419,45 403×246 | bg #ECEAE5 · r 20px
+  "2 · BARRIDO" Mono 9.5px/600 ls 0.76px #5E5B55 @435,61 371×12
+  [div] @435,85 371×52 | bg #161615 · r 14px
+    [div] @449,99 343×6 | bg #2A1E10 · r 3px
+      [span] @449,99 82×6 | bgimg linear-gradient(90deg, #F29A1A/0, #F29A1A 50%, #F29A1A/0) · r 3px · shadow #F29A1A 0px 0px 8px 0px · anim cf-kitt 1.6s ease-in-out delay 0s
+    [div] @449,117 343×6 | bg #2A0E0A · r 3px
+      [span] @449,117 82×6 | bgimg linear-gradient(90deg, #E5533D/0, #E5533D 50%, #E5533D/0) · r 3px · shadow #E5533D 0px 0px 10px 0px · anim cf-kitt 1s ease-in-out delay 0s
+  "Pista 6 px (#2A1E10 / #2A0E0A), radio 3. Cabezal 22–26 % del ancho con degradado transparente → color → transparente y glow 8–10 px. Ida y vuelta, ease-in-out: 1,6 s naranja (Turno en curso), 1 s rojo (espera Decisión). Un barrido principal por pantalla, siempre dentro de una pantalla empotrada. Se para al terminar el Turno." Hanken 13px/400 #4A4843 @435,149 371×117
+[div] @838,45 403×246 | bg #ECEAE5 · r 20px
+  "3 · CAJA DE VOZ" Mono 9.5px/600 ls 0.76px #5E5B55 @854,61 371×12
+  [div] @854,85 371×48 | bg #161615 · r 14px
+    [div] @868,99 30×20 | bg #0C0C0B · r 5px
+      [div] @874,108 5×2 | anim cf-vox 0.7s ease-in-out delay 0s
+        [span] @874,108 5×0 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+        [span] @874,109 5×0 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+        [span] @874,109 5×0 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+      [div] @881,102 5×14 | anim cf-vox 0.55s ease-in-out delay 0.18s
+        [span] @881,104 5×3 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+        [span] @881,108 5×3 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+        [span] @881,112 5×3 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+      [div] @888,102 5×14 | anim cf-vox 0.8s ease-in-out delay 0.09s
+        [span] @888,104 5×3 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+        [span] @888,108 5×3 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+        [span] @888,112 5×3 | bg #F29A1A · r 1px · shadow #F29A1A 0px 0px 4px 0px
+    "está escribiendo…" Hanken 13px/400 #C9C6BE @914,101 105×17
+  "Ventana 30×20, radio 5. Tres columnas de 5 px con tres celdas de 3 px. Escala vertical .15 ↔ 1, ease-in-out: 0,7 s / 0,55 s / 0,8 s, retrasos 0 / 0,18 / 0,09 s. Solo mientras el Agente genera texto; sustituye al texto «escribiendo» cuando hay sitio." Hanken 13px/400 #4A4843 @854,145 371×78
+[div] @1257,45 403×246 | bg #ECEAE5 · r 20px
+  "4 · AGUJA" Mono 9.5px/600 ls 0.76px #5E5B55 @1273,61 371×12
+  [div] @1273,85 371×80 | bg #161615 · r 14px
+  "Arco de 100°, 9 marcas, las dos últimas en rojo (#E5533D). Aguja 2 px naranja con glow 6 px. Marca el valor real y oscila ±2° en 6 s para que se note viva. Las agujas de valores fijos (CPU, MEM, DISCO) se mueven solo cuando cambia el dato, en 400 ms ease-out." Hanken 13px/400 #4A4843 @1273,177 371×98
+[div] @0,307 403×190 | bg #ECEAE5 · r 20px
+  [span] @7,314 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+  [span] @390,314 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+  [span] @7,484 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+  [span] @390,484 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+  "5 · BLOQUE DE MANDO (TORNILLOS)" Mono 9.5px/600 ls 0.76px #5E5B55 @16,323 371×12
+  "Bloque normal (radio 20, #ECEAE5) con cuatro tornillos de 6 px a 7 px de las esquinas: #D6D3CC, inset 0 1px 1px rgba(0,0,0,.28). Solo en bloques que mandan o vigilan algo vivo: aviso de Aprobación, panel ACTIVIDAD, mando de Aprobación, gateway, tarea en ejecución. Nunca en listas." Hanken 13px/400 #4A4843 @16,347 371×98
+[div] @419,307 403×190 | bg #ECEAE5 · r 20px
+  "6 · REGLA GRABADA" Mono 9.5px/600 ls 0.76px #5E5B55 @435,323 371×12
+  [span] @435,348 13×7 | bg #B9B6AF
+  [span] @451,351 13×2 | bg #B9B6AF
+  [span] @466,350 13×4 | bg #B9B6AF
+  [span] @482,351 13×2 | bg #B9B6AF
+  [span] @497,350 13×4 | bg #B9B6AF
+  [span] @513,351 13×2 | bg #B9B6AF
+  [span] @529,348 13×7 | bg #B9B6AF
+  [span] @544,351 13×2 | bg #B9B6AF
+  [span] @560,350 13×4 | bg #B9B6AF
+  [span] @575,351 13×2 | bg #B9B6AF
+  [span] @591,350 13×4 | bg #B9B6AF
+  [span] @606,351 13×2 | bg #B9B6AF
+  [span] @622,348 13×7 | bg #B9B6AF
+  [span] @638,351 13×2 | bg #B9B6AF
+  [span] @653,350 13×4 | bg #B9B6AF
+  [span] @669,351 13×2 | bg #B9B6AF
+  [span] @684,350 13×4 | bg #B9B6AF
+  [span] @700,351 13×2 | bg #B9B6AF
+  [span] @716,348 13×7 | bg #B9B6AF
+  [span] @731,351 13×2 | bg #B9B6AF
+  [span] @747,350 13×4 | bg #B9B6AF
+  [span] @762,351 13×2 | bg #B9B6AF
+  [span] @778,350 13×4 | bg #B9B6AF
+  [span] @793,351 13×2 | bg #B9B6AF
+  "Marcas de 1 px de ancho cada 3 px de hueco: 7 px cada 6, 4 px en pares, 2 px el resto. #B9B6AF sobre claro, #3A3936 dentro de pantalla. Decorativa: cierra un bloque de mando o el pie de una pantalla; máximo una por pantalla." Hanken 13px/400 #4A4843 @435,369 371×78
+[div] @838,307 403×190 | bg #ECEAE5 · r 20px
+  "7 · CUENTAKILÓMETROS" Mono 9.5px/600 ls 0.76px #5E5B55 @854,323 371×12
+  [div] @854,347 144×44 | bg #161615 · r 12px
+    [span] @864,357 16×24 | bg #2A2927 · r 3px
+      "6" Mono 13px/600 #ECEAE5 @867,361 9×16
+    [span] @882,357 16×24 | r 3px
+      "D" Mono 13px/600 #8D8A82 @885,361 9×16
+    [span] @900,357 16×24 | bg #2A2927 · r 3px
+      "0" Mono 13px/600 #ECEAE5 @903,361 9×16
+    [span] @918,357 16×24 | bg #2A2927 · r 3px
+      "4" Mono 13px/600 #ECEAE5 @921,361 9×16
+    [span] @936,357 16×24 | r 3px
+      ":" Mono 13px/600 #8D8A82 @939,361 9×16
+    [span] @954,357 16×24 | bg #2A2927 · r 3px
+      "1" Mono 13px/600 #ECEAE5 @957,361 9×16
+    [span] @972,357 16×24 | bg #2A2927 · r 3px
+      "2" Mono 13px/600 #ECEAE5 @975,361 9×16
+  "Celdas de 16×24, radio 3, #2A2927, Mono 13/600 #ECEAE5; separadores y unidades sin celda, #8D8A82. Cada cifra que cambia rueda hacia arriba en 280 ms. Para uptime y contadores que crecen." Hanken 13px/400 #4A4843 @854,403 371×78
+[div] @1257,307 403×190 | bg #ECEAE5 · r 20px
+  "8 · SEGURO + TECLA CON LEDS" Mono 9.5px/600 ls 0.76px #5E5B55 @1273,323 371×12
+  "Antes de aprobar: palanca de seguro (44×72, pala #1A1A19 con LED naranja). Quitado el seguro, la tecla «Aprobar» se arma. Su tira de 6 LEDs de 6×3 px se llena de izquierda a derecha mientras se mantiene pulsada (1 s en total); al completarse se pide la huella. Soltar antes vacía la tira en 150 ms." Hanken 13px/400 #4A4843 @1273,347 371×117
+[div] @0,517 1660×829 | bg #ECEAE5 · r 24px
+  "PANTALLA" Mono 9.5px/600 ls 0.76px #5E5B55 @24,541 220×12
+  "REFERENCIA" Mono 9.5px/600 ls 0.76px #5E5B55 @260,541 260×12
+  "MAQUINARIA Y LUZ QUE LLEVA" Mono 9.5px/600 ls 0.76px #5E5B55 @536,541 1100×12
+  [div] @24,561 1612×61 | border 1px #D6D3CC
+    "Agentes" Hanken 15px/700 #1A1A19 @24,572 55×20
+    "F-1 · T-1" Mono 11px/400 #4A4843 @260,576 69×13
+    "Aviso de Aprobación = bloque de mando + barrido rojo. Bajo cada Agente, tira de foquitos (rojo si espera, naranja si trabaja, sin tira si libre). Caja de voz al escribir. Regla junto al nombre del Servidor." Hanken 13px/400 #4A4843 @536,574 1091×36
+  [div] @24,621 1612×42 | border 1px #D6D3CC
+    "Conversación" Hanken 15px/700 #1A1A19 @24,632 93×20
+    "F-2 · T-1" Mono 11px/400 #4A4843 @260,636 69×13
+    "ACTIVIDAD = bloque de mando con aguja de carga, tiempo, barrido y pasos; en tablet, panel fijo a la derecha." Hanken 13px/400 #4A4843 @536,634 634×17
+  [div] @24,663 1612×42 | border 1px #D6D3CC
+    "Aprobación (hoja)" Hanken 15px/700 #1A1A19 @24,674 120×20
+    "F-3" Mono 11px/400 #4A4843 @260,678 23×13
+    "Barrido rojo dentro del comando hasta la Decisión. Bloque de mando con seguro y tecla con LEDs." Hanken 13px/400 #4A4843 @536,676 571×17
+  [div] @24,705 1612×42 | border 1px #D6D3CC
+    "Aprobaciones (lista)" Hanken 15px/700 #1A1A19 @24,716 135×20
+    "D-02" Mono 11px/400 #4A4843 @260,720 31×13
+    "La pendiente lleva su tira de foquitos rojos bajo el comando. Historial sin luz." Hanken 13px/400 #4A4843 @536,718 444×17
+  [div] @24,747 1612×42 | border 1px #D6D3CC
+    "Servidor (ficha)" Hanken 15px/700 #1A1A19 @24,758 103×20
+    "F-4 · T-2" Mono 11px/400 #4A4843 @260,762 69×13
+    "Gateway con cuentakilómetros + tres agujas (CPU, MEM, DISCO) en un bloque de mando. Destinos con plaquita." Hanken 13px/400 #4A4843 @536,760 647×17
+  [div] @24,789 1612×42 | border 1px #D6D3CC
+    "Servidores (lista)" Hanken 15px/700 #1A1A19 @24,800 114×20
+    "D-06" Mono 11px/400 #4A4843 @260,804 31×13
+    "La franja de estado de cada Servidor lleva foquitos: naranja si atlas tiene Turnos en curso, ninguno si está en reposo." Hanken 13px/400 #4A4843 @536,802 675×17
+  [div] @24,830 1612×42 | border 1px #D6D3CC
+    "Herramientas · Terminal" Hanken 15px/700 #1A1A19 @24,841 165×20
+    "F-5" Mono 11px/400 #4A4843 @260,845 23×13
+    "Barrido naranja en la cabecera de SALIDA mientras el proceso escribe. LED en cada tecla especial. Regla al pie de la pantalla." Hanken 13px/400 #4A4843 @536,843 728×17
+  [div] @24,872 1612×42 | border 1px #D6D3CC
+    "Tareas" Hanken 15px/700 #1A1A19 @24,883 45×20
+    "F-6" Mono 11px/400 #4A4843 @260,887 23×13
+    "La que se ejecuta sube a bloque de mando con barrido. Próxima hora en ventanilla hundida." Hanken 13px/400 #4A4843 @536,885 533×17
+  [div] @24,914 1612×42 | border 1px #D6D3CC
+    "Trabajo" Hanken 15px/700 #1A1A19 @24,925 51×20
+    "D-17" Mono 11px/400 #4A4843 @260,929 31×13
+    "Al filtrar EN CURSO, cada Tarjeta lleva tira de foquitos naranjas. El resto, sin luz." Hanken 13px/400 #4A4843 @536,927 462×17
+  [div] @24,956 1612×42 | border 1px #D6D3CC
+    "Tablero" Hanken 15px/700 #1A1A19 @24,967 51×20
+    "D-03" Mono 11px/400 #4A4843 @260,971 31×13
+    "Las Tarjetas de métrica muestran su lectura en pantalla empotrada (Disco 82 %). Sin barrido." Hanken 13px/400 #4A4843 @536,969 535×17
+  [div] @24,998 1612×42 | border 1px #D6D3CC
+    "Uso y costo" Hanken 15px/700 #1A1A19 @24,1009 79×20
+    "D-16" Mono 11px/400 #4A4843 @260,1013 31×13
+    "Cifras HOY/SEMANA/MES en lectura digital Mono 20 con glow naranja. Sin barrido." Hanken 13px/400 #4A4843 @536,1011 482×17
+  [div] @24,1040 1612×61 | border 1px #D6D3CC
+    "Ficha / Memoria / Personalidad / Herramientas del Agente" Hanken 15px/700 #1A1A19 @24,1051 213×40
+    "D-10…D-14" Mono 11px/400 #4A4843 @260,1055 69×13
+    "Sin maquinaria: son ajustes. El trío ON/BSY/ERR usa la luz normal." Hanken 13px/400 #4A4843 @536,1053 382×17
+  [div] @24,1101 1612×42 | border 1px #D6D3CC
+    "Herram. (huella)" Hanken 15px/700 #1A1A19 @24,1112 109×20
+    "D-21" Mono 11px/400 #4A4843 @260,1116 31×13
+    "El anillo de la huella lleva el halo de los foquitos (3,2 s) mientras espera." Hanken 13px/400 #4A4843 @536,1114 415×17
+  [div] @24,1142 1612×61 | border 1px #D6D3CC
+    "Ajustes / Avisos / APK / Presets / Agregar Servidor" Hanken 15px/700 #1A1A19 @24,1153 215×40
+    "D-04, D-05, D-18…D-20" Mono 11px/400 #4A4843 @260,1157 162×13
+    "Sin maquinaria." Hanken 13px/400 #4A4843 @536,1155 89×17
+  [div] @24,1203 1612×42 | border 1px #D6D3CC
+    "Compartir" Hanken 15px/700 #1A1A19 @24,1214 71×20
+    "D-22" Mono 11px/400 #4A4843 @260,1218 31×13
+    "Sin maquinaria." Hanken 13px/400 #4A4843 @536,1216 89×17
+  [div] @24,1245 1612×42 | border 1px #D6D3CC
+    "Widget" Hanken 15px/700 #1A1A19 @24,1256 48×20
+    "D-23" Mono 11px/400 #4A4843 @260,1260 31×13
+    "Sin animación (lo impide el sistema). El número de Aprobaciones lleva la lente de foquito encendida, fija." Hanken 13px/400 #4A4843 @536,1258 600×17
+  [div] @24,1287 1612×42 | border 1px #D6D3CC
+    "Navegación" Hanken 15px/700 #1A1A19 @24,1298 79×20
+    "D-0 · G-1" Mono 11px/400 #4A4843 @260,1302 69×13
+    "La tecla activa lleva su barra naranja con glow. Sin animación." Hanken 13px/400 #4A4843 @536,1300 358×17

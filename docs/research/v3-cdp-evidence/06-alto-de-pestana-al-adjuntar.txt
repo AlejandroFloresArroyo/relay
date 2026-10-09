@@ -1,0 +1,42 @@
+$ for b in chromium cft chrome; do RELAY_LAB_BROWSER=$b RELAY_LAB_EXT_LOAD=cdp node /tmp/zero.ts; done
+(chrome.tabs.get antes de cada cuadro; "w"/"h" son el tamaño de la pestaña)
+== chromium
+local A just created {"active":true,"status":"complete","w":1280,"h":713,"win":1290199441} ok 320x180
+local A +1s {"active":true,"status":"complete","w":1280,"h":657,"win":1290199441} ok 320x180
+relay B just created {"active":true,"status":"loading","w":1280,"h":713,"win":1290199441} ok 320x178
+relay B +1s {"active":true,"status":"complete","w":1280,"h":657,"win":1290199441} ok 320x178
+local A now background {"active":false,"status":"complete","w":1280,"h":657,"win":1290199441} ok 320x180
+== cft
+local A just created {"active":true,"status":"complete","w":1280,"h":657,"win":400195342} ok 320x166
+local A +1s {"active":true,"status":"complete","w":1280,"h":657,"win":400195342} ok 320x166
+relay B just created {"active":true,"status":"complete","w":1280,"h":657,"win":400195342} ok 320x164
+relay B +1s {"active":true,"status":"complete","w":1280,"h":657,"win":400195342} ok 320x164
+local A now background {"active":false,"status":"complete","w":1280,"h":657,"win":400195342} ok 320x166
+== chrome
+local A just created {"active":true,"status":"complete","w":1280,"h":713,"win":2131449891} ok 320x180
+local A +1s {"active":true,"status":"complete","w":1280,"h":657,"win":2131449891} ok 320x180
+relay B just created {"active":true,"status":"complete","w":1280,"h":713,"win":2131449891} ok 320x178
+relay B +1s {"active":true,"status":"complete","w":1280,"h":657,"win":2131449891} ok 320x178
+local A now background {"active":false,"status":"complete","w":1280,"h":657,"win":2131449891} ok 320x180
+
+--- fuente de /tmp/zero.ts (desechable) ---
+import { launchUsual } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/usual.ts';
+import { serveFixtures } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/fixtures.ts';
+import { sleep } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/browser.ts';
+const site = await serveFixtures();
+const u = await launchUsual();
+try {
+  const conn = await u.puente.connection;
+  const show = async (label: string, tab: number) => {
+    const info = await u.inWorker(`chrome.tabs.get(${tab}).then(t => ({active: t.active, status: t.status, w: t.width, h: t.height, win: t.windowId}))`);
+    const r = await conn.request({ op: 'act', tabId: tab, action: { type: 'frame', maxWidth: 320 } }).then((f) => `ok ${f.width}x${f.height}`, (e) => e.message);
+    console.log(label, JSON.stringify(info), r);
+  };
+  const a = await u.localTab(`${site.url}/form`); await u.userShares(a);
+  await show('local A just created', a);
+  await sleep(1000); await show('local A +1s', a);
+  const b = await conn.request({ op: 'openTab', url: `${site.url}/b` });
+  await show('relay B just created', b);
+  await sleep(1000); await show('relay B +1s', b);
+  await show('local A now background', a);
+} finally { await u.close(); site.close(); }

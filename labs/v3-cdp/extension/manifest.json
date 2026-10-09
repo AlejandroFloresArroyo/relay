@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Relay Lab (#78)",
+  "description": "Laboratorio: compartir pestañas elegidas del navegador habitual con Relay.",
+  "version": "0.0.1",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzR2sMCfB6NG1b4rFs6QaOfjnqVA7x0ywixMZPp3UFi1FGUs5tz4Buy2fYMHbu8lyocIVYFS66ihBJMv090TcoooO9BdwoOUr+X5wa9PIa3N0kdc574a++AdrQJIjGNQv316T9Dw1jUAKQGkzi7NHrcmUBxeOlDT/T0IcuqsUm01jQgxfI2Ib4fkODsuyiYiBc8/mWDSTM1zwx6pbDutj7vYQ/nV61xbdBXUV+kkouwH6BNixb6u6A0/cXt01MPR19M8p2G0FDi3iTYP5UiEeba4eXXHOPNPol7iW2nld8iIR5VfCtGvtDiItw+y9zaT5QgqZThiLjHkiWlOsYTgwuwIDAQAB",
+  "permissions": ["debugger", "nativeMessaging", "tabs", "downloads"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "Compartir esta pestaña con Relay" }
+}

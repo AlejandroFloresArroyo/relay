@@ -1,0 +1,2 @@
+# Shells the supervisor tests may run.
+/bin/sh

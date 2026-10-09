@@ -1,0 +1,9 @@
+// Root-only library instrumentation configuration; leaves the module build.gradle untouched.
+allprojects { project ->
+  project.plugins.withId('com.android.library') {
+    if (project.name == 'relay-notifications') {
+      project.android.defaultConfig.testApplicationId = 'expo.modules.relaynotifications.qa'
+      project.android.defaultConfig.testInstrumentationRunner = 'expo.modules.relaynotifications.NotificationResidualInstrumentation'
+    }
+  }
+}

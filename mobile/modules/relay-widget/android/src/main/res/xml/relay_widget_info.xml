@@ -1,0 +1,4 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+  android:minWidth="140dp" android:minHeight="180dp" android:minResizeWidth="140dp" android:minResizeHeight="180dp"
+  android:targetCellWidth="2" android:targetCellHeight="2" android:resizeMode="horizontal|vertical"
+  android:updatePeriodMillis="0" android:initialLayout="@layout/relay_widget_compact" android:description="@string/relay_widget_description" android:widgetCategory="home_screen" />

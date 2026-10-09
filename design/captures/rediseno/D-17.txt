@@ -1,0 +1,84 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "Trabajo" Hanken 28px/700 ls -0.7px #1A1A19 @16,54 91×36
+  "ATLAS" Mono 9.5px/400 ls 0.57px #ECEAE5 @213,52 89×40 | bg #161615 · r 12px · shadow #000000/0.5 0px 2px 6px 0px inset
+    [span] @225,69 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "⇕" Mono 9.5px/400 ls 0.57px #F29A1A @284,66 6×13
+  "+" Hanken 22px/400 #1A1A19 @310,48 48×48 | bg #ECEAE5 · r 50% · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  [div] @12,108 64×64 | bg #1A1A19 · r 14px
+    [span] @32,129 6×6 | bg #8D8A82 · r 50%
+    "4" Mono 20px/600 #ECEAE5 @43,120 14×24
+    "HACER" Mono 9.5px/400 #ECEAE5 @28,148 33×12
+  [div] @82,108 64×64 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @102,129 6×6 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "1" Mono 20px/600 #4A4843 @113,120 14×24
+    "CURSO" Mono 9.5px/400 #4A4843 @98,148 33×12
+  [div] @153,108 64×64 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @172,129 6×6 | bg #8D8A82 · r 50%
+    "1" Mono 20px/600 #4A4843 @183,120 14×24
+    "REVIS." Mono 9.5px/400 #4A4843 @165,148 40×12
+  [div] @223,108 64×64 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @243,129 6×6 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "1" Mono 20px/600 #4A4843 @254,120 14×24
+    "BLOQ." Mono 9.5px/400 #4A4843 @239,148 33×12
+  [div] @294,108 64×64 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @313,129 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "1" Mono 20px/600 #4A4843 @324,120 14×24
+    "HECHO" Mono 9.5px/400 #4A4843 @309,148 33×12
+  "POR HACER · ORDEN MANUAL" Mono 9.5px/600 ls 0.76px #5E5B55 @16,194 178×12
+  "Compactar" Hanken 15px/600 #7A4A00 @278,190 76×20
+  [div] @12,228 346×260 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @24,228 322×65 | border 1px #000000/0
+      "#17" Mono 11px/400 #5E5B55 @24,255 23×13
+      "Revisar pruebas del Puente" Hanken 15px/600 #1A1A19 @66,238 184×20
+      [span] @66,262 48×22 | bg #DCD9D2 · r 8px
+        [span] @74,270 6×6 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+        "dev" Mono 9.5px/400 #1A1A19 @86,267 20×12
+      "›" Hanken 18px/400 #5E5B55 @342,250 4×23
+    [div] @24,293 322×65 | border 1px #D6D3CC
+      "#18" Mono 11px/400 #5E5B55 @24,320 23×13
+      "Documentar el emparejamiento" Hanken 15px/600 #1A1A19 @66,303 214×20
+      [span] @66,327 81×22 | bg #DCD9D2 · r 8px
+        [span] @74,335 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+        "research" Mono 9.5px/400 #1A1A19 @86,332 53×12
+      "›" Hanken 18px/400 #5E5B55 @342,315 4×23
+    [div] @24,358 322×65 | border 1px #D6D3CC
+      "#19" Mono 11px/400 #5E5B55 @24,385 23×13
+      "Configurar la demo" Hanken 15px/600 #1A1A19 @66,368 131×20
+      [span] @66,392 101×22 | bg #DCD9D2 · r 8px
+        [span] @74,400 6×6 | bg #B9B6AF · r 50%
+        "Sin asignar" Mono 9.5px/400 #5E5B55 @86,397 73×12
+      "›" Hanken 18px/400 #5E5B55 @342,380 4×23
+    [div] @24,423 322×65 | border 1px #D6D3CC
+      "#24" Mono 11px/400 #5E5B55 @24,450 23×13
+      "Cerrar revisión" Hanken 15px/600 #1A1A19 @66,433 103×20
+      [span] @66,457 81×22 | bg #DCD9D2 · r 8px
+        [span] @74,465 6×6 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+        "research" Mono 9.5px/400 #1A1A19 @86,462 53×12
+      "›" Hanken 18px/400 #5E5B55 @342,445 4×23
+  [div] @12,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #4A4843 @22,773 47×12
+  [div] @84,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @94,773 47×12
+  [div] @156,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @166,773 47×12
+  [div] @228,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #ECEAE5 @238,773 47×12
+  [div] @300,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @313,773 40×12
+  [div] @372,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @385,773 40×12
+  [div] @444,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #4A4843 @444,773 67×12
+  [div] @516,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @526,773 47×12
+  [div] @298,732 72×92 | bgimg linear-gradient(90deg, #D8D5CE/0, #D8D5CE 55%)
+    "1 ›" Mono 10px/600 #1A1A19 @319,754 39×28 | bg #F29A1A · r 14px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Trabajo deja de ser un segmento de Agentes («AGENTES | TRABAJO») y una pastilla suelta: tiene su pestaña.
+CAMBIO: «atlas › · TRABAJO POR SERVIDOR» se sustituye por el selector de Servidor.
+CAMBIO: Las Tarjetas pasan a filas de un bloque. «COLUMNAS MANUALES» → «ORDEN MANUAL».

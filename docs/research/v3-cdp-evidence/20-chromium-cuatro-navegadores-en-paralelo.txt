@@ -1,0 +1,126 @@
+$ RELAY_LAB_BROWSER=chromium npm test
+
+
+✔ refuses raw CDP and unknown action types (3.178652ms)
+✔ navigate only accepts http(s) URLs within the length limit (1.027126ms)
+✔ text is bounded and keys come from an allowlist (0.306218ms)
+✔ coordinates must be finite and inside the bound (1.95191ms)
+✔ frame parameters are clamped to the frame limits (0.362072ms)
+✔ tap becomes a left mouse press and release at the point (2.351533ms)
+✔ back moves exactly one history entry and does nothing at the start (0.310044ms)
+✔ frame is a downscaled JPEG and fails rather than exceed the byte limit (3.353722ms)
+✖ [chromium] the default profile refuses remote debugging (833.787623ms)
+ℹ stderr: DevTools listening on ws://127.0.0.1:33773/devtools/browser/c525ef45-4e1d-4ee3-bc5c-88012d76fcfb
+ℹ profile dirs created under the synthetic HOME: chromium
+✔ [chromium] a dedicated profile reports its exact version (702.432522ms)
+ℹ product=Chrome/152.0.7977.82 protocol=1.3 jsVersion=15.2.124.21
+✔ [chromium] frame, tap, text and keys reach the page (1621.13426ms)
+ℹ frame 765x493 jpeg 6390 bytes
+✔ [chromium] tabs can be listed, opened, activated and closed (1164.291603ms)
+✔ [chromium] navigate, back, forward and reload (1554.875584ms)
+✔ [chromium] reconnecting over the port finds the same tabs alive (1011.038827ms)
+✖ [chromium] closing the CDP pipe keeps the browser and its tabs alive (3772.477481ms)
+ℹ exitCode after pipe close: 0 signal: null
+✔ [chromium] the dedicated profile keeps its data across restarts (2639.051656ms)
+✔ [chromium] JavaScript dialogs are reported and answered (1269.357511ms)
+✔ [chromium] file choosers are intercepted and filled with Server files (1208.547106ms)
+✔ [chromium] downloads stay on the Server in a known folder (1338.104874ms)
+ℹ downloaded relay-lab.txt 20 bytes
+✔ [chromium] a native <select> is operated with keys, not by its popup (1803.069483ms)
+ℹ frame with popup requested is different to closed frame
+✔ [chromium] screencast frames need an ack each (flow control) (4285.79558ms)
+ℹ frames without ack in 1.5 s: 3
+ℹ frames with ack in 1.5 s: 69, mean 3993 bytes
+✔ [chromium] the extension loads and its native host connects to the Puente (1413.47379ms)
+ℹ extension opcncffglnlpmffjmnjekehnidddcfbk host argv origin chrome-extension://opcncffglnlpmffjmnjekehnidddcfbk/ ua Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+✔ [chromium] only tabs the user shared are visible or controllable (3369.40902ms)
+✔ [chromium] the adapter refuses raw CDP and oversized requests before Chrome sees them (1666.276638ms)
+✔ [chromium] tap, text, keys and navigation work through the extension (2741.67612ms)
+✔ [chromium] chrome.debugger method catalogue (3510.516213ms)
+ℹ Page.captureScreenshot: ok
+ℹ Page.startScreencast: ok
+ℹ Page.stopScreencast: ok
+ℹ Page.getNavigationHistory: ok
+ℹ Page.handleJavaScriptDialog: {"code":-32602,"message":"No dialog is showing"}
+ℹ Page.setInterceptFileChooserDialog: ok
+ℹ Page.setDownloadBehavior: {"code":-32000,"message":"Cannot not access browser-level commands"}
+ℹ Input.dispatchMouseEvent: ok
+ℹ Input.dispatchTouchEvent: ok
+ℹ Input.dispatchKeyEvent: ok
+ℹ Input.insertText: ok
+ℹ DOM.getDocument: ok
+ℹ DOM.setFileInputFiles: {"code":-32000,"message":"Could not find node with given id"}
+ℹ Runtime.evaluate: ok
+ℹ Emulation.setDeviceMetricsOverride: ok
+ℹ Emulation.clearDeviceMetricsOverride: ok
+ℹ Fetch.enable: ok
+ℹ Fetch.disable: ok
+ℹ Network.getCookies: ok
+ℹ Storage.getCookies: ok
+ℹ Target.getTargets: {"code":-32000,"message":"Not allowed"}
+ℹ Target.createTarget: ok
+ℹ Browser.getVersion: {"code":-32601,"message":"'Browser.getVersion' wasn't found"}
+ℹ Browser.setDownloadBehavior: {"code":-32601,"message":"'Browser.setDownloadBehavior' wasn't found"}
+ℹ SystemInfo.getInfo: {"code":-32601,"message":"'SystemInfo.getInfo' wasn't found"}
+ℹ Page.reload: ok
+✖ [chromium] dialogs, file chooser and downloads through the extension (1748.310412ms)
+✔ [chromium] control is shared with the person at the computer (1838.812871ms)
+✖ [chromium] losing the adapter detaches but keeps the browser and Relay's new tabs (3026.426986ms)
+✔ [chromium] DevTools already open on the tab: control goes on or the detach is reported (4480.357041ms)
+ℹ DevTools windows open before attaching: 2
+ℹ act: ok; detached event: null
+✔ [chromium] DevTools opened on an attached tab: control goes on or the detach is reported (5051.674934ms)
+ℹ act after DevTools opened: ok; detached event: null
+✖ [chromium] detaching is reported (internal page, tab closed) (1605.96185ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 27
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55504.261718
+
+✖ failing tests:
+
+test at test/dedicated.test.ts:42:1
+✖ [chromium] the default profile refuses remote debugging (833.787623ms)
+  AssertionError [ERR_ASSERTION]: CDP must not listen on the default profile
+  + actual - expected
+  
+  + 'ws://127.0.0.1:33773/devtools/browser/c525ef45-4e1d-4ee3-bc5c-88012d76fcfb'
+  - null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'ws://127.0.0.1:33773/devtools/browser/c525ef45-4e1d-4ee3-bc5c-88012d76fcfb',
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dedicated.test.ts:132:1
+✖ [chromium] closing the CDP pipe keeps the browser and its tabs alive (3772.477481ms)
+  AssertionError [ERR_ASSERTION]: browser must survive the Puente losing its pipe
+  
+  0 !== null
+  
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/extension.test.ts:113:1
+✖ [chromium] dialogs, file chooser and downloads through the extension (1748.310412ms)
+  Error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+
+test at test/extension.test.ts:160:1
+✖ [chromium] losing the adapter detaches but keeps the browser and Relay's new tabs (3026.426986ms)
+  Error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+
+test at test/extension.test.ts:218:1
+✖ [chromium] detaching is reported (internal page, tab closed) (1605.96185ms)
+  Error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}

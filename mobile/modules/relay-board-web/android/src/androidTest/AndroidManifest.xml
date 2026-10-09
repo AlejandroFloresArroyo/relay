@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <instrumentation android:name="relay.boardweb.BoardWebLifecycleInstrumentation"
+    android:targetPackage="relay.boardweb.test" android:functionalTest="false" android:handleProfiling="false"/>
+  <application>
+    <service android:name="relay.boardweb.IsolatedWebViewProbeService" android:isolatedProcess="true" android:exported="false"/>
+    <activity android:name="relay.boardweb.BoardWebLifecycleActivity" android:exported="false"
+      android:theme="@android:style/Theme.Material.Light.NoActionBar"/>
+  </application>
+</manifest>

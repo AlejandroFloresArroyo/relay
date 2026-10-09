@@ -1,0 +1,51 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ dev" Hanken 15px/600 #7A4A00 @16,58 33×20
+  "Personalidad" Hanken 28px/700 ls -0.7px #1A1A19 @16,92 342×32
+  "DEV · SOUL.md" Mono 9.5px/400 ls 0.38px #5E5B55 @16,124 342×16
+  [div] @12,156 346×221 | bg #161615 · r 20px · shadow #000000/0.5 0px 2px 6px 0px inset, #E5533D/0.3 0px 0px 0px 1px, #E5533D/0.14 0px 0px 16px 0px
+    [div] @12,156 346×221 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    [span] @36,180 9×9 | bg #3A3936 · r 50%
+    [span] @51,180 9×9 | bg #3A3936 · r 50%
+    [span] @66,180 9×9 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+    "SIN RESPUESTA · REVISA TAILNET" Mono 13px/600 ls 1.04px #FF6A55 tshadow #FF6A55/0.7 0px 0px 7px @36,201 298×36
+    "atlas no contesta; no se pudo leer SOUL.md. Relay vuelve a intentarlo solo." Hanken 15px/400 #C9C6BE @36,250 298×44
+    "Reintentar" Hanken 15px/700 #ECEAE5 @36,305 111×48 | bg #2A2927 · r 16px · shadow #FFFFFF/0.08 0px 1px 0px 0px inset, #000000/0.5 0px 2px 3px 0px
+  [div] @12,393 346×97 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px · op 0.45
+    "Aplicar preset SOUL" Hanken 15px/600 #1A1A19 @24,407 306×20
+    "›" Hanken 18px/400 #5E5B55 @342,406 4×23
+    [div] @24,441 322×1 | bg #D6D3CC
+    "Guardar SOUL actual como preset" Hanken 15px/600 #1A1A19 @24,456 306×20
+    "›" Hanken 18px/400 #5E5B55 @342,455 4×23
+  [div] @12,506 346×56 | r 20px · shadow #8D8A82 0px 0px 0px 1.5px inset
+    "Presets de personalidad" Hanken 15px/600 #1A1A19 @24,517 306×20
+    "EN SERVIDORES › ATLAS" Mono 9.5px/400 ls 0.38px #5E5B55 @24,539 306×12
+    "›" Hanken 18px/400 #5E5B55 @342,523 4×23
+  "Memoria (D-11) usa el mismo encabezado («‹ dev» y el título Memoria) y el mismo bloque de estado, con la frase «no se pudo leer la memoria»." Hanken 13px/400 #4A4843 @12,578 346×59
+  [div] @12,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    "AGENTES" Mono 9.5px/400 #ECEAE5 @22,773 47×12
+  [div] @84,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "HERRAM." Mono 9.5px/400 #4A4843 @94,773 47×12
+  [div] @156,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TABLERO" Mono 9.5px/400 #4A4843 @166,773 47×12
+  [div] @228,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @238,773 47×12
+  [div] @300,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "TAREAS" Mono 9.5px/400 #4A4843 @313,773 40×12
+  [div] @372,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "APROB." Mono 9.5px/400 #4A4843 @385,773 40×12
+  [div] @444,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "SERVIDORES" Mono 9.5px/400 #4A4843 @444,773 67×12
+  [div] @516,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    "AJUSTES" Mono 9.5px/400 #4A4843 @526,773 47×12
+  [div] @298,732 72×92 | bgimg linear-gradient(90deg, #D8D5CE/0, #D8D5CE 55%)
+    "1 ›" Mono 10px/600 #1A1A19 @319,754 39×28 | bg #F29A1A · r 14px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: «NO SE PUDO CARGAR» con «Relay no alcanza al Servidor» es en realidad SIN RESPUESTA: se usa el bloque canónico.
+CAMBIO: Los tres botones iguales pasan a filas. Mientras no hay datos, las acciones quedan deshabilitadas.
+CAMBIO: «Gestionar presets del Servidor» es un acceso secundario (borde, sin relleno): lleva a Servidores › atlas › Personalidades.
+CAMBIO: Encabezado-bloque con avatar → encabezado B con «‹ dev». Memoria y Skills hacen lo mismo.

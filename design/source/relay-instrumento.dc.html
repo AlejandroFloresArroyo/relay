@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Martian+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+body{margin:0;background:#1C1C1B}
+a{color:#F29A1A;text-decoration:none}a:hover{text-decoration:underline}
+@keyframes ri-blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+@keyframes ri-pulse{0%,100%{opacity:1}50%{opacity:.45}}
+@keyframes ri-spin{to{transform:rotate(360deg)}}
+</style>
+</helmet>
+<div style="{{ rootVars }}">
+<div style="min-height:100vh;background:#1C1C1B;color:#E8E6E1;font-family:'Hanken Grotesk',sans-serif;padding:64px 72px 96px;box-sizing:border-box;width:max-content">
+
+<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:48px;margin-bottom:48px;max-width:2580px">
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="width:46px;height:20px;border-radius:10px;background:#000;box-shadow:inset 0 0 0 1px #2A2926;display:flex;align-items:center;justify-content:space-evenly"><span style="width:6px;height:6px;border-radius:50%;background:#3A3936"></span><span style="width:6px;height:6px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span><span style="width:6px;height:6px;border-radius:50%;background:#3A3936"></span></div>
+      <span style="font-size:24px;font-weight:800;letter-spacing:-0.04em">relay</span>
+      <span style="font-family:'Martian Mono',monospace;font-size:11px;color:#8D8A82;margin-left:6px">ESTILO INSTRUMENTO (4b) · 6 PANTALLAS</span>
+    </div>
+    <div style="font-size:14px;color:#A9A69E;max-width:640px;text-wrap:pretty">Bloques táctiles claros, pantallas oscuras empotradas con acentos neón y el indicador ON / BUSY / ERR en todas las vistas. Las imágenes con trama son espacios vacíos: arrastra tus grabados o bustos. Anteriores: <a href="Relay Estilos.dc.html">estilos</a> · <a href="Relay App Preview.dc.html">v1</a>.</div>
+  </div>
+  <div style="display:flex;gap:18px;font-family:'Martian Mono',monospace;font-size:10px;color:#A9A69E">
+    <span style="display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:#4CC774;box-shadow:var(--glg)"></span>ON</span>
+    <span style="display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span>BUSY</span>
+    <span style="display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:#6F6C66"></span>OFF</span>
+    <span style="display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:#E5533D;box-shadow:var(--glr)"></span>ERR</span>
+  </div>
+</div>
+
+<div style="display:flex;gap:48px;align-items:flex-start">
+
+<!-- 01 CONEXIÓN -->
+<div data-screen-label="01 Conexión" style="display:flex;flex-direction:column;gap:14px">
+  <div style="display:flex;gap:10px;font-family:'Martian Mono',monospace;font-size:11px;color:#8D8A82"><span style="color:#E8E6E1">01</span><span>CONEXIÓN / ONBOARDING</span><span style="padding:1px 6px;border-radius:4px;background:#F29A1A;color:#1A1A19">SUSTITUIDA POR LA SECCIÓN 23</span></div>
+  <div style="width:390px;height:844px;border-radius:54px;background:#050505;padding:10px;box-sizing:border-box;box-shadow:0 0 0 1px #2a2a2a,0 40px 80px -24px rgba(0,0,0,.6)">
+  <div style="position:relative;width:100%;height:100%;border-radius:44px;overflow:hidden;background:#D8D5CE;color:#1A1A19;display:flex;flex-direction:column">
+    <div style="height:50px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 30px 0 36px;font-size:15px;font-weight:600;position:relative"><span>9:41</span><div style="position:absolute;left:50%;top:11px;transform:translateX(-50%);width:122px;height:35px;border-radius:20px;background:#000"></div><span style="font-family:'Martian Mono',monospace;font-size:10px">5G ▮▮▮</span></div>
+    <div style="flex:1;overflow:auto;overflow-x:hidden;scrollbar-width:none;padding:4px 12px 30px;display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:center;gap:8px;padding:0 6px;flex:none">
+        <div style="width:44px;height:19px;border-radius:10px;background:#161615;box-shadow:inset 0 1px 3px rgba(0,0,0,.5);display:flex;align-items:center;justify-content:space-evenly"><span style="width:6px;height:6px;border-radius:50%;background:#4A4843"></span><span style="width:6px;height:6px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span><span style="width:6px;height:6px;border-radius:50%;background:#4A4843"></span></div>
+        <span style="font-weight:800;font-size:20px;letter-spacing:-0.04em">relay</span>
+        <span style="margin-left:auto;font-family:'Martian Mono',monospace;font-size:9.5px;color:#6F6C66;letter-spacing:.06em">PASO 1/2</span>
+      </div>
+
+      <div onClick="{{ toggleVpn }}" style="cursor:pointer;position:relative;flex:none;height:142px;background:#161615;border-radius:20px;overflow:hidden;box-shadow:inset 0 2px 6px rgba(0,0,0,.5),var(--rim)">
+        <div style="position:absolute;top:0;right:0;bottom:0;width:170px;opacity:.6;filter:grayscale(1) contrast(1.3)"><image-slot id="r4b-plate" shape="rect" placeholder="Grabado / escultura"></image-slot></div>
+        <div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(transparent 0.9px,#161615 1.4px);background-size:3px 3px"></div>
+        <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#161615 42%,rgba(22,22,21,.15))"></div>
+        <div style="position:absolute;inset:0;pointer-events:none;background-image:var(--scan)"></div>
+        <div style="position:relative;pointer-events:none;padding:14px 16px;height:100%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between">
+          <div style="display:flex;align-items:center;gap:8px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.08em;color:#8D8A82">RED PRIVADA<span style="width:8px;height:8px;border-radius:50%;background:{{ vpnLed }};box-shadow:{{ vpnGlow }}"></span></div>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <span style="font-family:'Martian Mono',monospace;font-size:20px;font-weight:600;letter-spacing:.02em;color:{{ vpnColor }};text-shadow:{{ vpnTGlow }}">{{ vpnTitle }}</span>
+            <span style="font-size:12.5px;line-height:1.4;color:#C9C6BE;max-width:210px">{{ vpnSub }}</span>
+          </div>
+          <span style="font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.06em;color:#F29A1A">{{ vpnCta }}</span>
+        </div>
+      </div>
+
+      <div style="padding:4px 6px 0;font-size:24px;font-weight:700;letter-spacing:-0.02em;flex:none">Agregar servidor</div>
+
+      <div style="flex:none;border-radius:22px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:14px;display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;color:#6F6C66">NOMBRE</span>
+          <div style="height:42px;border-radius:12px;background:#DCD9D2;box-shadow:inset 0 2px 3px rgba(0,0,0,.12);display:flex;align-items:center;padding:0 12px;font-size:15px">atlas</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;color:#6F6C66">URL INTERNA</span>
+          <div style="height:42px;border-radius:12px;background:#DCD9D2;box-shadow:inset 0 2px 3px rgba(0,0,0,.12),0 0 0 1.5px #F29A1A,var(--glo);display:flex;align-items:center;padding:0 12px;font-family:'Martian Mono',monospace;font-size:11.5px">https://atlas.tailnet-7f2c.ts.net<span style="width:1.5px;height:16px;background:#F29A1A;margin-left:1px"></span></div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;color:#6F6C66">API KEY</span>
+          <div style="height:42px;border-radius:12px;background:#DCD9D2;box-shadow:inset 0 2px 3px rgba(0,0,0,.12);display:flex;align-items:center;justify-content:space-between;padding:0 12px;font-family:'Martian Mono',monospace;font-size:12px;letter-spacing:.08em"><span>••••••••••••••3f9a</span><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#6F6C66" stroke-width="1.8" stroke-linecap="round"><path d="M3 3l18 18M10.6 6.1A9.8 9.8 0 0 1 12 6c5 0 9 6 9 6a16 16 0 0 1-2.6 3.2M6.4 7.4C4.3 9 3 12 3 12s4 6 9 6a8.7 8.7 0 0 0 4.1-1"></path></svg></div>
+          <span style="font-size:11.5px;color:#6F6C66">Se guarda cifrada en el llavero del dispositivo.</span>
+        </div>
+      </div>
+
+      <button onClick="{{ cycleTest }}" style="all:unset;cursor:pointer;flex:none;height:48px;border-radius:16px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;font-weight:600"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 12h4l3-7 4 14 3-7h2"></path></svg>Probar conexión</button>
+
+      <div style="flex:none;position:relative;background:#161615;border-radius:16px;padding:11px 14px;display:flex;align-items:center;gap:12px;box-shadow:inset 0 2px 6px rgba(0,0,0,.5)">
+        <div style="position:absolute;inset:0;border-radius:16px;pointer-events:none;background-image:var(--scan)"></div>
+        <span style="width:9px;height:9px;border-radius:50%;flex:none;background:{{ tr.led }};box-shadow:{{ tr.glow }}"></span>
+        <div style="display:flex;flex-direction:column;gap:3px;min-width:0">
+          <span style="font-family:'Martian Mono',monospace;font-size:12px;font-weight:600;color:{{ tr.color }};text-shadow:{{ tr.tglow }}">{{ tr.title }}</span>
+          <span style="font-family:'Martian Mono',monospace;font-size:9.5px;line-height:1.5;color:#8D8A82">{{ tr.sub }}</span>
+        </div>
+      </div>
+
+      <div style="flex:none;margin-top:auto;height:50px;border-radius:16px;background:#F29A1A;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 2px 4px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px">Guardar servidor</div>
+    </div>
+    <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:#1A1A19;opacity:.35"></div>
+  </div>
+  </div>
+  <div style="display:flex;gap:6px;align-items:center;font-family:'Martian Mono',monospace;font-size:10px;color:#8D8A82">
+    <span style="margin-right:4px">RESULTADO:</span>
+    <sc-for list="{{ testChips }}" as="c" hint-placeholder-count="3">
+      <button onClick="{{ c.onClick }}" style="all:unset;cursor:pointer;padding:5px 10px;border-radius:999px;border:1px solid #3A3936;background:{{ c.bg }};color:{{ c.color }}">{{ c.label }}</button>
+    </sc-for>
+  </div>
+</div>
+
+<!-- 02 AGENTES -->
+<div data-screen-label="02 Agentes" style="display:flex;flex-direction:column;gap:14px">
+  <div style="display:flex;gap:10px;font-family:'Martian Mono',monospace;font-size:11px;color:#8D8A82"><span style="color:#E8E6E1">02</span><span>INICIO / MIS AGENTES</span></div>
+  <div style="width:390px;height:844px;border-radius:54px;background:#050505;padding:10px;box-sizing:border-box;box-shadow:0 0 0 1px #2a2a2a,0 40px 80px -24px rgba(0,0,0,.6)">
+  <div style="position:relative;width:100%;height:100%;border-radius:44px;overflow:hidden;background:#D8D5CE;color:#1A1A19;display:flex;flex-direction:column">
+    <div style="height:50px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 30px 0 36px;font-size:15px;font-weight:600;position:relative"><span>9:41</span><div style="position:absolute;left:50%;top:11px;transform:translateX(-50%);width:122px;height:35px;border-radius:20px;background:#000"></div><span style="font-family:'Martian Mono',monospace;font-size:10px">5G ▮▮▮</span></div>
+    <div style="flex:1;overflow:auto;overflow-x:hidden;scrollbar-width:none;padding:4px 12px 14px;display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:0 6px;flex:none">
+        <span style="font-size:28px;font-weight:700;letter-spacing:-0.025em">Agentes</span>
+        <div style="display:flex;gap:8px;align-items:center">
+          <div style="height:30px;padding:0 11px;border-radius:999px;background:#161615;display:flex;align-items:center;gap:7px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.06em;color:#C9C6BE"><span style="width:7px;height:7px;border-radius:50%;background:#4CC774;box-shadow:var(--glg)"></span>TAILNET</div>
+          <div style="width:36px;height:36px;border-radius:50%;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center;font-size:20px;color:#4A4843">+</div>
+        </div>
+      </div>
+
+      <div style="flex:none;position:relative;background:#161615;border-radius:18px;padding:12px 14px;display:flex;align-items:center;gap:12px;box-shadow:inset 0 2px 6px rgba(0,0,0,.5),var(--rim)">
+        <div style="position:absolute;inset:0;border-radius:18px;pointer-events:none;background-image:var(--scan)"></div>
+        {{ pulseLed }}
+        <div style="display:flex;flex-direction:column;gap:3px;flex:1;min-width:0">
+          <span style="font-family:'Martian Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.06em;color:#F29A1A;text-shadow:var(--tgo)">1 APROBACIÓN PENDIENTE</span>
+          <span style="font-size:12.5px;color:#C9C6BE;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">dev quiere ejecutar <span style="font-family:'Martian Mono',monospace;font-size:11px">rm -rf ./build</span></span>
+        </div>
+        <span style="font-size:18px;color:#8D8A82">›</span>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <div style="display:flex;align-items:center;gap:8px;padding:0 8px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.06em">
+          <span style="width:7px;height:7px;border-radius:50%;background:#4CC774;box-shadow:var(--glg)"></span><span style="font-weight:600">ATLAS</span><span style="color:#6F6C66">atlas.tailnet-7f2c.ts.net</span><span style="margin-left:auto;color:#6F6C66">42 MS</span>
+        </div>
+        <div style="border-radius:22px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:4px 12px">
+          <div style="display:flex;gap:12px;align-items:flex-start;padding:10px 0">
+            <div style="position:relative;width:46px;height:46px;border-radius:12px;overflow:hidden;flex:none;background:#1A1A19"><div style="position:absolute;inset:0;filter:grayscale(1) contrast(1.25)"><image-slot id="r4b-avatar" shape="rect" placeholder="dv"></image-slot></div><div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(transparent 0.7px,rgba(26,26,25,.85) 1.1px);background-size:2.5px 2.5px;mix-blend-mode:multiply"></div></div>
+            <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:3px">
+              <div style="display:flex;align-items:center;gap:8px"><span style="font-weight:700;font-size:16px">dev</span><span style="min-width:18px;height:18px;border-radius:9px;background:#F29A1A;font-size:10.5px;font-weight:700;display:flex;align-items:center;justify-content:center">1</span></div>
+              <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.03em;color:#6F6C66">QWEN3-CODER-480B</span>
+              <span style="font-size:12.5px;color:#4A4843;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Esperando aprobación para limpiar ./build…</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+              <span style="font-size:11px;color:#6F6C66">ahora</span>
+              <div style="display:flex;gap:7px;font-family:'Martian Mono',monospace;font-size:7.5px;color:#6F6C66">
+                <span style="display:flex;flex-direction:column;align-items:center;gap:3px"><span style="width:7px;height:7px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>ON</span>
+                <span style="display:flex;flex-direction:column;align-items:center;gap:3px;color:#1A1A19"><span style="width:7px;height:7px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span>BSY</span>
+                <span style="display:flex;flex-direction:column;align-items:center;gap:3px"><span style="width:7px;height:7px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>ERR</span>
+              </div>
+            </div>
+          </div>
+          <div style="height:1px;background:#D6D3CC;margin-left:58px"></div>
+          <div style="display:flex;gap:12px;align-items:flex-start;padding:10px 0">
+            <div style="position:relative;width:46px;height:46px;border-radius:12px;overflow:hidden;flex:none;background:#1A1A19"><div style="position:absolute;inset:0;filter:grayscale(1) contrast(1.25)"><image-slot id="ri-avatar-research" shape="rect" placeholder="rs"></image-slot></div><div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(transparent 0.7px,rgba(26,26,25,.85) 1.1px);background-size:2.5px 2.5px;mix-blend-mode:multiply"></div></div>
+            <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:3px">
+              <span style="font-weight:700;font-size:16px">research</span>
+              <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.03em;color:#6F6C66">CLAUDE-SONNET-4.5</span>
+              <span style="font-size:12.5px;color:#4A4843;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Resumen listo: 12 papers sobre KV-cache</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+              <span style="font-size:11px;color:#6F6C66">14:02</span>
+              <div style="display:flex;gap:7px;font-family:'Martian Mono',monospace;font-size:7.5px;color:#6F6C66">
+                <span style="display:flex;flex-direction:column;align-items:center;gap:3px;color:#1A1A19"><span style="width:7px;height:7px;border-radius:50%;background:#4CC774;box-shadow:var(--glg)"></span>ON</span>
+                <span style="display:flex;flex-direction:column;align-items:center;gap:3px"><span style="width:7px;height:7px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>BSY</span>
+                <span style="display:flex;flex-direction:column;align-items:center;gap:3px"><span style="width:7px;height:7px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>ERR</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <div style="display:flex;align-items:center;gap:8px;padding:0 8px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.06em">
+          <span style="width:7px;height:7px;border-radius:50%;background:#E5533D;box-shadow:var(--glr)"></span><span style="font-weight:600">HOMELAB</span><span style="color:#6F6C66">nas.tailnet-7f2c.ts.net</span><span style="margin-left:auto;color:#C8402E">SIN RESPUESTA</span>
+        </div>
+        <div style="border-radius:22px;background:#E3E0DA;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.1);padding:10px 12px;display:flex;gap:12px;align-items:flex-start">
+          <div style="position:relative;width:46px;height:46px;border-radius:12px;overflow:hidden;flex:none;background:#1A1A19;opacity:.55"><div style="position:absolute;inset:0;filter:grayscale(1) contrast(1.25)"><image-slot id="ri-avatar-ops" shape="rect" placeholder="op"></image-slot></div><div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(transparent 0.7px,rgba(26,26,25,.85) 1.1px);background-size:2.5px 2.5px;mix-blend-mode:multiply"></div></div>
+          <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:3px">
+            <span style="font-weight:700;font-size:16px;color:#4A4843">ops</span>
+            <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.03em;color:#6F6C66">LLAMA-3.3-70B · LOCAL</span>
+            <span style="font-size:12.5px;color:#6F6C66;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Backup nocturno completado (3.2 GB)</span>
+            <span style="font-size:12px;color:#6F6C66;margin-top:2px">Último contacto hace 9 h · <span style="color:#B06F0A;font-weight:600">Reintentar</span></span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+            <span style="font-size:11px;color:#6F6C66">ayer</span>
+            <div style="display:flex;gap:7px;font-family:'Martian Mono',monospace;font-size:7.5px;color:#8D8A82">
+              <span style="display:flex;flex-direction:column;align-items:center;gap:3px"><span style="width:7px;height:7px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>ON</span>
+              <span style="display:flex;flex-direction:column;align-items:center;gap:3px"><span style="width:7px;height:7px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>BSY</span>
+              <span style="display:flex;flex-direction:column;align-items:center;gap:3px"><span style="width:7px;height:7px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>ERR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="flex:none;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 12px 28px">
+      <div style="height:50px;border-radius:14px;background:#1A1A19;color:#ECEAE5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em"><span style="width:14px;height:3px;border-radius:2px;background:#F29A1A;box-shadow:var(--glo)"></span>AGENTES</div>
+      <div style="position:relative;height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>APROB.<span style="position:absolute;top:6px;right:8px;width:7px;height:7px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span></div>
+      <div style="height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>SERVIDORES</div>
+      <div style="height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>AJUSTES</div>
+    </div>
+    <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:#1A1A19;opacity:.35"></div>
+  </div>
+  </div>
+</div>
+
+<!-- 03 CHAT -->
+<div data-screen-label="03 Chat" style="display:flex;flex-direction:column;gap:14px">
+  <div style="display:flex;gap:10px;font-family:'Martian Mono',monospace;font-size:11px;color:#8D8A82"><span style="color:#E8E6E1">03</span><span>CHAT CON UN AGENTE</span></div>
+  <div style="width:390px;height:844px;border-radius:54px;background:#050505;padding:10px;box-sizing:border-box;box-shadow:0 0 0 1px #2a2a2a,0 40px 80px -24px rgba(0,0,0,.6)">
+  <div style="position:relative;width:100%;height:100%;border-radius:44px;overflow:hidden;background:#D8D5CE;color:#1A1A19;display:flex;flex-direction:column">
+    <div style="height:50px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 30px 0 36px;font-size:15px;font-weight:600;position:relative"><span>9:41</span><div style="position:absolute;left:50%;top:11px;transform:translateX(-50%);width:122px;height:35px;border-radius:20px;background:#000"></div><span style="font-family:'Martian Mono',monospace;font-size:10px">5G ▮▮▮</span></div>
+    <div style="flex:none;margin:2px 12px 0;border-radius:22px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:10px 14px 10px 10px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:22px;color:#4A4843;padding:0 2px">‹</span>
+      <div style="position:relative;width:42px;height:42px;border-radius:12px;overflow:hidden;flex:none;background:#1A1A19"><div style="position:absolute;inset:0;filter:grayscale(1) contrast(1.25)"><image-slot id="r4b-avatar" shape="rect" placeholder="dv"></image-slot></div><div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(transparent 0.7px,rgba(26,26,25,.85) 1.1px);background-size:2.5px 2.5px;mix-blend-mode:multiply"></div></div>
+      <div style="display:flex;flex-direction:column;gap:1px;flex:1;min-width:0"><span style="font-size:18px;font-weight:700;letter-spacing:-0.01em">dev</span><span style="font-family:'Martian Mono',monospace;font-size:9px;color:#6F6C66;letter-spacing:.02em">ATLAS / QWEN3-CODER</span></div>
+      <div style="display:flex;gap:10px;align-items:center;font-family:'Martian Mono',monospace;font-size:8.5px;color:#6F6C66">
+        <span style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:9px;height:9px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>ON</span>
+        <span style="display:flex;flex-direction:column;align-items:center;gap:4px;color:#1A1A19">{{ busyLed }}BUSY</span>
+        <span style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:9px;height:9px;border-radius:50%;background:#B9B6AF;box-shadow:inset 0 1px 1px rgba(0,0,0,.2)"></span>ERR</span>
+      </div>
+    </div>
+    <div style="flex:1;overflow:auto;overflow-x:hidden;scrollbar-width:none;padding:12px;display:flex;flex-direction:column;gap:10px">
+      <div style="align-self:flex-end;max-width:80%;background:#1A1A19;color:#ECEAE5;border-radius:20px 20px 6px 20px;padding:11px 14px;font-size:14px;line-height:1.4;flex:none">Los tests de integración fallan desde el merge de ayer. ¿Lo revisas y lo arreglas?</div>
+      <div style="padding:2px 6px;font-size:14px;line-height:1.45;flex:none">Reproduzco el fallo primero.</div>
+      <div style="position:relative;background:#161615;border-radius:18px;overflow:hidden;flex:none;box-shadow:inset 0 2px 6px rgba(0,0,0,.5),var(--rim)">
+        <div style="position:absolute;top:0;right:0;bottom:0;width:150px;opacity:.55;filter:grayscale(1) contrast(1.3)"><image-slot id="r4b-plate" shape="rect" placeholder="Grabado / escultura"></image-slot></div>
+        <div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(transparent 0.9px,#161615 1.4px);background-size:3px 3px"></div>
+        <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#161615 45%,rgba(22,22,21,.2))"></div>
+        <div style="position:absolute;inset:0;pointer-events:none;background-image:var(--scan)"></div>
+        <div style="position:relative;padding:12px 14px;display:flex;flex-direction:column;gap:9px">
+          <div onClick="{{ toggleTl }}" style="cursor:pointer;display:flex;align-items:center;gap:8px;font-family:'Martian Mono',monospace;font-size:9.5px;color:#8D8A82;letter-spacing:.06em">{{ spinner }}<span>ACTIVIDAD · 5</span><span style="margin-left:auto;color:#F29A1A;text-shadow:var(--tgo)">17.0 S</span><span style="color:#C9C6BE">{{ tlSign }}</span></div>
+          <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:4px;pointer-events:none"><span style="height:5px;border-radius:2px;background:#4CC774;box-shadow:var(--glg)"></span><span style="height:5px;border-radius:2px;background:#4CC774;box-shadow:var(--glg)"></span><span style="height:5px;border-radius:2px;background:#4CC774;box-shadow:var(--glg)"></span><span style="height:5px;border-radius:2px;background:#4CC774;box-shadow:var(--glg)"></span><span style="height:5px;border-radius:2px;background:#F29A1A;box-shadow:var(--glo)"></span></div>
+          <sc-if value="{{ tlOpen }}" hint-placeholder-val="{{ true }}">
+            <div style="display:flex;flex-direction:column;gap:6px;font-family:'Martian Mono',monospace;font-size:10px;color:#C9C6BE;pointer-events:none">
+              <div style="display:flex;justify-content:space-between"><span>LEER · vitest.config.ts</span><span style="color:#8D8A82">0.1</span></div>
+              <div style="display:flex;justify-content:space-between"><span>EJEC · npm test</span><span style="color:#8D8A82">14.3</span></div>
+              <div style="display:flex;justify-content:space-between"><span>WEB · vi.mock hoisting</span><span style="color:#8D8A82">2.1</span></div>
+              <div style="display:flex;justify-content:space-between"><span>EDIT · client.test.ts</span><span style="color:#8D8A82">0.5</span></div>
+              <div style="display:flex;justify-content:space-between;color:#F29A1A;text-shadow:var(--tgo)"><span>EJEC · rm -rf ./build</span><span>ESPERA</span></div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+      <div style="position:relative;background:#161615;border-radius:16px;padding:10px 13px;font-family:'Martian Mono',monospace;font-size:10px;line-height:1.7;color:#C9C6BE;flex:none;display:flex;flex-direction:column;box-shadow:inset 0 2px 6px rgba(0,0,0,.5)">
+        <div style="position:absolute;inset:0;border-radius:16px;pointer-events:none;background-image:var(--scan)"></div>
+        <div style="display:flex;justify-content:space-between;color:#8D8A82;font-size:8.5px;letter-spacing:.08em;margin-bottom:2px"><span>TERMINAL · /srv/app/web</span><span style="color:#FF6A55;text-shadow:var(--tgr)">EXIT 1</span></div>
+        <div style="color:#8D8A82">$ npm test -- integration</div>
+        <div><span style="color:#FF6A55;text-shadow:var(--tgr)">FAIL</span> src/db/client.test.ts</div>
+        <div style="color:#FF6A55">TypeError: createPool is not a fn</div>
+        <div><span style="color:#FF6A55">1 failed</span> · <span style="color:#6FD08C;text-shadow:var(--tgg)">23 passed</span></div>
+      </div>
+      <div style="padding:2px 6px;font-size:14px;line-height:1.45;text-wrap:pretty;flex:none">La factory de <span style="font-family:'Martian Mono',monospace;font-size:11.5px;background:#ECEAE5;padding:1px 5px;border-radius:5px">vi.mock</span> se eleva sobre el import. Lo corrijo con <span style="font-family:'Martian Mono',monospace;font-size:11.5px;background:#ECEAE5;padding:1px 5px;border-radius:5px">vi.hoisted</span>:</div>
+      <div style="background:#ECEAE5;border-radius:16px;overflow:hidden;flex:none;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.1);font-family:'Martian Mono',monospace;font-size:9.5px;line-height:1.75">
+        <div style="display:flex;justify-content:space-between;padding:7px 12px;color:#6F6C66;border-bottom:1px solid #D6D3CC"><span>src/db/client.test.ts</span><span><span style="color:#2E8A4E">+2</span> <span style="color:#C8402E">−1</span></span></div>
+        <div style="padding:0 12px;white-space:pre;background:rgba(200,64,46,.1);color:#8A3426">- const pool = { query: vi.fn() }</div>
+        <div style="padding:0 12px;white-space:pre;background:rgba(46,138,78,.12);color:#1F6A3A">+ const { pool } = vi.hoisted(() =&gt; ({</div>
+        <div style="padding:0 12px 4px;white-space:pre;background:rgba(46,138,78,.12);color:#1F6A3A">+   pool: { query: vi.fn() } }))</div>
+      </div>
+      <div style="padding:2px 6px;font-size:14px;line-height:1.45;flex:none">Limpio el build y vuelvo a correr la suite{{ cursor }}</div>
+    </div>
+    <div style="flex:none;margin:0 12px 30px;display:flex;align-items:center;gap:8px;padding-top:6px">
+      <div style="width:48px;height:48px;border-radius:50%;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#4A4843" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11l-8.5 8.5a5 5 0 0 1-7-7L14 4a3.5 3.5 0 0 1 5 5l-8.5 8.5a2 2 0 0 1-3-3L15 7"></path></svg></div>
+      <div style="flex:1;height:48px;border-radius:24px;background:#C9C6BF;box-shadow:inset 0 2px 4px rgba(0,0,0,.15);display:flex;align-items:center;padding:0 16px;font-size:14px;color:#6F6C66">Mensaje a dev…</div>
+      <div style="width:48px;height:48px;border-radius:50%;background:#F29A1A;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 2px 4px rgba(0,0,0,.25),var(--glo);display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1A1A19" stroke-width="2.2" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5 11a7 7 0 0 0 14 0M12 18v3"></path></svg></div>
+    </div>
+    <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:#1A1A19;opacity:.35"></div>
+  </div>
+  </div>
+</div>
+
+<!-- 04 APROBACIÓN -->
+<div data-screen-label="04 Aprobación" style="display:flex;flex-direction:column;gap:14px">
+  <div style="display:flex;gap:10px;font-family:'Martian Mono',monospace;font-size:11px;color:#8D8A82"><span style="color:#E8E6E1">04</span><span>APROBACIÓN DE ACCIÓN</span></div>
+  <div style="width:390px;height:844px;border-radius:54px;background:#050505;padding:10px;box-sizing:border-box;box-shadow:0 0 0 1px #2a2a2a,0 40px 80px -24px rgba(0,0,0,.6)">
+  <div style="position:relative;width:100%;height:100%;border-radius:44px;overflow:hidden;background:#D8D5CE;color:#1A1A19;display:flex;flex-direction:column">
+    <div style="height:50px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 30px 0 36px;font-size:15px;font-weight:600;position:relative"><span>9:41</span><div style="position:absolute;left:50%;top:11px;transform:translateX(-50%);width:122px;height:35px;border-radius:20px;background:#000"></div><span style="font-family:'Martian Mono',monospace;font-size:10px">5G ▮▮▮</span></div>
+    <div style="flex:none;margin:2px 12px 0;height:64px;border-radius:22px;background:#ECEAE5"></div>
+    <div style="flex:1;padding:12px;display:flex;flex-direction:column;gap:10px">
+      <div style="align-self:flex-end;width:72%;height:62px;border-radius:20px 20px 6px 20px;background:#1A1A19"></div>
+      <div style="width:50%;height:12px;border-radius:4px;background:#C9C6BF;margin-left:6px"></div>
+      <div style="height:140px;border-radius:18px;background:#161615"></div>
+    </div>
+    <div style="position:absolute;inset:0;background:rgba(20,20,19,.5)"></div>
+
+    <div style="position:absolute;left:0;right:0;bottom:0;background:#ECEAE5;border-radius:30px 30px 0 0;box-shadow:inset 0 1px 0 #fff,0 -10px 30px rgba(0,0,0,.25);padding:10px 16px 34px;display:flex;flex-direction:column;gap:14px">
+      <div style="align-self:center;width:38px;height:5px;border-radius:3px;background:#C9C6BF"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:0 4px">
+        <span style="display:flex;align-items:center;gap:8px;font-family:'Martian Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.08em">{{ pulseLed }}APROBACIÓN REQUERIDA</span>
+        <span style="font-family:'Martian Mono',monospace;font-size:9.5px;color:#6F6C66">EXPIRA 4:32</span>
+      </div>
+      <div style="padding:0 4px;font-size:21px;font-weight:700;letter-spacing:-0.015em">dev quiere ejecutar</div>
+      <div style="position:relative;background:#161615;border-radius:18px;padding:16px;overflow:hidden;box-shadow:inset 0 2px 6px rgba(0,0,0,.5),var(--rim)">
+        <div style="position:absolute;inset:0;pointer-events:none;background-image:var(--scan)"></div>
+        <div style="position:relative;font-family:'Martian Mono',monospace;font-size:18px;font-weight:500;color:#F29A1A;text-shadow:var(--tgo)"><span style="color:#8D8A82;text-shadow:none">$ </span>rm -rf ./build</div>
+        <div style="position:relative;margin-top:8px;font-family:'Martian Mono',monospace;font-size:9.5px;color:#8D8A82">cwd /srv/app/web · atlas</div>
+      </div>
+      <div style="display:grid;grid-template-columns:78px 1fr;row-gap:8px;column-gap:10px;font-size:13px;line-height:1.4;padding:0 4px">
+        <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.06em;color:#6F6C66;padding-top:3px">MOTIVO</span><span style="text-wrap:pretty">Limpiar artefactos cacheados antes de re-ejecutar los tests</span>
+        <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.06em;color:#6F6C66;padding-top:3px">AFECTA</span><span style="font-family:'Martian Mono',monospace;font-size:11px">./build · 1 284 archivos · 48 MB</span>
+      </div>
+      <div style="border-radius:16px;background:#DCD9D2;box-shadow:inset 0 2px 3px rgba(0,0,0,.1);padding:12px 14px;display:flex;flex-direction:column;gap:8px">
+        <div style="display:flex;align-items:center;justify-content:space-between"><span style="font-family:'Martian Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.06em;color:#9A5F06">RIESGO MEDIO</span>
+          <div style="display:flex;gap:4px"><span style="width:20px;height:7px;border-radius:2px;background:#F29A1A;box-shadow:var(--glo)"></span><span style="width:20px;height:7px;border-radius:2px;background:#F29A1A;box-shadow:var(--glo)"></span><span style="width:20px;height:7px;border-radius:2px;background:#F29A1A;box-shadow:var(--glo)"></span><span style="width:20px;height:7px;border-radius:2px;background:#C3C0B9"></span><span style="width:20px;height:7px;border-radius:2px;background:#C3C0B9"></span></div>
+        </div>
+        <span style="font-size:12px;line-height:1.45;color:#4A4843;text-wrap:pretty">Borrado recursivo e irreversible, limitado a la carpeta del proyecto. No toca archivos fuera del repo.</span>
+      </div>
+      <div onClick="{{ toggleSim }}" style="cursor:pointer;display:flex;align-items:center;gap:10px;font-size:13px;color:#4A4843;padding:0 4px">
+        <span style="width:38px;height:22px;border-radius:11px;background:{{ simBg }};box-shadow:inset 0 1px 2px rgba(0,0,0,.2);position:relative;flex:none"><span style="position:absolute;top:2px;left:{{ simX }};width:18px;height:18px;border-radius:50%;background:#F7F6F2;box-shadow:0 1px 2px rgba(0,0,0,.3);transition:left .15s"></span></span>
+        Permitir comandos similares en este turno
+      </div>
+      <sc-if value="{{ undecided }}" hint-placeholder-val="{{ true }}">
+        <div style="display:grid;grid-template-columns:1fr 1.3fr;gap:10px">
+          <button onClick="{{ reject }}" style="all:unset;cursor:pointer;height:52px;border-radius:16px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 4px rgba(0,0,0,.2),0 0 0 1px #D6D3CC;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;color:#C8402E">Rechazar</button>
+          <button onClick="{{ approve }}" style="all:unset;cursor:pointer;height:52px;border-radius:16px;background:#F29A1A;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 2px 4px rgba(0,0,0,.25),var(--glo);display:flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:15px"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3M9 9v1.5M15 9v1.5M12 9v4h-1M9.5 16a4 4 0 0 0 5 0"></path></svg>Aprobar</button>
+        </div>
+      </sc-if>
+      <sc-if value="{{ decided }}" hint-placeholder-val="{{ false }}">
+        <div onClick="{{ resetDecision }}" style="cursor:pointer;position:relative;height:52px;border-radius:16px;background:#161615;display:flex;align-items:center;justify-content:center;gap:10px;font-family:'Martian Mono',monospace;font-size:12px;font-weight:600;letter-spacing:.04em;color:{{ decColor }};text-shadow:{{ decGlow }}"><span style="width:8px;height:8px;border-radius:50%;background:{{ decColor }};box-shadow:{{ decLedGlow }}"></span>{{ decLabel }}</div>
+      </sc-if>
+    </div>
+    <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:#1A1A19;opacity:.35"></div>
+  </div>
+  </div>
+</div>
+
+<!-- 05 SERVIDOR -->
+<div data-screen-label="05 Servidor" style="display:flex;flex-direction:column;gap:14px">
+  <div style="display:flex;gap:10px;font-family:'Martian Mono',monospace;font-size:11px;color:#8D8A82"><span style="color:#E8E6E1">05</span><span>ADMINISTRACIÓN DEL SERVIDOR</span></div>
+  <div style="width:390px;height:844px;border-radius:54px;background:#050505;padding:10px;box-sizing:border-box;box-shadow:0 0 0 1px #2a2a2a,0 40px 80px -24px rgba(0,0,0,.6)">
+  <div style="position:relative;width:100%;height:100%;border-radius:44px;overflow:hidden;background:#D8D5CE;color:#1A1A19;display:flex;flex-direction:column">
+    <div style="height:50px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 30px 0 36px;font-size:15px;font-weight:600;position:relative"><span>9:41</span><div style="position:absolute;left:50%;top:11px;transform:translateX(-50%);width:122px;height:35px;border-radius:20px;background:#000"></div><span style="font-family:'Martian Mono',monospace;font-size:10px">5G ▮▮▮</span></div>
+    <div style="flex:1;overflow:auto;overflow-x:hidden;scrollbar-width:none;padding:2px 12px 16px;display:flex;flex-direction:column;gap:14px">
+      <div style="display:flex;flex-direction:column;gap:2px;padding:0 6px;flex:none">
+        <span style="font-size:14px;color:#9A5F06;font-weight:600">‹ Servidores</span>
+        <span style="font-size:28px;font-weight:700;letter-spacing:-0.025em">atlas</span>
+        <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.04em;color:#6F6C66">ATLAS.TAILNET-7F2C.TS.NET · HERMES 0.9.2</span>
+      </div>
+
+      <div style="flex:none;border-radius:22px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:8px;display:flex;flex-direction:column;gap:8px">
+        <div style="position:relative;background:#161615;border-radius:16px;padding:14px 16px;overflow:hidden;box-shadow:inset 0 2px 6px rgba(0,0,0,.5),{{ gwRim }}">
+          <div style="position:absolute;inset:0;pointer-events:none;background-image:var(--scan)"></div>
+          <div style="position:relative;display:flex;justify-content:space-between;align-items:flex-start">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <span style="font-family:'Martian Mono',monospace;font-size:9px;letter-spacing:.08em;color:#8D8A82">GATEWAY</span>
+              <span style="display:flex;align-items:center;gap:9px;font-family:'Martian Mono',monospace;font-size:20px;font-weight:600;color:{{ gwColor }};text-shadow:{{ gwTGlow }}"><span style="width:10px;height:10px;border-radius:50%;background:{{ gwColor }};box-shadow:{{ gwGlow }}"></span>{{ gwLabel }}</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;font-family:'Martian Mono',monospace">
+              <span style="font-size:9px;letter-spacing:.08em;color:#8D8A82">UPTIME</span>
+              <span style="font-size:17px;color:#ECEAE5">{{ gwUptime }}</span>
+              <span style="font-size:9px;color:#8D8A82">{{ gwPid }}</span>
+            </div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px">
+          <button onClick="{{ gwStart }}" style="all:unset;cursor:pointer;height:40px;border-radius:12px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.18),0 0 0 1px #DAD7D0;display:flex;align-items:center;justify-content:center;gap:6px;font-size:13px;font-weight:600;opacity:{{ startOp }}"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5l12 7-12 7z"></path></svg>Iniciar</button>
+          <button onClick="{{ gwStop }}" style="all:unset;cursor:pointer;height:40px;border-radius:12px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.18),0 0 0 1px #DAD7D0;display:flex;align-items:center;justify-content:center;gap:6px;font-size:13px;font-weight:600;color:#C8402E;opacity:{{ stopOp }}"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="5" width="14" height="14" rx="2"></rect></svg>Detener</button>
+          <button onClick="{{ gwStart }}" style="all:unset;cursor:pointer;height:40px;border-radius:12px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.18),0 0 0 1px #DAD7D0;display:flex;align-items:center;justify-content:center;gap:6px;font-size:13px;font-weight:600"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M4 12a8 8 0 1 0 2.5-5.8M4 4v4h4"></path></svg>Reiniciar</button>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0 6px">
+          <span style="font-size:16px;font-weight:700">Diagnóstico</span>
+          <span style="height:28px;padding:0 11px;border-radius:9px;background:#1A1A19;color:#ECEAE5;display:flex;align-items:center;gap:6px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.04em"><svg width="9" height="9" viewBox="0 0 24 24" fill="#F29A1A"><path d="M7 5l12 7-12 7z"></path></svg>EJECUTAR DOCTOR</span>
+        </div>
+        <div style="border-radius:20px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:6px 14px">
+          <sc-for list="{{ doctor }}" as="d" hint-placeholder-count="6">
+            <div style="display:flex;align-items:center;gap:10px;padding:6px 0;font-size:13px">
+              <span style="width:8px;height:8px;border-radius:50%;flex:none;background:{{ d.led }};box-shadow:{{ d.glow }}"></span>
+              <span style="flex:1">{{ d.label }}</span>
+              <span style="font-family:'Martian Mono',monospace;font-size:10px;color:{{ d.vc }}">{{ d.val }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0 6px">
+          <span style="font-size:16px;font-weight:700">Logs</span>
+          <span style="display:flex;align-items:center;gap:6px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.06em;color:#2E8A4E"><span style="width:7px;height:7px;border-radius:50%;background:#4CC774;box-shadow:var(--glg)"></span>EN VIVO</span>
+        </div>
+        <div style="display:flex;gap:6px">
+          <sc-for list="{{ logChips }}" as="c" hint-placeholder-count="4">
+            <button onClick="{{ c.onClick }}" style="all:unset;cursor:pointer;height:28px;padding:0 11px;border-radius:9px;display:flex;align-items:center;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.04em;background:{{ c.bg }};color:{{ c.color }};box-shadow:{{ c.sh }}">{{ c.label }}</button>
+          </sc-for>
+        </div>
+        <div style="position:relative;height:168px;border-radius:16px;background:#161615;box-shadow:inset 0 2px 6px rgba(0,0,0,.5);overflow:hidden">
+          <div style="position:absolute;inset:0;pointer-events:none;background-image:var(--scan);z-index:1"></div>
+          <div style="height:100%;overflow:auto;overflow-x:hidden;scrollbar-width:none;padding:9px 12px;box-sizing:border-box;font-family:'Martian Mono',monospace;font-size:9.5px;line-height:1.85">
+            <sc-for list="{{ logs }}" as="l" hint-placeholder-count="8">
+              <div style="display:flex;gap:8px;white-space:nowrap;min-width:0;overflow:hidden"><span style="color:#5F5D58">{{ l.t }}</span><span style="color:{{ l.c }};text-shadow:{{ l.g }};width:34px;flex:none">{{ l.lv }}</span><span style="color:#C9C6BE;overflow:hidden;text-overflow:ellipsis">{{ l.m }}</span></div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <span style="font-size:16px;font-weight:700;padding:0 6px">Modelo</span>
+        <div style="border-radius:20px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:12px 14px;display:flex;align-items:center;gap:10px">
+          <div style="display:flex;flex-direction:column;gap:3px;flex:1"><span style="font-family:'Martian Mono',monospace;font-size:12px">qwen3-coder-480b</span><span style="font-size:12px;color:#6F6C66">vía OpenRouter · por defecto en atlas</span></div>
+          <div style="width:32px;height:32px;border-radius:10px;background:#DCD9D2;box-shadow:inset 0 1px 2px rgba(0,0,0,.12);display:flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4A4843" stroke-width="2.2" stroke-linecap="round"><path d="M8 9l4-4 4 4M8 15l4 4 4-4"></path></svg></div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0 6px"><span style="font-size:16px;font-weight:700">Tareas programadas</span><span style="font-size:13px;color:#9A5F06;font-weight:600">+ Nueva</span></div>
+        <div style="border-radius:20px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:0 14px">
+          <sc-for list="{{ tasks }}" as="t" hint-placeholder-count="3">
+            <div style="display:flex;align-items:center;gap:10px;padding:11px 0;border-top:1px solid {{ t.bd }}">
+              <span style="width:7px;height:7px;border-radius:50%;flex:none;background:{{ t.led }};box-shadow:{{ t.glow }}"></span>
+              <div style="display:flex;flex-direction:column;gap:2px;flex:1;min-width:0"><span style="font-size:13px;font-weight:600">{{ t.name }}</span><span style="font-family:'Martian Mono',monospace;font-size:9px;color:#6F6C66">{{ t.cron }} · {{ t.agent }}</span></div>
+              <span style="font-family:'Martian Mono',monospace;font-size:10px;color:#4A4843;text-align:right">{{ t.next }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+    <div style="flex:none;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 12px 28px">
+      <div style="height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>AGENTES</div>
+      <div style="position:relative;height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>APROB.<span style="position:absolute;top:6px;right:8px;width:7px;height:7px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span></div>
+      <div style="height:50px;border-radius:14px;background:#1A1A19;color:#ECEAE5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em"><span style="width:14px;height:3px;border-radius:2px;background:#F29A1A;box-shadow:var(--glo)"></span>SERVIDORES</div>
+      <div style="height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>AJUSTES</div>
+    </div>
+    <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:#1A1A19;opacity:.35"></div>
+  </div>
+  </div>
+</div>
+
+<!-- 06 AJUSTES -->
+<div data-screen-label="06 Ajustes" style="display:flex;flex-direction:column;gap:14px">
+  <div style="display:flex;gap:10px;font-family:'Martian Mono',monospace;font-size:11px;color:#8D8A82"><span style="color:#E8E6E1">06</span><span>AJUSTES</span></div>
+  <div style="width:390px;height:844px;border-radius:54px;background:#050505;padding:10px;box-sizing:border-box;box-shadow:0 0 0 1px #2a2a2a,0 40px 80px -24px rgba(0,0,0,.6)">
+  <div style="position:relative;width:100%;height:100%;border-radius:44px;overflow:hidden;background:#D8D5CE;color:#1A1A19;display:flex;flex-direction:column">
+    <div style="height:50px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 30px 0 36px;font-size:15px;font-weight:600;position:relative"><span>9:41</span><div style="position:absolute;left:50%;top:11px;transform:translateX(-50%);width:122px;height:35px;border-radius:20px;background:#000"></div><span style="font-family:'Martian Mono',monospace;font-size:10px">5G ▮▮▮</span></div>
+    <div style="flex:1;overflow:auto;overflow-x:hidden;scrollbar-width:none;padding:4px 12px 16px;display:flex;flex-direction:column;gap:16px">
+      <span style="font-size:28px;font-weight:700;letter-spacing:-0.025em;padding:0 6px;flex:none">Ajustes</span>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <span style="padding:0 8px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.08em;color:#6F6C66">SERVIDORES</span>
+        <div style="border-radius:20px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:0 14px">
+          <div style="display:flex;align-items:center;gap:12px;padding:12px 0">
+            <span style="width:8px;height:8px;border-radius:50%;background:#4CC774;box-shadow:var(--glg);flex:none"></span>
+            <div style="display:flex;flex-direction:column;gap:2px;flex:1;min-width:0"><span style="font-size:14px;font-weight:700">atlas</span><span style="font-family:'Martian Mono',monospace;font-size:9px;color:#6F6C66">atlas.tailnet-7f2c.ts.net</span></div>
+            <span style="font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#ECEAE5;background:#1A1A19;padding:4px 7px;border-radius:6px">DEFAULT</span>
+            <span style="color:#8D8A82">›</span>
+          </div>
+          <div style="height:1px;background:#D6D3CC"></div>
+          <div style="display:flex;align-items:center;gap:12px;padding:12px 0">
+            <span style="width:8px;height:8px;border-radius:50%;background:#E5533D;box-shadow:var(--glr);flex:none"></span>
+            <div style="display:flex;flex-direction:column;gap:2px;flex:1;min-width:0"><span style="font-size:14px;font-weight:700">homelab</span><span style="font-family:'Martian Mono',monospace;font-size:9px;color:#6F6C66">nas.tailnet-7f2c.ts.net</span></div>
+            <span style="font-family:'Martian Mono',monospace;font-size:9px;color:#C8402E">INALCANZABLE</span>
+            <span style="color:#8D8A82">›</span>
+          </div>
+          <div style="height:1px;background:#D6D3CC"></div>
+          <div style="display:flex;align-items:center;gap:10px;padding:12px 0;font-size:14px;font-weight:600;color:#9A5F06">+ Agregar servidor</div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:8px;flex:none">
+        <span style="padding:0 8px;font-family:'Martian Mono',monospace;font-size:9.5px;letter-spacing:.08em;color:#6F6C66">SEGURIDAD</span>
+        <div style="border-radius:20px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 1px 2px rgba(0,0,0,.12);padding:0 14px">
+          <sc-for list="{{ secToggles }}" as="t" hint-placeholder-count="2">
+            <div onClick="{{ t.onClick }}" style="cursor:pointer;display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid {{ t.bd }}">
+              <div style="display:flex;flex-direction:column;gap:2px;flex:1"><span style="font-size:14px">{{ t.label }}</span><span style="font-size:11.5px;color:#6F6C66">{{ t.sub }}</span></div>
+              <span style="width:6px;height:6px;border-radius:50%;background:{{ t.led }};box-shadow:{{ t.glow }}"></span>
+              <span style="width:46px;height:26px;border-radius:13px;background:{{ t.bg }};box-shadow:inset 0 1px 3px rgba(0,0,0,.25);position:relative;flex:none;transition:background .15s"><span style="position:absolute;top:3px;left:{{ t.x }};width:20px;height:20px;border-radius:50%;background:#F7F6F2;box-shadow:0 1px 3px rgba(0,0,0,.35);transition:left .15s"></span></span>
+            </div>
+          </sc-for>
+          <div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid #D6D3CC">
+            <span style="font-size:14px;flex:1">Bloqueo automático</span>
+            <span style="font-family:'Martian Mono',monospace;font-size:10px;color:#4A4843">1 MIN</span>
+            <span style="color:#8D8A82">›</span>
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+
+      <div style="text-align:center;font-family:'Martian Mono',monospace;font-size:9.5px;color:#6F6C66;padding-top:2px;flex:none"><span style="display:inline-flex;align-items:center;gap:8px"><span style="width:30px;height:13px;border-radius:7px;background:#161615;display:inline-flex;align-items:center;justify-content:space-evenly"><span style="width:4px;height:4px;border-radius:50%;background:#4A4843"></span><span style="width:4px;height:4px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span><span style="width:4px;height:4px;border-radius:50%;background:#4A4843"></span></span>RELAY 1.0 (42) · SIN TELEMETRÍA</span></div>
+    </div>
+    <div style="flex:none;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 12px 28px">
+      <div style="height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>AGENTES</div>
+      <div style="position:relative;height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>APROB.<span style="position:absolute;top:6px;right:8px;width:7px;height:7px;border-radius:50%;background:#F29A1A;box-shadow:var(--glo)"></span></div>
+      <div style="height:50px;border-radius:14px;background:#ECEAE5;box-shadow:inset 0 1px 0 #fff,0 2px 3px rgba(0,0,0,.15);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em;color:#4A4843"><span style="width:14px;height:3px;border-radius:2px;background:#C9C6BF"></span>SERVIDORES</div>
+      <div style="height:50px;border-radius:14px;background:#1A1A19;color:#ECEAE5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-family:'Martian Mono',monospace;font-size:8.5px;letter-spacing:.04em"><span style="width:14px;height:3px;border-radius:2px;background:#F29A1A;box-shadow:var(--glo)"></span>AJUSTES</div>
+    </div>
+    <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:#1A1A19;opacity:.35"></div>
+  </div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;neon&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;off&quot;,&quot;sutil&quot;,&quot;intenso&quot;],&quot;default&quot;:&quot;sutil&quot;,&quot;tsType&quot;:&quot;'off'|'sutil'|'intenso'&quot;},&quot;scanlines&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  state = { vpn: false, test: 0, tl: true, gw: true, logF: 'all', decision: null, sim: false, theme: 'light',
+    tg: { faceid: true, faceApprove: true, nAppr: true, nTask: true, nOff: false } };
+
+  renderVals() {
+    const s = this.state;
+    const neon = this.props.neon ?? 'sutil';
+    const k = neon === 'intenso' ? 1.7 : neon === 'off' ? 0 : 1;
+    const g = (c, a) => k ? `0 0 ${Math.round(8 * k)}px ${c}, 0 0 ${Math.round(2 * k)}px ${c}` : 'none';
+    const tg = (c) => k ? `0 0 ${Math.round(7 * k)}px ${c}` : 'none';
+    const O = '#F29A1A', G = '#4CC774', R = '#E5533D';
+    const scan = (this.props.scanlines ?? true) ? 'repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px)' : 'none';
+    const rootVars = {
+      '--glo': g(O), '--glg': g(G), '--glr': g(R),
+      '--tgo': tg('rgba(242,154,26,.75)'), '--tgg': tg('rgba(111,208,140,.7)'), '--tgr': tg('rgba(255,106,85,.7)'),
+      '--rim': k ? `0 0 0 1px rgba(242,154,26,${0.22 * k}), 0 0 ${Math.round(16 * k)}px rgba(242,154,26,${0.14 * k})` : '0 0 0 1px #2A2926',
+      '--scan': scan
+    };
+    const h = React.createElement;
+    const pulseLed = h('span', { style: { width: 9, height: 9, borderRadius: '50%', flex: 'none', display: 'inline-block', background: O, boxShadow: 'var(--glo)', animation: 'ri-pulse 1.4s ease-in-out infinite' } });
+    const busyLed = h('span', { style: { width: 9, height: 9, borderRadius: '50%', display: 'inline-block', background: O, boxShadow: 'var(--glo)', animation: 'ri-pulse 1.4s ease-in-out infinite' } });
+    const cursor = h('span', { style: { display: 'inline-block', width: 8, height: 8, borderRadius: '50%', marginLeft: 6, background: O, boxShadow: 'var(--glo)', animation: 'ri-pulse 1s ease-in-out infinite' } });
+    const spinner = h('span', { style: { width: 9, height: 9, borderRadius: '50%', border: '1.5px solid #3A3936', borderTopColor: O, display: 'inline-block', animation: 'ri-spin .8s linear infinite' } });
+
+    const vpn = s.vpn;
+    const testRes = [
+      { title: 'CONEXIÓN OK', sub: '84 MS · HERMES 0.9.2 · 2 PERFILES', c: '#6FD08C', led: G, glow: 'var(--glg)', tglow: 'var(--tgg)' },
+      { title: 'API KEY INVÁLIDA', sub: '401 · REVISA API_SERVER_KEY EN ~/.hermes/.env', c: '#FF6A55', led: R, glow: 'var(--glr)', tglow: 'var(--tgr)' },
+      { title: 'SERVIDOR INALCANZABLE', sub: 'TIMEOUT 5 S · ¿GATEWAY ACTIVO Y VPN ENCENDIDA?', c: '#C9C6BE', led: '#5F5D58', glow: 'none', tglow: 'none' }
+    ][s.test];
+    const testChips = ['ÉXITO', 'KEY INVÁLIDA', 'INALCANZABLE'].map((label, i) => ({ label, onClick: () => this.setState({ test: i }),
+      bg: s.test === i ? '#ECEAE5' : 'transparent', color: s.test === i ? '#1A1A19' : '#8D8A82' }));
+
+    const allLogs = [
+      ['09:40:58', 'INFO', 'gateway: session dev#a81 resumed'],
+      ['09:41:01', 'INFO', 'tool terminal: npm test -- integration'],
+      ['09:41:15', 'WARN', 'terminal exit=1 (14.3s)'],
+      ['09:41:16', 'INFO', 'tool web_search: "vitest vi.mock hoisting"'],
+      ['09:41:18', 'INFO', 'tool patch: src/db/client.test.ts +2 −1'],
+      ['09:41:19', 'WARN', 'approval required: rm -rf ./build'],
+      ['09:41:19', 'INFO', 'push → relay device iphone-dev'],
+      ['09:41:20', 'ERROR', 'homelab: connect ETIMEDOUT 100.71.3.9:8642'],
+      ['09:41:22', 'INFO', 'research: idle, memory flushed (12 items)'],
+      ['09:41:30', 'WARN', 'disk /srv 82% used'],
+      ['09:41:31', 'INFO', 'api: GET /v1/profiles 200 4ms'],
+      ['09:41:33', 'INFO', 'api: GET /v1/approvals 200 3ms']
+    ];
+    const lv = { INFO: ['#8D8A82', 'none'], WARN: ['#F29A1A', 'var(--tgo)'], ERROR: ['#FF6A55', 'var(--tgr)'] };
+    const logs = allLogs.filter(l => s.logF === 'all' || l[1] === s.logF).map(([t, l, m]) => ({ t, lv: l, m, c: lv[l][0], g: lv[l][1] }));
+    const logChips = [['all', 'TODO'], ['INFO', 'INFO'], ['WARN', 'WARN'], ['ERROR', 'ERROR']].map(([key, label]) => {
+      const a = s.logF === key;
+      return { label, onClick: () => this.setState({ logF: key }), bg: a ? '#1A1A19' : '#ECEAE5', color: a ? '#ECEAE5' : '#4A4843',
+        sh: a ? 'none' : 'inset 0 1px 0 #fff, 0 1px 2px rgba(0,0,0,.15)' };
+    });
+
+    const D = (label, val, ok) => ({ label, val, led: ok ? G : O, glow: ok ? 'var(--glg)' : 'var(--glo)', vc: ok ? '#6F6C66' : '#9A5F06' });
+    const doctor = [D('Python', '3.11.9', 1), D('Config', '~/.hermes/config.yaml', 1), D('API server', ':8642', 1),
+      D('Proveedor de modelo', 'openrouter', 1), D('Servidores MCP', '3/3', 1), D('Disco /srv', '82 %', 0)];
+    const tasks = [
+      { name: 'Resumen diario de PRs', cron: '0 9 * * 1-5', agent: 'dev', next: 'MAÑ 09:00', on: 1 },
+      { name: 'Backup de memoria', cron: '0 3 * * *', agent: 'ops', next: 'PAUSADA', on: 0 },
+      { name: 'Auditoría de dependencias', cron: '0 10 * * 1', agent: 'dev', next: 'LUN 10:00', on: 1 }
+    ].map((t, i) => ({ ...t, bd: i ? '#D6D3CC' : 'transparent', led: t.on ? G : '#B9B6AF', glow: t.on ? 'var(--glg)' : 'none' }));
+
+    const mkT = (list) => list.map(([key, label, sub], i) => {
+      const on = s.tg[key];
+      return { label, sub, bd: i ? '#D6D3CC' : 'transparent', bg: on ? '#1A1A19' : '#C9C6BF', x: on ? '23px' : '3px',
+        led: on ? O : '#B9B6AF', glow: on ? 'var(--glo)' : 'none',
+        onClick: () => this.setState(st => ({ tg: { ...st.tg, [key]: !st.tg[key] } })) };
+    });
+    const themeSeg = [['light', 'CLARO'], ['dark', 'OSCURO'], ['system', 'SISTEMA']].map(([key, label]) => {
+      const a = s.theme === key;
+      return { label, onClick: () => this.setState({ theme: key }), bg: a ? '#1A1A19' : '#ECEAE5', color: a ? '#ECEAE5' : '#4A4843',
+        sh: a ? 'none' : 'inset 0 1px 0 #fff, 0 2px 3px rgba(0,0,0,.15)', bar: a ? O : '#C9C6BF', glow: a ? 'var(--glo)' : 'none' };
+    });
+    const dec = s.decision;
+
+    return {
+      rootVars, pulseLed, busyLed, cursor, spinner, testChips, logs, logChips, doctor, tasks, themeSeg,
+      tr: { ...testRes, color: testRes.c },
+      vpnLed: vpn ? G : R, vpnGlow: vpn ? 'var(--glg)' : 'var(--glr)', vpnColor: vpn ? '#6FD08C' : '#FF6A55', vpnTGlow: vpn ? 'var(--tgg)' : 'var(--tgr)',
+      vpnTitle: vpn ? 'CONECTADA' : 'DESCONECTADA',
+      vpnSub: vpn ? 'iphone-dev · 100.84.12.7 · tailnet-7f2c' : '',
+      vpnCta: vpn ? 'TOCA PARA DESCONECTAR' : 'ABRIR TAILSCALE ›',
+      toggleVpn: () => this.setState({ vpn: !vpn }), cycleTest: () => this.setState({ test: (s.test + 1) % 3 }),
+      tlOpen: s.tl, tlSign: s.tl ? '−' : '+', toggleTl: () => this.setState({ tl: !s.tl }),
+      gwColor: s.gw ? '#6FD08C' : '#8D8A82', gwGlow: s.gw ? 'var(--glg)' : 'none', gwTGlow: s.gw ? 'var(--tgg)' : 'none',
+      gwRim: s.gw ? (k ? `0 0 0 1px rgba(76,199,116,${0.25 * k}), 0 0 ${Math.round(16 * k)}px rgba(76,199,116,${0.14 * k})` : '0 0 0 1px #2A2926') : '0 0 0 1px #2A2926',
+      gwLabel: s.gw ? 'ACTIVO' : 'DETENIDO', gwUptime: s.gw ? '6D 04:12' : '00:00', gwPid: s.gw ? 'PID 2291 · :8642' : '—',
+      startOp: s.gw ? 0.45 : 1, stopOp: s.gw ? 1 : 0.45,
+      gwStart: () => this.setState({ gw: true }), gwStop: () => this.setState({ gw: false }),
+      simBg: s.sim ? '#1A1A19' : '#C9C6BF', simX: s.sim ? '18px' : '2px', toggleSim: () => this.setState({ sim: !s.sim }),
+      undecided: !dec, decided: !!dec,
+      decLabel: dec === 'ok' ? 'APROBADO · DEV CONTINÚA' : 'RECHAZADO · DEV NOTIFICADO',
+      decColor: dec === 'ok' ? '#6FD08C' : '#FF6A55', decGlow: dec === 'ok' ? 'var(--tgg)' : 'var(--tgr)', decLedGlow: dec === 'ok' ? 'var(--glg)' : 'var(--glr)',
+      approve: () => this.setState({ decision: 'ok' }), reject: () => this.setState({ decision: 'no' }), resetDecision: () => this.setState({ decision: null }),
+      secToggles: mkT([['faceid', 'Desbloquear con huella', 'Al abrir la app'], ['faceApprove', 'Confirmar aprobaciones', 'Biometría al aprobar comandos']]),
+      notifToggles: mkT([['nAppr', 'Aprobaciones pendientes', 'Aviso inmediato, sonido crítico'], ['nTask', 'Tareas finalizadas', 'Resultado de tareas programadas'], ['nOff', 'Agente o servidor offline', 'Tras 5 min sin respuesta']])
+    };
+  }
+}
+</script>
+</body>
+</html>

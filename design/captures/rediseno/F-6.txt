@@ -1,0 +1,97 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "Tareas" Hanken 28px/700 ls -0.7px #1A1A19 @16,54 80×36
+  "ATLAS ⇕" Mono 9.5px/400 #ECEAE5 @273,52 85×40 | bg #161615 · r 12px
+    [span] @285,69 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+  [div] @12,104 346×98 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [span] @19,111 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @345,111 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @19,189 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [span] @345,189 6×6 | bg #D6D3CC · r 50% · shadow #000000/0.28 0px 1px 1px 0px inset
+    [div] @22,114 326×78 | bg #161615 · r 14px · shadow #000000/0.5 0px 2px 6px 0px inset
+      [div] @22,114 326×78 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+      "PRÓXIMA · HOY 09:00" Mono 9.5px/400 ls 0.76px #8D8A82 @36,126 141×12
+      "EJECUTÁNDOSE" Mono 9.5px/400 ls 0.76px #F29A1A @245,126 89×12
+      "Sincronizar métricas" Hanken 15px/600 #ECEAE5 @36,146 298×20
+      [div] @36,174 298×6 | bg #2A1E10 · r 3px
+        [span] @36,174 66×6 | bgimg linear-gradient(90deg, #F29A1A/0, #F29A1A 50%, #F29A1A/0) · r 3px · shadow #F29A1A 0px 0px 8px 0px · anim cf-kitt 1.6s ease-in-out delay 0s
+  [span] @20,214 11×7 | bg #B9B6AF
+  [span] @34,214 11×2 | bg #B9B6AF
+  [span] @48,214 11×4 | bg #B9B6AF
+  [span] @62,214 11×2 | bg #B9B6AF
+  [span] @76,214 11×4 | bg #B9B6AF
+  [span] @89,214 11×2 | bg #B9B6AF
+  [span] @103,214 11×7 | bg #B9B6AF
+  [span] @117,214 11×2 | bg #B9B6AF
+  [span] @131,214 11×4 | bg #B9B6AF
+  [span] @145,214 11×2 | bg #B9B6AF
+  [span] @159,214 11×4 | bg #B9B6AF
+  [span] @173,214 11×2 | bg #B9B6AF
+  [span] @187,214 11×7 | bg #B9B6AF
+  [span] @200,214 11×2 | bg #B9B6AF
+  [span] @214,214 11×4 | bg #B9B6AF
+  [span] @228,214 11×2 | bg #B9B6AF
+  [span] @242,214 11×4 | bg #B9B6AF
+  [span] @256,214 11×2 | bg #B9B6AF
+  [span] @270,214 11×7 | bg #B9B6AF
+  [span] @284,214 11×2 | bg #B9B6AF
+  [span] @298,214 11×4 | bg #B9B6AF
+  [span] @311,214 11×2 | bg #B9B6AF
+  [span] @325,214 11×4 | bg #B9B6AF
+  [span] @339,214 11×2 | bg #B9B6AF
+  [div] @12,233 346×325 | bg #ECEAE5 · r 20px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+    [div] @24,233 322×65 | border 1px #000000/0
+      [span] @24,262 8×8 | bg #E5533D · r 50% · shadow #E5533D 0px 0px 8px 0px, #E5533D 0px 0px 2px 0px
+      "Limpiar caché de build" Hanken 15px/600 #1A1A19 @44,249 153×20
+      "0 * * * * · ÚLTIMA FALLÓ" Mono 9.5px/400 #9A2E20 @44,271 160×12
+      [span] @261,252 85×28 | bg #DCD9D2 · r 8px · shadow #000000/0.12 0px 2px 3px 0px inset
+        "hoy 10:00" Mono 11px/400 #1A1A19 @269,260 69×13
+    [div] @24,298 322×65 | border 1px #D6D3CC
+      [span] @24,327 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "Resumen de papers" Hanken 15px/600 #1A1A19 @44,314 133×20
+      "0 8 * * * · RESEARCH" Mono 9.5px/400 #5E5B55 @44,336 133×12
+      [span] @261,317 85×28 | bg #DCD9D2 · r 8px · shadow #000000/0.12 0px 2px 3px 0px inset
+        "mañ 08:00" Mono 11px/400 #1A1A19 @269,325 69×13
+    [div] @24,363 322×65 | border 1px #D6D3CC
+      [span] @24,392 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "Resumen diario de PRs" Hanken 15px/600 #1A1A19 @44,379 153×20
+      "0 9 * * 1-5 · DEV" Mono 9.5px/400 #5E5B55 @44,401 113×12
+      [span] @261,382 85×28 | bg #DCD9D2 · r 8px · shadow #000000/0.12 0px 2px 3px 0px inset
+        "mañ 09:00" Mono 11px/400 #1A1A19 @269,390 69×13
+    [div] @24,428 322×65 | border 1px #D6D3CC
+      [span] @24,457 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "Auditoría de dependencias" Hanken 15px/600 #1A1A19 @44,444 181×20
+      "0 10 * * 1 · DEV" Mono 9.5px/400 #5E5B55 @44,466 106×12
+      [span] @284,447 62×28 | bg #DCD9D2 · r 8px · shadow #000000/0.12 0px 2px 3px 0px inset
+        "12 oct" Mono 11px/400 #1A1A19 @292,455 46×13
+    [div] @24,493 322×65 | border 1px #D6D3CC
+      [span] @24,522 8×8 | bg #B9B6AF · r 50%
+      "Informe mensual de uso" Hanken 15px/600 #1A1A19 @44,509 162×20
+      "0 9 1 * * · PAUSADA" Mono 9.5px/400 #5E5B55 @44,531 126×12
+      [span] @322,512 24×28 | bg #DCD9D2 · r 8px · shadow #000000/0.12 0px 2px 3px 0px inset
+        "—" Mono 11px/400 #1A1A19 @330,520 8×13
+  [div] @12,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @38,758 14×3 | bg #C9C6BF · r 2px
+    "AGENTES" Mono 9.5px/400 #4A4843 @22,767 47×12
+  [div] @84,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @110,758 14×3 | bg #C9C6BF · r 2px
+    "HERRAM." Mono 9.5px/400 #4A4843 @94,767 47×12
+  [div] @156,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @182,758 14×3 | bg #C9C6BF · r 2px
+    "TABLERO" Mono 9.5px/400 #4A4843 @166,767 47×12
+  [div] @228,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @254,758 14×3 | bg #C9C6BF · r 2px
+    "TRABAJO" Mono 9.5px/400 #4A4843 @238,767 47×12
+  [div] @300,740 66×56 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    [span] @326,758 14×3 | bg #F29A1A · r 2px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+    "TAREAS" Mono 9.5px/400 #ECEAE5 @313,767 40×12
+  [div] @372,740 66×56 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @398,758 14×3 | bg #C9C6BF · r 2px
+    "APROB." Mono 9.5px/400 #4A4843 @385,767 40×12
+  [div] @298,732 72×72 | bgimg linear-gradient(90deg, #D8D5CE/0, #D8D5CE 55%)
+    "1 ›" Mono 10px/600 #1A1A19 @319,754 39×28 | bg #F29A1A · r 14px · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+
+--- PIE Y NOTAS ---
+La tarea que se está ejecutando sube a un bloque de mando, con su barrido. La próxima hora de cada tarea va en una ventanilla hundida, como la de un reloj de control.

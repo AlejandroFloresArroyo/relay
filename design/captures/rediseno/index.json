@@ -1,0 +1,299 @@
+[
+  {
+    "label": "F-1",
+    "title": "AGENTES",
+    "file": "F-1.png",
+    "html": "F-1.html",
+    "width": 370,
+    "height": 824,
+    "txt": "F-1.txt"
+  },
+  {
+    "label": "F-2",
+    "title": "CONVERSACIÓN · TURNO EN CURSO",
+    "file": "F-2.png",
+    "html": "F-2.html",
+    "width": 370,
+    "height": 824,
+    "txt": "F-2.txt"
+  },
+  {
+    "label": "F-3",
+    "title": "APROBACIÓN",
+    "file": "F-3.png",
+    "html": "F-3.html",
+    "width": 370,
+    "height": 824,
+    "txt": "F-3.txt"
+  },
+  {
+    "label": "F-4",
+    "title": "SERVIDOR · ATLAS",
+    "file": "F-4.png",
+    "html": "F-4.html",
+    "width": 370,
+    "height": 824,
+    "txt": "F-4.txt"
+  },
+  {
+    "label": "F-5",
+    "title": "HERRAMIENTAS · TERMINAL",
+    "file": "F-5.png",
+    "html": "F-5.html",
+    "width": 370,
+    "height": 824,
+    "txt": "F-5.txt"
+  },
+  {
+    "label": "F-6",
+    "title": "TAREAS · ATLAS",
+    "file": "F-6.png",
+    "html": "F-6.html",
+    "width": 370,
+    "height": 824,
+    "txt": "F-6.txt"
+  },
+  {
+    "label": "T-1",
+    "title": "TABLET · AGENTES + CONVERSACIÓN",
+    "file": "T-1.png",
+    "html": "T-1.html",
+    "width": 1180,
+    "height": 820,
+    "txt": "T-1.txt"
+  },
+  {
+    "label": "T-2",
+    "title": "TABLET · SERVIDOR",
+    "file": "T-2.png",
+    "html": "T-2.html",
+    "width": 1180,
+    "height": 820,
+    "txt": "T-2.txt"
+  },
+  {
+    "label": "S-15",
+    "title": "S-15 Maquinaria y luz · especificación para construir Si hay conflicto con otra lámina de este archivo, manda S-15.",
+    "file": "S-15.png",
+    "html": "S-15.html",
+    "width": 1660,
+    "height": 1345,
+    "txt": "S-15.txt"
+  },
+  {
+    "label": "D-0-barra",
+    "title": "EN REPOSO · 1 APROBACIÓN FUERA DE LA VISTA",
+    "file": "D-0-barra.png",
+    "html": "D-0-barra.html",
+    "width": 390,
+    "height": 416,
+    "txt": "D-0-barra.txt"
+  },
+  {
+    "label": "D-0-riel",
+    "title": "TABLET · RIEL 72 Y MENÚ 240",
+    "file": "D-0-riel.png",
+    "html": "D-0-riel.html",
+    "width": 560,
+    "height": 720,
+    "txt": "D-0-riel.txt"
+  },
+  {
+    "label": "D-0-3",
+    "title": "HOJA TAILNET",
+    "file": "D-0-3.png",
+    "html": "D-0-3.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-0-3.txt"
+  },
+  {
+    "label": "D-09",
+    "title": "CONVERSACIÓN · RESEARCH",
+    "file": "D-09.png",
+    "html": "D-09.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-09.txt"
+  },
+  {
+    "label": "D-10",
+    "title": "FICHA DEL AGENTE",
+    "file": "D-10.png",
+    "html": "D-10.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-10.txt"
+  },
+  {
+    "label": "D-11_D-12",
+    "title": "MEMORIA Y PERSONALIDAD · SIN RESPUESTA",
+    "file": "D-11_D-12.png",
+    "html": "D-11_D-12.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-11_D-12.txt"
+  },
+  {
+    "label": "D-13_D-14",
+    "title": "HERRAMIENTAS Y SKILLS DEL AGENTE",
+    "file": "D-13_D-14.png",
+    "html": "D-13_D-14.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-13_D-14.txt"
+  },
+  {
+    "label": "D-22",
+    "title": "COMPARTIR A UN AGENTE · HOJA",
+    "file": "D-22.png",
+    "html": "D-22.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-22.txt"
+  },
+  {
+    "label": "D-21",
+    "title": "HERRAM. · PON TU HUELLA",
+    "file": "D-21.png",
+    "html": "D-21.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-21.txt"
+  },
+  {
+    "label": "D-03",
+    "title": "TABLERO · ATLAS",
+    "file": "D-03.png",
+    "html": "D-03.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-03.txt"
+  },
+  {
+    "label": "D-17",
+    "title": "TRABAJO · ATLAS",
+    "file": "D-17.png",
+    "html": "D-17.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-17.txt"
+  },
+  {
+    "label": "D-02",
+    "title": "APROBACIONES",
+    "file": "D-02.png",
+    "html": "D-02.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-02.txt"
+  },
+  {
+    "label": "D-06",
+    "title": "SERVIDORES · LISTA",
+    "file": "D-06.png",
+    "html": "D-06.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-06.txt"
+  },
+  {
+    "label": "D-05",
+    "title": "AGREGAR SERVIDOR · MODO",
+    "file": "D-05.png",
+    "html": "D-05.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-05.txt"
+  },
+  {
+    "label": "D-16",
+    "title": "USO Y COSTO",
+    "file": "D-16.png",
+    "html": "D-16.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-16.txt"
+  },
+  {
+    "label": "D-18",
+    "title": "PRESETS DE PERSONALIDAD",
+    "file": "D-18.png",
+    "html": "D-18.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-18.txt"
+  },
+  {
+    "label": "D-20",
+    "title": "ACTUALIZACIÓN APK",
+    "file": "D-20.png",
+    "html": "D-20.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-20.txt"
+  },
+  {
+    "label": "D-04",
+    "title": "AJUSTES",
+    "file": "D-04.png",
+    "html": "D-04.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-04.txt"
+  },
+  {
+    "label": "D-19",
+    "title": "AVISOS",
+    "file": "D-19.png",
+    "html": "D-19.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-19.txt"
+  },
+  {
+    "label": "D-23",
+    "title": "WIDGET · PANTALLA DE INICIO",
+    "file": "D-23.png",
+    "html": "D-23.html",
+    "width": 370,
+    "height": 824,
+    "txt": "D-23.txt"
+  },
+  {
+    "label": "D-ES",
+    "title": "D-ES Lámina de estados Cada estado de demostración de las capturas, con su bloque de estado y su texto definitivo.",
+    "file": "D-ES.png",
+    "html": "D-ES.html",
+    "width": 2480,
+    "height": 1009,
+    "txt": "D-ES.txt"
+  },
+  {
+    "label": "D-TB-3",
+    "title": "HERRAMIENTAS · DOS PANELES · FOCO EN TERMINAL",
+    "file": "D-TB-3.png",
+    "html": "D-TB-3.html",
+    "width": 1180,
+    "height": 820,
+    "txt": "D-TB-3.txt"
+  },
+  {
+    "label": "G-1",
+    "title": "G-1 Gestos y microinteracciones Carácter: instrumento físico. Lo peligroso pide confirmar, mantener o huella; deslizar nunca aprueba ni borra.",
+    "file": "G-1.png",
+    "html": "G-1.html",
+    "width": 1660,
+    "height": 607,
+    "txt": "G-1.txt"
+  },
+  {
+    "label": "K-1",
+    "title": "K-1 Tokens Claro y oscuro. Hanken Grotesk + Martian Mono. Mono nunca por debajo de 9,5 px.",
+    "file": "K-1.png",
+    "html": "K-1.html",
+    "width": 1660,
+    "height": 399,
+    "txt": "K-1.txt"
+  }
+]

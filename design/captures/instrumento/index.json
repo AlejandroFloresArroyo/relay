@@ -1,0 +1,50 @@
+[
+  {
+    "label": "01 Conexión",
+    "title": "01 CONEXIÓN / ONBOARDING",
+    "file": "01_Conexi_n.png",
+    "html": "01_Conexi_n.html",
+    "width": 425,
+    "height": 911
+  },
+  {
+    "label": "02 Agentes",
+    "title": "02 INICIO / MIS AGENTES",
+    "file": "02_Agentes.png",
+    "html": "02_Agentes.html",
+    "width": 390,
+    "height": 871
+  },
+  {
+    "label": "03 Chat",
+    "title": "03 CHAT CON UN AGENTE",
+    "file": "03_Chat.png",
+    "html": "03_Chat.html",
+    "width": 390,
+    "height": 871
+  },
+  {
+    "label": "04 Aprobación",
+    "title": "04 APROBACIÓN DE ACCIÓN",
+    "file": "04_Aprobaci_n.png",
+    "html": "04_Aprobaci_n.html",
+    "width": 390,
+    "height": 871
+  },
+  {
+    "label": "05 Servidor",
+    "title": "05 ADMINISTRACIÓN DEL SERVIDOR",
+    "file": "05_Servidor.png",
+    "html": "05_Servidor.html",
+    "width": 390,
+    "height": 871
+  },
+  {
+    "label": "06 Ajustes",
+    "title": "06 AJUSTES",
+    "file": "06_Ajustes.png",
+    "html": "06_Ajustes.html",
+    "width": 390,
+    "height": 871
+  }
+]

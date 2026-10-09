@@ -1,0 +1,22 @@
+[div] @0,0 370×824 | bg #D8D5CE · r 44px
+  "9:41" Hanken 15px/600 #1A1A19 @36,12 29×20
+  [div] @130,9 110×30 | bg #000000 · r 18px
+  "5G ▮▮▮" Mono 10px/600 #1A1A19 @301,16 39×13
+  "‹ Servidores" Hanken 15px/600 #7A4A00 @16,58 81×20
+  "Agregar Servidor" Hanken 28px/700 ls -0.7px #1A1A19 @16,92 342×32
+  [div] @12,140 346×152 | bg #161615 · r 20px · shadow #000000/0.5 0px 2px 6px 0px inset, #F29A1A/0.22 0px 0px 0px 1px, #F29A1A/0.14 0px 0px 16px 0px
+    [div] @12,140 346×152 | bgimg repeating-linear-gradient(0deg, #FFFFFF/0.035 0px, #FFFFFF/0.035 1px, #000000/0 1px, #000000/0 3px)
+    "PASO 1 · EN EL SERVIDOR" Mono 9.5px/400 ls 0.76px #8D8A82 @28,156 314×12
+    "Ejecuta y escanea el código que aparece." Hanken 15px/400 #C9C6BE @28,180 314×44
+      "relayd pair" Mono 13px/400 #F29A1A tshadow #F29A1A/0.75 0px 0px 7px @81,182 100×16
+    "$ relayd pair" Mono 13px/400 #ECEAE5 @28,236 314×40 | bg #070707 · r 12px
+  "PASO 2 · EN ESTE TELÉFONO" Mono 9.5px/600 ls 0.76px #5E5B55 @16,308 338×12
+  "Cada teléfono se empareja con un código de un solo uso y recibe su propia llave. No hay nada que copiar." Hanken 15px/400 #4A4843 @16,328 338×65
+  "Escanear código" Hanken 15px/700 #1A1A19 @12,684 346×48 | bg #F29A1A · r 16px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  "Escribir el código a mano" Hanken 15px/700 #1A1A19 @12,748 346×48 | bg #ECEAE5 · r 16px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Es un MODO: sin barra de pestañas mientras dura el emparejamiento.
+CAMBIO: «Agregar servidor» → «Agregar Servidor», con la palabra del vocabulario. «Escribir a mano» → «Escribir el código a mano».
+CAMBIO: Botones de 52 → 48.

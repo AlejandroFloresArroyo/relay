@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "Relay",
+    "slug": "relay",
+    "version": "3.1.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "relay",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/icon.png"
+    },
+    "android": {
+      "package": "io.github.alejandrofloresarroyo.relay",
+      "adaptiveIcon": {
+        "backgroundColor": "#161615",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "versionCode": 8
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#D8D5CE",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 160,
+          "dark": { "backgroundColor": "#141413" }
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Relay usa la c\u00e1mara para escanear el c\u00f3digo de emparejamiento del Servidor.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Relay usa la galer\u00eda para adjuntar una imagen a la Conversaci\u00f3n.",
+          "cameraPermission": "Relay usa la c\u00e1mara para adjuntar una imagen a la Conversaci\u00f3n.",
+          "microphonePermission": "Relay usa el micr\u00f3fono solo para dictar en el dispositivo."
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Relay usa el micr\u00f3fono para dictar en el dispositivo.",
+          "speechRecognitionPermission": "Relay reconoce el dictado en el dispositivo.",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox"
+          ]
+        }
+      ],
+      "expo-sharing",
+      "./plugins/withReleaseSigning",
+      "./plugins/withDictationPrivacy",
+      "./plugins/withDomWebViewFileAccess",
+      "./plugins/withTailnetCleartext",
+      "./plugins/withVpnStatus",
+      "./plugins/withRelayWidget",
+      "./plugins/withAppUpdate",
+      "./plugins/withRelayNotifications"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+$ for n in 1..6: RELAY_LAB_BROWSER=chromium RELAY_LAB_EXT_LOAD=flag node --test --test-name-pattern=background test/extension.test.ts
+✖ [chromium] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [0,0,"visible"] 
+✔ [chromium] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 
+✔ [chromium] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 
+✖ [chromium] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [0,0,"visible"] 
+✖ [chromium] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [0,0,"visible"] 
+✖ [chromium] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [0,0,"visible"] 
+$ for n in 1..6: RELAY_LAB_BROWSER=cft RELAY_LAB_EXT_LOAD=flag node --test --test-name-pattern=background test/extension.test.ts
+✔ [cft] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,657,"hidden"] 
+✔ [cft] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,657,"hidden"] 
+✔ [cft] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,657,"hidden"] 
+✔ [cft] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,657,"hidden"] 
+✔ [cft] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,657,"hidden"] 
+✔ [cft] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,657,"hidden"] 
+$ for n in 1..6: RELAY_LAB_BROWSER=chrome RELAY_LAB_EXT_LOAD=cdp node --test --test-name-pattern=background test/extension.test.ts
+✔ [chrome] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 
+✔ [chrome] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 
+✔ [chrome] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 
+✔ [chrome] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 
+✔ [chrome] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 
+✔ [chrome] a shared tab in the background is captured without activating it ℹ page viewport seen from the page: [1280,713,"hidden"] 

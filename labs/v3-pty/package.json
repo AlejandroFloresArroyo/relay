@@ -1,0 +1,23 @@
+{
+  "name": "relay-lab-v3-pty",
+  "private": true,
+  "description": "Isolated compatibility lab for node-pty on Node 26 (issue #76). Not part of the Puente.",
+  "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
+  "scripts": {
+    "setup": "npm_config_nodedir=\"$(node -p 'path.dirname(path.dirname(process.execPath))')\" npm ci --foreground-scripts",
+    "test": "node --test --test-timeout=30000 --test-concurrency=1 test/",
+    "test:beta": "PTY_BACKEND=node-pty-beta npm test",
+    "test:sin-pty": "PTY_BACKEND=pipe npm test"
+  },
+  "dependencies": {
+    "node-pty": "1.1.0",
+    "node-pty-beta": "npm:node-pty@1.2.0-beta.15"
+  },
+  "allowScripts": {
+    "node-pty@1.1.0": true,
+    "node-pty@1.2.0-beta.15": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Relay web lab",
+    "slug": "relay-v3-web-lab",
+    "scheme": "relaylabweb",
+    "version": "1.0.0",
+    "orientation": "default",
+    "android": {
+      "package": "dev.relay.lab.webproxy"
+    }
+  }
+}

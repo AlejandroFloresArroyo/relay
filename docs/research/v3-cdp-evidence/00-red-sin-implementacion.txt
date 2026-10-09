@@ -1,0 +1,89 @@
+
+> test
+> node --test --test-concurrency=1 --test-timeout=60000
+
+node:internal/modules/esm/resolve:241
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '~/dev/relay-app-v3-cdp/labs/v3-cdp/extension/actions.js' imported from ~/dev/relay-app-v3-cdp/labs/v3-cdp/test/actions.test.ts
+    at finalizeResolution (node:internal/modules/esm/resolve:241:11)
+    at moduleResolve (node:internal/modules/esm/resolve:846:10)
+    at defaultResolve (node:internal/modules/esm/resolve:973:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:708:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:728:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:766:56)
+    at #resolve (node:internal/modules/esm/loader:690:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:610:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:277:33)
+    at ModuleJob.link (node:internal/modules/esm/module_job:389:17) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file://~/dev/relay-app-v3-cdp/labs/v3-cdp/extension/actions.js'
+}
+
+Node.js v26.10.0
+✖ test/actions.test.ts (139.619784ms)
+node:internal/modules/esm/resolve:241
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/browser.ts' imported from ~/dev/relay-app-v3-cdp/labs/v3-cdp/test/dedicated.test.ts
+    at finalizeResolution (node:internal/modules/esm/resolve:241:11)
+    at moduleResolve (node:internal/modules/esm/resolve:846:10)
+    at defaultResolve (node:internal/modules/esm/resolve:973:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:708:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:728:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:766:56)
+    at #resolve (node:internal/modules/esm/loader:690:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:610:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:277:33)
+    at ModuleJob.link (node:internal/modules/esm/module_job:389:17) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file://~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/browser.ts'
+}
+
+Node.js v26.10.0
+✖ test/dedicated.test.ts (169.776734ms)
+node:internal/modules/esm/resolve:241
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/browser.ts' imported from ~/dev/relay-app-v3-cdp/labs/v3-cdp/test/extension.test.ts
+    at finalizeResolution (node:internal/modules/esm/resolve:241:11)
+    at moduleResolve (node:internal/modules/esm/resolve:846:10)
+    at defaultResolve (node:internal/modules/esm/resolve:973:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:708:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:728:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:766:56)
+    at #resolve (node:internal/modules/esm/loader:690:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:610:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:277:33)
+    at ModuleJob.link (node:internal/modules/esm/module_job:389:17) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file://~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/browser.ts'
+}
+
+Node.js v26.10.0
+✖ test/extension.test.ts (287.835246ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 633.931012
+
+✖ failing tests:
+
+test at test/actions.test.ts:1:1
+✖ test/actions.test.ts (139.619784ms)
+  'test failed'
+
+test at test/dedicated.test.ts:1:1
+✖ test/dedicated.test.ts (169.776734ms)
+  'test failed'
+
+test at test/extension.test.ts:1:1
+✖ test/extension.test.ts (287.835246ms)
+  'test failed'

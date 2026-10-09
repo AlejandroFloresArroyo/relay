@@ -1,0 +1,24 @@
+import java.security.MessageDigest
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+group = 'relay.boardweb'
+version = '1.0.0'
+// Proof entries are excluded to avoid a circular hash. Every security and fixture source is pinned.
+def proofSources = fileTree('src') { exclude '**/VerifiedBoardWebProviders.kt' }.files.sort { a, b -> a.path <=> b.path }
+def proofHash = MessageDigest.getInstance('SHA-256')
+proofSources.each { source ->
+  proofHash.update(projectDir.toPath().relativize(source.toPath()).toString().getBytes('UTF-8'))
+  proofHash.update((byte) 0)
+  proofHash.update(source.bytes)
+}
+android {
+  namespace 'relay.boardweb'
+  defaultConfig {
+    versionCode 1
+    versionName '1.0.0'
+    resValue 'string', 'relay_board_web_policy_sha256', proofHash.digest().encodeHex().toString()
+    testInstrumentationRunner 'relay.boardweb.BoardWebIsolationInstrumentation'
+  }
+}

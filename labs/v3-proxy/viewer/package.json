@@ -1,0 +1,20 @@
+{
+  "name": "relay-lab-v3-web-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "description": "Lab-only Android viewer for issue #79: react-native-webview with lab trust scoped to this app.",
+  "scripts": {
+    "build:android": "bash build-android.sh"
+  },
+  "dependencies": {
+    "expo": "57.0.26",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-webview": "13.16.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "typescript": "6.0.3"
+  }
+}

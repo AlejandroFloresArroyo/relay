@@ -1,0 +1,23 @@
+[
+  {
+    "canvas": "portrait",
+    "title": "Tablet vertical",
+    "width": 800,
+    "height": 1200,
+    "kind": "diseño estático; no captura Android"
+  },
+  {
+    "canvas": "landscape",
+    "title": "Tablet horizontal",
+    "width": 1200,
+    "height": 800,
+    "kind": "diseño estático; no captura Android"
+  },
+  {
+    "canvas": "short-approval",
+    "title": "Aprobación horizontal con scroll",
+    "width": 844,
+    "height": 390,
+    "kind": "diseño estático; no captura Android"
+  }
+]

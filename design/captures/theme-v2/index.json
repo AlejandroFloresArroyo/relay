@@ -1,0 +1,42 @@
+[
+  {
+    "canvas": "light",
+    "title": "Ajustes · Claro",
+    "width": 390,
+    "height": 844,
+    "kind": "diseño estático; no captura Android",
+    "system": null
+  },
+  {
+    "canvas": "dark",
+    "title": "Ajustes · Oscuro",
+    "width": 390,
+    "height": 844,
+    "kind": "diseño estático; no captura Android",
+    "system": null
+  },
+  {
+    "canvas": "system",
+    "title": "Ajustes · Sistema",
+    "width": 390,
+    "height": 844,
+    "kind": "diseño estático; no captura Android",
+    "system": "dark"
+  },
+  {
+    "canvas": "read-error",
+    "title": "Ajustes · Claro · Error de lectura",
+    "width": 390,
+    "height": 844,
+    "kind": "diseño estático; no captura Android",
+    "system": null
+  },
+  {
+    "canvas": "write-error",
+    "title": "Ajustes · Oscuro · Error de guardado",
+    "width": 390,
+    "height": 844,
+    "kind": "diseño estático; no captura Android",
+    "system": null
+  }
+]

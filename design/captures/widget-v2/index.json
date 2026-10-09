@@ -1,0 +1,52 @@
+[
+  {
+    "state": "observed",
+    "label": "Lectura reciente",
+    "html": "observed.html",
+    "png": "observed.png",
+    "width": 800,
+    "height": 740,
+    "kind": "synthetic-html-design",
+    "reference": "../instrumento-2/21-8.png"
+  },
+  {
+    "state": "empty",
+    "label": "Sin pendientes",
+    "html": "empty.html",
+    "png": "empty.png",
+    "width": 800,
+    "height": 740,
+    "kind": "synthetic-html-design",
+    "reference": "../instrumento-2/21-8.png"
+  },
+  {
+    "state": "offline",
+    "label": "Sin respuesta",
+    "html": "offline.html",
+    "png": "offline.png",
+    "width": 800,
+    "height": 740,
+    "kind": "synthetic-html-design",
+    "reference": "../instrumento-2/21-8.png"
+  },
+  {
+    "state": "expired",
+    "label": "Lectura vencida",
+    "html": "expired.html",
+    "png": "expired.png",
+    "width": 800,
+    "height": 740,
+    "kind": "synthetic-html-design",
+    "reference": "../instrumento-2/21-8.png"
+  },
+  {
+    "state": "protected",
+    "label": "Bloqueado o retirado",
+    "html": "protected.html",
+    "png": "protected.png",
+    "width": 800,
+    "height": 740,
+    "kind": "synthetic-html-design",
+    "reference": "../instrumento-2/21-8.png"
+  }
+]

@@ -1,0 +1,55 @@
+[div] @0,0 560×720 | bg #D8D5CE · r 28px
+  "TABLET · RIEL 72 Y MENÚ 240" Mono 9.5px/600 ls 0.76px #5E5B55 @20,20 520×12
+  [div] @20,44 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+  [div] @20,98 72×48 | bg #161615 · r 14px
+    [span] @44,119 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+    "AT" Mono 9.5px/400 #ECEAE5 @55,116 13×12
+  [div] @20,152 72×48 | bg #1A1A19 · r 14px · shadow #000000/0.2 0px 2px 3px 0px
+    [span] @78,158 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @20,206 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @78,212 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @20,260 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @78,266 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @20,314 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @78,320 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @20,368 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @78,374 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @20,422 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @78,428 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @20,476 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @78,482 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @20,530 72×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px
+    [span] @78,536 8×8 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px · op 0
+  [div] @108,44 256×536 | bg #ECEAE5 · r 20px · shadow #000000/0.18 0px 10px 30px 0px
+    "relay" Hanken 16px/800 ls -0.32px #1A1A19 @154,66 35×21
+    [div] @116,104 240×52 | bg #161615 · r 14px
+      [span] @128,126 8×8 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "SERVIDOR" Mono 9.5px/400 ls 0.57px #8D8A82 @146,113 178×12
+      "atlas" Hanken 15px/700 #ECEAE5 @146,127 178×20
+      "⇕" Hanken 16px/400 #F29A1A @334,120 10×21
+    [div] @116,160 240×48 | bg #1A1A19 · r 12px
+      "Agentes" Hanken 15px/600 #ECEAE5 @158,174 54×20
+      "1" Mono 10px/600 #7A4A00 @337,178 7×12 | op 0
+    [div] @116,212 240×48 | r 12px
+      "Herramientas" Hanken 15px/600 #1A1A19 @158,226 92×20
+      "1" Mono 10px/600 #7A4A00 @337,230 7×12 | op 0
+    [div] @116,264 240×48 | r 12px
+      "Tablero" Hanken 15px/600 #1A1A19 @158,278 51×20
+      "1" Mono 10px/600 #7A4A00 @337,282 7×12 | op 0
+    [div] @116,316 240×48 | r 12px
+      "Trabajo" Hanken 15px/600 #1A1A19 @158,330 51×20
+      "1" Mono 10px/600 #7A4A00 @337,334 7×12 | op 0
+    [div] @116,368 240×48 | r 12px
+      "Tareas" Hanken 15px/600 #1A1A19 @158,382 45×20
+      "1" Mono 10px/600 #7A4A00 @337,386 7×12 | op 0
+    [div] @116,420 240×48 | r 12px
+      "Aprobaciones" Hanken 15px/600 #1A1A19 @158,434 94×20
+      "1" Mono 10px/600 #7A4A00 @337,438 7×12
+    [div] @116,472 240×48 | r 12px
+      "Servidores" Hanken 15px/600 #1A1A19 @158,486 73×20
+      "1" Mono 10px/600 #7A4A00 @337,490 7×12 | op 0
+    [div] @116,524 240×48 | r 12px
+      "Ajustes" Hanken 15px/600 #1A1A19 @158,538 49×20
+      "1" Mono 10px/600 #7A4A00 @337,542 7×12 | op 0
+  "El riel de 72 lleva solo iconos y siempre está a la vista. ☰ (o deslizar sobre el riel) lo expande a 240 con los nombres y el selector de Servidor, y empuja la lista y el detalle; no se superpone. Ver T-1 y T-2." Hanken 13px/400 #4A4843 @20,592 520×59
+  "El selector de Servidor (AT = atlas) decide qué Servidor muestran Herram., Tablero, Trabajo y Tareas. Agentes, Aprob. y Servidores enseñan todos los Servidores." Hanken 13px/400 #4A4843 @20,661 520×39

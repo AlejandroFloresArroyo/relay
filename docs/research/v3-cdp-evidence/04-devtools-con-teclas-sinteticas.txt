@@ -1,0 +1,38 @@
+$ node /tmp/f12.ts   (CfT 154.0.8037.92, extensión adjunta a la pestaña; F12 y Ctrl+Shift+I enviados con Input.dispatchKeyEvent; luego Target.openDevTools)
+devtools before 0
+openDevTools {"targetId":"D710DA10F112175721CB36D62990E0DD"}
+devtools 1 attached [ 439732406 ]
+after F12 devtools 1 attached [ 439732406 ]
+after I devtools 1 attached [ 439732406 ]
+act after ok
+events "none"
+(primera ejecución, sin Target.openDevTools: "after F12 devtools 0", "after I devtools 0": las teclas sintéticas no abren DevTools)
+
+--- fuente de /tmp/f12.ts (desechable) ---
+import { launchUsual } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/usual.ts';
+import { serveFixtures } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/fixtures.ts';
+import { attachPage, sleep } from '~/dev/relay-app-v3-cdp/labs/v3-cdp/lib/browser.ts';
+const site = await serveFixtures();
+const u = await launchUsual();
+try {
+  const conn = await u.puente.connection;
+  const tab = await u.localTab(`${site.url}/form`);
+  await u.userShares(tab);
+  await conn.request({ op: 'act', tabId: tab, action: { type: 'frame', maxWidth: 320 } });
+  console.log('devtools before', await u.devtoolsCount());
+  const targetId = await u.inWorker(`chrome.debugger.getTargets().then((ts) => ts.find((t) => t.tabId === ${tab})?.id)`);
+  const page = await attachPage(u.browser.cdp, targetId);
+  console.log("openDevTools", JSON.stringify(await u.browser.cdp.send("Target.openDevTools", { targetId }).catch((e) => e.message)));
+  await sleep(1500);
+  console.log("devtools", await u.devtoolsCount(), "attached", await u.inWorker("relayAttached()"));
+  for (const k of [{ key: 'F12', code: 'F12', windowsVirtualKeyCode: 123 }, { key: 'I', code: 'KeyI', windowsVirtualKeyCode: 73, modifiers: 2 | 8 }]) {
+    await page.send('Input.dispatchKeyEvent', { type: 'rawKeyDown', ...k });
+    await page.send('Input.dispatchKeyEvent', { type: 'keyUp', ...k });
+    await sleep(1500);
+    console.log('after', k.key, 'devtools', await u.devtoolsCount(), 'attached', await u.inWorker('relayAttached()'));
+  }
+  const r = await conn.request({ op: 'act', tabId: tab, action: { type: 'frame', maxWidth: 320 } }).then(() => 'ok', (e) => e.message);
+  console.log('act after', r);
+  await sleep(500);
+  console.log('events', JSON.stringify(await conn.event((e) => e.event === 'detached', 1000).catch(() => 'none')));
+} finally { await u.close(); site.close(); }

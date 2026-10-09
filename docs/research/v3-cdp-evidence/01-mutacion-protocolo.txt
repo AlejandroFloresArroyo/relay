@@ -1,0 +1,26 @@
+$ (mutación) default: return a  — en lugar de throw invalid("type")
+$ node --test test/actions.test.ts
+✖ refuses raw CDP and unknown action types (1.122736ms)
+✔ navigate only accepts http(s) URLs within the length limit (0.850074ms)
+✔ text is bounded and keys come from an allowlist (0.230943ms)
+✔ coordinates must be finite and inside the bound (0.214652ms)
+✔ frame parameters are clamped to the frame limits (0.183945ms)
+✔ tap becomes a left mouse press and release at the point (0.452278ms)
+✔ back moves exactly one history entry and does nothing at the start (0.763572ms)
+✔ frame is a downscaled JPEG and fails rather than exceed the byte limit (0.691246ms)
+ℹ pass 7
+ℹ fail 1
+✖ failing tests:
+✖ refuses raw CDP and unknown action types (1.122736ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception: {"type":"cdp","method":"Runtime.evaluate","params":{"expression":"1"}}
+$ (restaurado) node --test test/actions.test.ts
+✔ refuses raw CDP and unknown action types (0.949831ms)
+✔ navigate only accepts http(s) URLs within the length limit (0.645761ms)
+✔ text is bounded and keys come from an allowlist (0.233348ms)
+✔ coordinates must be finite and inside the bound (0.207699ms)
+✔ frame parameters are clamped to the frame limits (0.190297ms)
+✔ tap becomes a left mouse press and release at the point (0.342302ms)
+✔ back moves exactly one history entry and does nothing at the start (0.718668ms)
+✔ frame is a downscaled JPEG and fails rather than exceed the byte limit (0.726893ms)
+ℹ pass 8
+ℹ fail 0

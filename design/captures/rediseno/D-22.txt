@@ -1,0 +1,33 @@
+[div] @0,0 370×824 | bg #1A1A19 · r 44px
+  [div] @8,96 354×720 | bg #ECEAE5 · r 24px · shadow #000000/0.3 0px -8px 30px 0px
+    [span] @167,104 36×4 | bg #B9B6AF · r 2px
+    "Compartir a un Agente" Hanken 20px/800 ls -0.3px #1A1A19 @24,131 252×26
+    "Cancelar" Hanken 15px/600 #7A4A00 @284,120 62×48
+    [div] @24,180 322×53 | bg #DCD9D2 · r 16px · shadow #000000/0.12 0px 2px 3px 0px inset
+      "https://vitest.dev/api/vi.html#vi-hoisted" Mono 11px/400 #1A1A19 @36,192 298×13
+      "TEXTO · SIN ABRIR ENLACES" Mono 9.5px/400 ls 0.57px #5E5B55 @36,209 298×12
+    "AGENTE" Mono 9.5px/600 ls 0.76px #5E5B55 @24,245 322×12
+    "dev" Hanken 15px/600 #ECEAE5 @24,269 109×48 | bg #1A1A19 · r 14px
+      [span] @38,290 7×7 | bg #F29A1A · r 50% · shadow #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+      "ATLAS" Mono 9.5px/600 #8D8A82 @86,287 33×12
+    "research" Hanken 15px/600 #1A1A19 @141,269 144×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px, #D6D3CC 0px 0px 0px 1px
+      [span] @155,290 7×7 | bg #4CC774 · r 50% · shadow #4CC774 0px 0px 8px 0px, #4CC774 0px 0px 2px 0px
+      "ATLAS" Mono 9.5px/600 #5E5B55 @237,287 33×12
+    "ops" Hanken 15px/600 #1A1A19 @24,325 228×48 | bg #ECEAE5 · r 14px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.15 0px 2px 3px 0px · op 0.45
+      [span] @38,346 7×7 | bg #B9B6AF · r 50%
+      "HOMELAB · SIN RESPUESTA" Mono 9.5px/600 #5E5B55 @85,343 153×12
+    "CONVERSACIÓN" Mono 9.5px/600 ls 0.76px #5E5B55 @24,385 322×12
+    [div] @24,409 322×48 | bg #E2DFD9 · r 12px · shadow #FFFFFF 0px 1px 0px 0px inset, #000000/0.12 0px 1px 2px 0px
+      "Conversación nueva" Hanken 15px/600 #1A1A19 @36,423 254×20
+      "⇕" Hanken 16px/400 #4A4843 @302,413 40×40 | bg #DCD9D2 · r 12px · shadow #000000/0.12 0px 2px 3px 0px inset
+    "INSTRUCCIÓN · OPCIONAL" Mono 9.5px/600 ls 0.76px #5E5B55 @24,469 322×12
+    "Qué quieres que haga con esto…" Hanken 15px/400 #5E5B55 @24,493 322×80 | bg #DCD9D2 · r 12px · shadow #000000/0.12 0px 2px 3px 0px inset
+    "Solo se prepara un borrador privado. Lo revisas y pulsas Enviar en el chat para empezar un Turno." Hanken 13px/400 #4A4843 @24,585 322×38
+    "Preparar borrador" Hanken 15px/700 #1A1A19 @24,748 322×48 | bg #F29A1A · r 16px · shadow #FFFFFF/0.4 0px 1px 0px 0px inset, #000000/0.25 0px 2px 4px 0px, #F29A1A 0px 0px 8px 0px, #F29A1A 0px 0px 2px 0px
+  [div] @118,811 134×5 | bg #1A1A19 · r 3px · op 0.35
+
+--- PIE Y NOTAS ---
+CAMBIO: Se quita la pastilla de tres LEDs que había antes del título; la hoja sigue la anatomía de las demás hojas (asa, título, acción primaria abajo).
+CAMBIO: Los Agentes son teclas seleccionables. ops, en un Servidor sin respuesta, se ve deshabilitado con su motivo, en vez de un «homelab · Sin conexión» suelto.
+CAMBIO: «DATOS GUARDADOS · 5/10/2026, 1:18:01 p.m.» se quita: no se puede compartir con un Servidor que no contesta.
+CAMBIO: «Sólo» → «Solo». El primario queda deshabilitado hasta elegir Agente; aquí ya está elegido dev.
